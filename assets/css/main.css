@@ -1,0 +1,1480 @@
+body{
+    direction: rtl;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* top header */
+.top_header .header_links{
+    margin-top: 15px;
+    
+}
+.top_header .header_links .dropdown{
+    padding: 0px 0px 0px 10px;
+    border-left: 1px solid #ddd;
+}
+.top_header .header_links .dropdown a{
+    width: 100%;
+    padding: 10px 20px;
+    border: none !important;
+}
+.top_header .header_links .dropdown:nth-child(2){
+    padding-right: 10px;
+}
+.top_header .header_links .dropdown:nth-child(3){
+    padding-right: 10px;
+}
+.header_card_btn{
+    padding-right: 10px;
+    border-left: 1px solid #ddd;
+}
+.header_card_btn a{
+  padding: 10px 20px;
+  border: none !important;
+}
+.top_header .header_social{
+    margin-top: 20px;
+    text-align: left;
+}
+.top_header .header_social span a{
+    padding: 0px 5px;
+    color: rgb(187, 185, 185);
+    transition: all .4s ease-in-out;
+    font-size: 19px;
+}
+.top_header .header_social span a:hover{
+    color: #17a2b8 ;
+}
+/* End top header */
+
+/* navbar upper nav */
+.upper_nav .upper_nav_row{
+  padding: 0px 60px;
+}
+.upper_nav .nav_logo img{
+    width: 70%;
+    height: 70%;
+}
+.upper_nav .nav_login_links{
+    text-align: left;
+    margin-top:55px
+}
+.upper_nav .nav_login_links .header_card_btn{
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
+}
+.upper_nav .upper_nav_row .login_welcome{
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+/* End navbar upper nav */
+
+/* fliter search */
+.filter_search{
+  margin-bottom: 15px;
+}
+.filter_search .filter_container{
+    background-color: #00aab1;
+    padding: 30px;
+    margin-top: 15px;
+}
+.filter_search .filter_container .filter_btn{
+    margin-right: 4.5%;
+}
+.filter_search .filter_container .filter_btn .dropdown{
+    margin-left: 15px;
+}
+.filter_search .filter_container .filter_btn .dropdown a{
+    width: 100%;
+}
+.filter_search .filter_container .filter_btn .dropdown a i{
+    color: rgb(145, 143, 143);
+    padding-left: 20px;
+}
+.filter_search .filter_container .filter_btn .dropdown .type_btn{
+  padding: 5px 50px;
+}
+.filter_search .filter_container .filter_btn .nav_search .search_input{
+    padding: 5px 15px 5px 5px;
+    margin-right: 20px;
+    width: 550px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+}
+.filter_search .filter_container .filter_btn .nav_search i{
+    color: #fff;
+}
+
+/* End fliter search */
+
+/* header slider */
+.header_slider .main_head_slider {
+    padding:0px !important
+}
+.header_slider .main_head_slider .head_slider img{
+    width: 100%;
+    height: 450px;
+}
+/* End header slider */
+
+/* Home Content */
+.home_content{
+    margin-top: 25px;
+}
+.home_content .special_cards_title{
+    background-color: #cff1fa;
+    padding: 8px;
+    width: 100%;
+    color:#3ea4c0 ;
+    font-weight: bolder;
+}
+.home_content .special_cards_title h3{
+    color:#3ea4c0 ;
+    font-weight: 600;
+    padding-right: 13%;
+}
+.home_content .doc_card_title{
+    color: #3ea4c0;
+    font-weight: 600;
+    padding-right: 13%
+}
+.home_content .more_cards{
+    text-align: left;
+}
+.home_content .more_cards a{
+    color: rgb(165, 163, 163) !important;
+    font-size: 25px;
+}
+.home_content .doc_card_title{
+    margin-bottom: 25px;
+}
+.home_content .doc_cards img{
+    width: 100%;
+    height: 100%;
+}
+.home_content .card_container{
+    margin-top: 30px;
+}
+.home_content .home_special_ads{
+    margin: 25px 0px;
+}
+.home_content .home_special_ads .special_ads_title{
+    width: 100%;
+    background-color: #fffadb;
+    padding: 8px;
+}
+.home_content .home_special_ads .special_ads_title h2{
+    color:#3ea4c0 ;
+    font-weight: 500;
+    padding-right: 10%;
+}
+.home_content .card_holder{
+    margin-top: 25px;
+}
+.home_content .card_holder .job_ad{
+    padding: 25px;
+    background-color: #fffadb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #ddd;
+    width: 100%;
+    margin: auto;
+}
+.home_content .card_holder .job_ad .job_ad_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.home_content .card_holder .job_ad .job_ad_img span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.home_content .card_holder .job_ad .job_ad_details{
+    text-align: left;
+}
+.home_content .card_holder .job_ad .fav_report_btn .fav_btn {
+    color: rgb(238, 234, 17);
+}
+.home_content .card_holder .job_ad .contact{
+    text-align: left;
+}
+
+/* End home content */
+
+/* path */
+.path{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.path .path_row{
+  background-color: #e4e4e4;
+  padding: 10px 65px !important;
+}
+.path .first::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f015" !important;
+  font-weight: 900;
+  color: #00aab1;
+  background-color: transparent;
+  border: 0;
+  margin-left: 5px;
+}
+.path .path_row .path_angle i{
+  color: #00aab1;
+  font-size: 12px;
+  padding: 0px 10px;
+
+}
+.path a {
+  text-decoration: none;
+  color: #00aab1;
+  font-size: 15px;
+  font-weight: 500;
+}
+.path a:hover {
+  color: #1186e1;
+}
+
+/* End path */
+
+/* footer */
+footer{
+    margin-top: 155px;
+    background-color: #008a8f;
+    padding: 45px;
+}
+footer ul{
+    list-style: none;
+    margin-top: 30px;
+    color:rgba(238, 238, 238, 0.678)
+}
+footer ul li::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    color: rgb(243, 243, 43);
+    font-weight: bold;
+    display: inline-block; 
+    margin-left: 10px;
+    font-size: 12px;
+}
+footer .footer_hr{
+    background-color: #eee;
+}
+footer .footer_links .copy{
+    color: rgba(224, 221, 221, 0.753);
+}
+footer .footer_social{
+    text-align: left;
+}
+footer .footer_social span a{
+    color: #ddd;
+    font-size: 20px;
+}
+/* end footer */
+
+/* login page */ 
+.login{
+  margin-bottom: 15px;
+}
+.login .login_head{
+  text-align: center;
+  font-weight: bold;
+  color: #7e7d7d;
+  margin-bottom: 35px;
+}
+.login .login-form {
+  background-color: #fff;
+  width: 60%;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+  border-radius: 10px;
+}
+.login .login-form .code_label{
+  color:#5f5e5e ;
+}
+.login .login-form .forget_link{
+  text-align: left;
+}
+.login .login-form .forget_link a, .login .login-form .forget_link .form-check-label{
+  color: #49aaad !important;
+}
+.login .login-form .btn-login{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.login .login-form .reg_link{
+  text-align: center;
+}
+/* end login page */
+
+/* forget password page */
+
+.forget_password .login-form .forget_text{
+  font-size: 20px;
+  font-weight: bold;
+}
+.forget_password .login-form .sendCode_btn{
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+.forget_password .login-form .sendCode_btn a{
+  padding: 8px 40px;
+}
+
+/* end forget password page */
+
+/* enter code page */
+.enter_code .login-form .code_text{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.enter_code .login-form .code_container{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.enter_code .login-form .code_container input{
+  text-align: center;
+  color: #1186e1;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.enter_code .login-form .sendCode_btn, .register .register_form .reg_btn{
+  text-align: center;
+}
+.enter_code .login-form .sendCode_btn button, .register .register_form .reg_btn a{
+  padding: 10px 60px;
+}
+
+/* end enter code page */
+
+/* register page */
+.register .register_form .reg_btn{
+  margin-top: 25px;
+}
+
+/* end register page */
+
+/* add job */
+.add_job .job_details_container{
+  padding: 10px 60px;
+}
+.add_job .job_details_container .add_job_label{
+  margin-bottom: 19px;
+}
+.add_job .job_details_container .ad_details_area{
+  width: 100%;
+  height: 200px;
+  resize: none;
+  background-color: rgb(240, 240, 240);
+}
+.add_job .job_details_container .ad_details_area:focus{
+  background-color: #fff;
+}
+.add_job .job_details_container .ad_type{
+  font-size: 20px;
+}
+.add_job .job_details_container .ad_type input{
+  margin-left: 30px;
+}
+.add_job .job_details_container .ad_type label{
+  margin-left: 200px;
+}
+.add_job .job_details_container .cate_list{
+  width: 100%;
+}
+.add_job .job_details_container .cate_list a{
+  width: 100%;
+}
+.add_job .job_details_container .up_btn, .add_card .subscribe_row .up_btn{
+  position: relative !important;
+  z-index: 2;
+  cursor: pointer;
+  width: 90%;
+
+}
+.add_job .job_details_container .up_btn input, .add_card .subscribe_row .up_btn input{
+  opacity: 0;
+  cursor: pointer;
+}
+
+.add_job .job_details_container .up_btn .upload, .add_card .subscribe_row .up_btn .upload{
+  position: absolute !important;
+  top: 0px !important;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  z-index: -1;
+  cursor: pointer;
+}
+.add_job .job_details_container .up_img, .add_card .subscribe_row .up_img{
+  width: 100%;
+}
+.add_job .job_details_container .up_img img, .add_card .subscribe_row .up_img img{
+  width: 100px;
+  height: 100px;
+}
+.add_job .job_details_container .add_job_btn{
+  text-align: center;
+}
+.add_job .job_details_container .add_job_btn button{
+  margin-left: 15px;
+}
+.add_job .job_details_container .add_job_btn .add_job_button{
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* end add job */
+
+/* add card */
+.add_card .card_cont{
+  padding: 0px 60px;
+}
+.add_card .card_cont .card_title{
+  margin-bottom: 45px;
+}
+.add_card .card_cont .card_title span{
+  font-size: 23px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.55);
+}
+.add_card .card_cont .card_img_container{
+  width: 90%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.add_card .card_cont .card_img_container img{
+  width: 100%;
+  height: 100%;
+}
+.add_card .card_cont .more_card_btn{
+  text-align: center;
+}
+.add_card .card_cont .more_card_btn a{
+  padding: 8px 25px;
+  color: #fff;
+  cursor: pointer;
+}
+/* End add card */
+
+/* add card */
+.add_card .form_title h4{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+}
+.add_card .logo_upload{
+  margin: 40px 0px;
+}
+.add_card .card_img{
+  text-align: center;
+}
+.add_card .card_img img{
+  width: 300px;
+  height: 200px;
+  margin-top: 15px;
+}
+.add_card .logo_container .logo_img img{
+  width: 200px;
+  height: 200px;
+}
+.add_card .modal-body .logo_container .logo_icon img{
+    width: 150px;
+    height: 150px;
+    margin: 0px 5px 5px 5px;
+}
+.add_card .modal-footer button{
+  text-align: center;
+  margin: 0px auto;
+  padding: 8px 50px;
+}
+.add_card .modal-content{
+  background-color: #333333;
+}
+.add_card .subscribe_row .opt_btn .add_card_btn{
+  margin-left: 15px;
+}
+
+/* end add card */
+
+/* account */
+.my-account .my-account-navs{
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 7px rgba(209, 207, 207, 0.6);
+}
+.my-account .my-account-navs .navs-header{
+  background-color: #c3e7f5af;
+  color: #37c2f5d8;
+}
+.my-account .my-account-navs .navs-header h5{
+  font-weight: bold;
+}
+.my-account .my-account-navs .nav-link img{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.my-account .my-account-navs .nav-link i{
+  color: #32bac0;
+  margin-right: 3px;
+  margin-left: 11px;
+}
+.my-account .new-ads-most-search .most-search-header h5{
+  background-color: #c3e7f5af;
+  color: #37c2f5d8;
+  padding: 10px;
+  border-radius: 5px;
+}
+.my-account .account-info-form{
+  padding: 15px;
+  border-radius: 10px;
+}
+.my-account .account-info-form .personal-img{
+  margin-bottom: 60px;
+  padding-right: 105px;
+  position: relative;
+}
+.my-account .tab-content .account-info-form .personal-img .per {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  position: absolute;
+  right: 15px;
+}
+.my-account .tab-content .account-info-form .personal-img .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer !important;
+  text-align: center;
+  top: 15px;
+}
+.my-account .tab-content .account-info-form .personal-img .upload-btn-wrapper h5{
+  color:rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 600;
+}
+.my-account .tab-content .account-info-form .personal-img .upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.my-account .tab-content .account-info-form .personal-img .upload-btn-wrapper .edit:hover{
+  text-decoration: underline;
+}
+.my-account .log-out {
+  margin-top: 10px;
+}
+.my-account .log-out .btn {
+  background-color: #ff1010;
+  color: #fff;
+  width: 100%;
+}
+.my-account .most-search-header .my_cards .card .card-title{
+  font-size: 14px;
+  color: rgba(163, 162, 162, 0.781);
+  background-color: transparent;
+}
+.my-account .most-search-header .my_cards .my_card_row{
+  margin-bottom: 25px;
+}
+.my-account .most-search-header .my_cards .exp_card{
+  background-color: rgba(229, 192, 192, 0.788) !important;
+}
+.my-account .most-search-header .card{
+  width: 100%;
+  box-shadow: none;
+  height: auto;
+}
+.my-account .most-search-header .my_cards .card .card-body .my_cards_container img{
+  width: 100%;
+  height: 300px;
+}
+.my-account .most-search-header .my_cards .card_btn{
+  width: 100%;
+  text-align: center;
+}
+.my-account .most-search-header .my_cards .card_btn button{
+  width: auto;
+  margin-left: 10px;
+}
+.my-account .most-search-header .my_cards .card_edit_btn{
+  width: 100%;
+  text-align: left;
+}
+.my-account .most-search-header .my_cards .card_edit_btn a{
+  padding: 5px;
+  margin-right: 15px;
+}
+.my-account .most-search-header .my_cards .card_edit_btn,.my-account .most-search-header .my_cards .card_btn{
+  margin-top: 15px;
+}
+.my-account .most-search-header .add_new_card_btn{
+  margin-top: 40px;
+}
+.my-account .most-search-header .add_new_card_btn a{
+  padding: 8px 25px;
+}
+
+/* myJobs Page */
+.my-account .most-search-header .job_card{
+  padding: 15px;
+}
+.my-account .most-search-header .edit_btn{
+  color:#17a2b8;
+  text-align: left;
+}
+.my-account .most-search-header .job_date{
+  margin-bottom: 15px;
+}
+.my-account .most-search-header #job_date_span{
+  color:rgba(0, 0, 0, 0.35)
+}
+.my-account .most-search-header .job_details{
+  margin-bottom: 25px;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+.my-account .most-search-header .job_location{
+  color:rgb(65, 148, 225) !important
+}
+.my-account .most-search-header .remove_btn{
+  text-align: left;
+}
+.my-account .most-search-header .delete_icon a{
+  color:rgba(245, 18, 18, 0.904) !important
+}
+
+.my-account .most-search-header .add_job_btn{
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* End myJobs Page */
+
+/* notify page */
+.my-account .most-search-header .notify_container{
+  margin-top: 25px;
+  position: relative;
+  background-color: rgba(76, 222, 248, 0.3);
+  padding: 10px;
+
+}
+.my-account .most-search-header .notify_container::after{
+  content: "";
+  position: absolute;
+  top:107%;
+  width: 98%;
+  left: 1%;
+  height: 1px;
+  background-color:rgba(0, 0, 0, 0.25)
+}
+.my-account .most-search-header .notify{
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.my-account .most-search-header .notify p{
+  padding-top: 10px;
+}
+.my-account .most-search-header .notify_container span{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.35);
+}
+.my-account .most-search-header .notify_container img,.profile_img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.my-account .most-search-header .font_icon{
+  color: rgba(213, 206, 206, 0.4);;
+  font-size: 18px;
+  padding: 0 0px 0 5px;
+}
+
+/* end notify page */
+
+/* favourite */
+.my-account .card_cont .remove_icon{
+  cursor: pointer;
+  text-align: left;
+}
+.my-account .fav_jobcard_dropdown .click_btn{
+  text-align: right;
+  width: 100%;
+}
+.my-account .card_cont .cards{
+  width: 100%
+}
+.my-account .card_cont .cards img{
+  width: 100%;
+  height: 350px;
+}
+.my-account .favorite_card{
+  margin-top: 15px;
+}
+.my-account .favorite_card .card_cont{
+  margin-bottom: 25px;
+  padding:15px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+.my-account .favorite_card .card_cont .exp_date span{
+  font-size: 14px;
+  color: rgb(145, 143, 143);
+}
+.my-account .exp_delete{
+  margin-bottom: 15px;
+}
+/* End favourite */
+
+/* find jobs page */
+.search_jobs{
+  margin-top: 50px;
+}
+.hr_img img{
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  border-radius: 50% !important;
+  background-position: center;
+  background-size: cover;
+}
+.job_card{
+  padding: 15px;
+  background-color: #fffadb;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px rgba(146, 143, 143, 0.45);
+}
+.job_describtion span{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.9;
+}
+.job_describtion p{
+  margin-top: 15px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45);
+}
+.card_container{
+  margin:10px 5px
+}
+.contact{
+  text-align: left;
+}
+/* end find jobs page */
+
+/* end account */
+
+
+/* card category */
+
+.category{
+  margin-top: 35px;
+}
+.category .categ_main_container .more{
+  margin-top:50px
+}
+.category .categ_main_container .img_container{
+  margin:5px;
+  margin-right: 30px;
+}
+/* End Category*/
+
+/* doctor card */
+.doctor_cards .special_cards_title{
+  background-color: #fffadb;
+  padding: 8px;
+  width: 100%;
+  color:#3ea4c0 ;
+  font-weight: bolder;
+}
+.doctor_cards .special_cards_title h3{
+  color:#3ea4c0 ;
+  font-weight: 600;
+  padding-right: 5%;
+}
+.doctor_cards .special_cards .spec_cards_title h4{
+  color:#3ea4c0 ;
+  font-weight: 600;
+  padding-right: 5%;
+  background-color: #fffadb;
+  padding-top:12px ;
+  padding-bottom:12px ;
+
+}
+.doctor_cards .special_cards .all_cards img{
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.doctor_cards .more_card{
+  margin-top: 25px;
+}
+.doctor_cards .more_card a{
+  color: rgb(145, 143, 143);
+}
+/* end doctor card */
+
+
+/* card details Page */
+.card_details_content .profile_details{
+  margin-top: 50px;
+}
+.card_details_content .doc_cards_content{
+  margin-top:10px;
+}
+.card_details_content .spec_cards_title{
+  background-color:#fffadb;
+  padding: 10px;
+  color: #1186e1;
+  border-radius: 5px;
+}
+.card_details_content .profile_name {
+  margin-top: 25%;
+  font-weight: bold;
+  margin-left: 60px;
+}
+.card_details_content .profile_name p{
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(71, 70, 70);
+}
+.card_details_content .add_contact_btn{
+  margin-top: 5%;
+}
+.card_details_content .card_img{
+  margin-top:25px;
+  text-align: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.card_details_content .card_img img{
+  height:450px;
+  width: 100%;
+}
+.fav_btn{
+  color:rgb(239, 241, 69);
+  cursor: pointer;
+}
+.fav_btn:hover{
+  color:rgb(241, 227, 19);
+}
+.card_details_content .report_btn{
+  text-align: left;
+}
+.card_details_content .client_title{
+  color: #1186e1;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.card_details_content .client_details{
+  line-height: 1.9;
+  color: rgba(0, 0, 0, 0.55);
+}
+.card_details_content .report_message{
+  resize: none;
+  background-color: rgba(241, 241, 241, 0.69);
+  color: rgb(30, 151, 151) !important;
+}
+
+/* End card details Page */
+
+/* job details */
+.job_details_container .client_title{
+  font-size: 20px;
+  color: #43a8bd;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.job_details_container .employee_details{
+  list-style-type: none;
+}
+.job_details_container .employee_details li{
+  margin-right: -25px;
+}
+.job_details_container .employee_details i{
+  margin:5px 0px 5px 10px;
+  font-size: 22px;
+}
+.job_details_container .employee_details li:nth-child(1) i{
+  color:rgb(142, 143, 142)
+}
+.job_details_container .employee_details li:nth-child(2) i{
+  color:rgb(39, 230, 39)
+}
+.job_details_container .employee_details li:nth-child(3) i{
+  color:rgb(230, 30, 30)
+}
+.job_details_container .employee_details li:nth-child(3) span{
+  color:rgb(53, 151, 243)
+}
+
+/* end job details */
+
+/* payment */
+.payment-page .bank-account .bank-account-heading {
+  font-size: 18px;
+}
+.payment-page .bank-account .card {
+  background-color: #f4f4f4;
+  padding-right: 90px;
+  position: relative;
+  padding-bottom: 20px;
+  border: 0;
+}
+.payment .bank-account .card .card-img {
+  background-color: #fff;
+  position: absolute;
+  max-width: 78px;
+  max-height: 78px;
+  right: 20px;
+  top: 20px;
+}
+.payment .bank-account .card .card-img img {
+  width: 70px;
+  height: 70px;
+}
+.payment .bank-account .card .card-text {
+  margin-right: 90px;
+  font-size: 14px;
+}
+.payment .bank-account .card .card-text .name {
+  margin-left: 10px;
+  color: #626262;
+}
+.payment .payment-form {
+  margin-top: 21px;
+}
+.payment .payment-form .bank-account-heading {
+  font-size: 18px;
+}
+.payment .client_data{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.payment .client_data .client_data_title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 22px;
+  color: #1186e1;
+}
+.payment .up_btn{
+  position: relative !important;
+  z-index: 2;
+  cursor: pointer;
+  width: 90%;
+
+}
+.payment .up_btn input{
+  opacity: 0;
+  cursor: pointer;
+}
+
+.payment .up_btn .upload{
+  position: absolute !important;
+  top: 0px !important;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  z-index: -1;
+  cursor: pointer;
+}
+/* end payment */
+
+
+/* Bouquet Page */
+.bouquet .card{
+  margin: auto;
+  background-color: rgba(240, 236, 236, 0.288);
+}
+.bouquet .bouquet_details{
+  margin: 25px 0px;
+}
+.bouquet .bouquet_details p{
+  color: #00AAB1;
+  line-height: 1.9;
+  font-weight: 800 !important;
+}
+.bouquet .bouquet_title{
+  color: #00AAB1;
+  font-weight: bolder;
+  padding: 25px 5px;
+}
+.bouquet .sub_btn{
+  margin-top:50px;
+}
+.bouquet .sub_btn a{
+  width: 15%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bouquet .card{
+  padding: 25px 5px !important;
+  box-shadow: 0px 0px 6px rgba(196, 195, 195, 0.8);
+  height: 300px;
+}
+
+.bouquet .card i{
+  font-size: 5em;
+  color: #00AAB1;
+  height: 200px;
+}
+.bouquet .card-body p:nth-child(1){
+  font-size:25px;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+.bouquet .card-body p:nth-child(2){
+  font-size:26px;
+  color: #00AAB1;
+  font-weight: 800;
+}
+@media (min-width:370px) and (max-width:435px){
+  .bouquet .card{
+      position: relative;
+      left: -25px !important;
+      margin-bottom: 10px;
+  }
+}
+@media (min-width:455px) and (max-width:555px){
+  .bouquet .card{
+      position: relative;
+      left: -55px !important;
+      margin-bottom: 10px;
+  }
+  
+}
+@media (min-width:510px) and (max-width:760px){
+  .bouquet .card{
+    position: relative;
+    left: -110px !important;
+}
+}
+
+
+/* End Bouquet Page */
+
+/* about us */
+.about_us p{
+  font-size: 19px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 2;
+}
+
+/* end about us */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* cascade Slider */
+.cascade-slider_container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin: 25px auto;
+  padding-top: 150px;
+  overflow-x: hidden;
+}
+.cascade-slider_item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%) scale(0.3);
+  transition: all 1s ease;
+  opacity: 0;
+  z-index: -1;
+  text-align: center;
+}
+.cascade-slider_item.next {
+  left: 50%;
+  transform: translateY(-50%) translateX(-135%) scale(0.8);
+  filter: brightness(85%);
+  opacity: 1;
+  z-index: 1;
+}
+.cascade-slider_item.prev {
+  left: 50%;
+  transform: translateY(-50%) translateX(35%) scale(0.8);
+  filter: brightness(85%);
+  opacity: 1;
+  z-index: 1;
+}
+.cascade-slider_item.now {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%) scale(1);
+  opacity: 1;
+  z-index: 5;
+}
+.cascade-slider_arrow {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  z-index: 5;
+}
+.cascade-slider_arrow-left {
+  left: 20px;
+}
+.cascade-slider_arrow-right {
+  right: 20px;
+}
+.cascade-slider_arrow-left img {
+  height: 40px;
+  left: 40px;
+}
+.cascade-slider_arrow-right img {
+  height: 40px;
+  left: 40px;
+}
+.cascade-slider_nav {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  z-index: 5;
+}
+.cascade-slider_dot {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #4196EF;
+  margin: 3px;
+  transition: all 0.5s;
+  background: none;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.cascade-slider_dot:hover {
+  background: #2c8fab;
+}
+.cascade-slider_dot.cur {
+  background: #2c8fab;
+  width: 17px;
+  height: 17px;
+  
+}
+
+/*Profile card classes*/
+.cascade-slider_container .card{
+  background-color:#fff;
+  color:#243C82;
+  width:450px;
+  height:215px;
+  border-radius:20px;
+  transition: all 1s 0s;
+  vertical-align: middle;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.cascade-slider_container .photo{    
+  width:100%;
+  vertical-align: middle;
+  display:inline;
+  height: 100%;
+}
+.cascade-slider_container .photo img{
+  width: 100%;
+  height: 100%;
+  
+}
+.cascade-slider_container .info{
+  display:inline-block;
+  width:50%;
+  height:100%;
+  text-align:center;
+}
+.cascade-slider_container .info h2{
+  font-family:'Roboto';
+  text-transform:uppercase;
+  font-size: 26px;
+  color: #4196EF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cascade-slider_container .subtitle{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 98%;
+text-align: center;
+letter-spacing: 0.055em;
+color: #243C82; 
+}
+.cascade-slider_container .content{
+  font-family: Roboto;
+  font-weight: 300;
+}
+.cascade-slider_container .button{
+  transform:translateX(23px) translateY(15px);
+  position:absolute;
+  padding:12px 17px;  
+  border-radius:30px;
+  color:#fff;
+  font-size:13px;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  background-color:#243C82;
+}
+
+@media (min-width: 460px) and (max-width: 680px) {
+  .cascade-slider_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(0.3);
+    transition: all 1s ease;
+    opacity: 0;
+    z-index: -1;
+    text-align: center;
+  }
+  .cascade-slider_item.next {
+    left: 50%;
+    transform: translateY(-50%) translateX(-90%) scale(0.4);
+    filter: brightness(70%);
+    opacity: 1;
+    z-index: 1;
+  }
+  .cascade-slider_item.prev {
+    left: 50%;
+    transform: translateY(-50%) translateX(-10%) scale(0.4);
+    filter: brightness(70%);
+    opacity: 1;
+    z-index: 1;
+  }
+  .cascade-slider_item.now {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(0.6);
+    opacity: 1;
+    z-index: 5;
+  }
+  .cascade-slider_arrow-left {
+    height: 30px;
+    left: 30px;
+  }
+  .cascade-slider_arrow-right {
+    height: 30px;
+    left: 30px;
+  }
+  .cascade-slider_nav {
+    display:none;
+  }
+}
+@media (max-width: 460px) {
+  .cascade-slider_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(0.3);
+    transition: all 1s ease;
+    opacity: 0;
+    z-index: -1;
+    text-align: center;
+  }
+  .cascade-slider_item.next {
+    left: 50%;
+    transform: translateY(-50%) translateX(-80%) scale(0.3);
+    filter: brightness(70%);
+    opacity: 1;
+    z-index: 1;
+  }
+  .cascade-slider_item.prev {
+    left: 50%;
+    transform: translateY(-50%) translateX(-20%) scale(0.3);
+    filter: brightness(70%);
+    opacity: 1;
+    z-index: 1;
+  }
+  .cascade-slider_item.now {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(0.5);
+    opacity: 1;
+    z-index: 5;
+  }
+  .cascade-slider_arrow-left img {
+    height: 30px;
+    left: 30px;
+  }
+  .cascade-slider_arrow-right img {
+    height: 30px;
+    left: 30px;
+  }
+  .cascade-slider_nav {
+    display:none;
+  }
+
+}
+/* end Home content Slider */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media (min-width:300px) and (max-width:475px){
+  .login .login-form, .forget_password .login-form{
+    width: 100%;
+  }
+  
+}
+@media (min-width:300px) and (max-width:751px){
+  .add_job .job_details_container .ad_type{
+    text-align: center;
+  }
+  .add_job .job_details_container .ad_type label{
+    margin: 0px;
+  }
+  .add_card .card_cont .card_title{
+    text-align: center;
+  }
+  .my-account .most-search-header .notify_container{
+    text-align: center;
+  }
+  .my-account .fav_jobcard_dropdown{
+    margin-top: 20px;
+  }
+  .card_details_content .profile_name {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0px;
+  }
+  
+}
+@media (min-width:300px) and (max-width:992px){
+  .top_header .header_links .dropdown a,.filter_search .filter_container .filter_btn .dropdown a{
+    margin-bottom: 10px;
+  }
+    .top_header .header_links .dropdown,.top_header .header_links .header_card_btn,.filter_search .filter_container .filter_btn .dropdown{
+        display: block !important;
+        text-align: center;
+        padding: 0px 10px 0px 0px;
+    }
+    .top_header .header_links .header_card_btn a,.filter_search .filter_container .filter_btn .nav_search,.filter_search .filter_container .filter_btn .nav_search .search_input{
+        width: 100% !important;
+        text-align: center;
+    }
+    .upper_nav .nav_logo{
+      text-align: center;
+    }
+    footer .copy, footer .footer_social,.footer_logo{
+        text-align: center;
+    }
+    footer .footer_logo img{
+        width: 200px;
+    }
+    footer ul li{
+        font-size: 12px;
+    }
+    .top_header .header_social,.upper_nav .nav_login_links{
+        text-align: center !important;
+    }
+    .top_header .header_social,.upper_nav .nav_login_links .header_card_btn{
+        margin-bottom: 10px;
+    }
+   .upper_nav .upper_nav_row .login_welcome{
+     position: relative;
+     bottom: 40px;
+     left: 20%;
+   }
+    
+}
+@media (min-width:767px) and (max-width:1270px){
+  .upper_nav .nav_login_links .nav_links{
+    margin-top: -40px;
+  }
+}
+@media (min-width:992px) and (max-width:1270px){
+  .upper_nav .upper_nav_row .login_welcome{
+    position: relative;
+    bottom: 30px;
+    left: 20%;
+  }
+}
+
+/* bootstrap modal */
+.modal-footer{
+  margin: auto;
+}
+.modal-footer a{
+  margin: auto !important
+}
+
+.fa-check{
+  font-size: 4em !important;
+  color: #17a2b8 !important;
+  margin-right:40% !important
+}
+.modal-title{
+  color: #17a2b8;
+  margin: auto;
+}
+
+.modal-body textarea{
+  resize: none;
+  background-color: rgb(187, 185, 185);
+  height: 150px;
+}
+.modal-body textarea:focus{
+  background-color: #fff;
+}
+
+/* End bootstrap modal */
