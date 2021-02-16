@@ -13,6 +13,19 @@
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Add Card</title>
+    <style>
+        .add_card .logo_container .logo_icon img{
+            opacity: .5;
+            cursor: pointer;
+        }
+        .add_card .logo_container .logo_icon .selected{
+            opacity: 1;
+        }
+        .add_card .subscribe_row{
+            height: 600px;
+            overflow-y: scroll;
+        }
+    </style>
 </head>
 <body>
     <!-- top header -->
@@ -36,11 +49,11 @@
                     <!-- language dropdown-->
                 <div class="dropdown  btn-group">
                     <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Arabic
+                        English
                     </a>
                     
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">العربى</a>
                     </div>
                 </div>
                     <!-- language dropdown-->
@@ -171,8 +184,12 @@
                         </a>
                         
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">كروت</a>
-                            <a class="dropdown-item" href="#">وظائف</a>
+                            <a class="dropdown-item" href="#">أطباء</a>
+                            <a class="dropdown-item" href="#">مهندسين</a>
+                            <a class="dropdown-item" href="#">محامين</a>
+                            <a class="dropdown-item" href="#">تجار</a>
+                            <a class="dropdown-item" href="#">مدرسين</a>
+                            <a class="dropdown-item" href="#">صيادلة</a>
                         </div>
                     </div>
 
@@ -292,7 +309,7 @@
                                       <div class="modal-body">
                                         <div class="logo_container row">
                                           <div class="logo_icon">
-                                            <img src="assets/images/car-1.png" />
+                                            <img src="assets/images/car-1.png" class="selected" />
                                           </div>
                                           <div class="logo_icon">
                                             <img src="assets/images/car-2.png" />
@@ -521,15 +538,21 @@
                           </div>
                       </div>
       
-                     <div class="col-md-5 col-sm-12">
-                        <label>أضف صور</label>
+                      <div class="col-md-7 col-sm-12">
+                        <label>أضف صور</label><br />
                         <div class="up_btn btn btn-outline-info">
                             <input type="file"/>
                             <div class="upload text-center">اختر صورة</div>
                         </div> 
-                        <div class="up_img">
-                            <img src="assets/images/card-1.png" class="img-thumbnail" />
-                            <img src="assets/images/card-2.png" class="img-thumbnail" />
+                        <div class="up_img row">
+                            <div class="up_img_cont col-sm-5">
+                                <img src="assets/images/card-1.png" class="img-thumbnail" />
+                                <i class="fas fa-backspace rem_icon"></i>
+                            </div>
+                            <div class="up_img_cont col-sm-5">
+                                <img src="assets/images/card-2.png" class="img-thumbnail" />
+                                <i class="fas fa-backspace rem_icon"></i>
+                            </div>
                         </div>    
                     </div>
       

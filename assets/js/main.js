@@ -199,12 +199,12 @@ $(document).ready(function () {
   }
 
   /* Fill Fav Star */
-  $('.fav_btn').on("click",function(){
-    $('.star').toggleClass("far fa-star")
+  $('.fav_report_btn i').on("click",function(){
+    $(this).toggleClass("far fa-star")
   }) //click function
 
-  $('.fav_btn').on("click",function(){
-    $('.star').toggleClass("fas fa-star")
+  $('.fav_report_btn i').on("click",function(){
+    $(this).toggleClass("fas fa-star")
   }) //click function
 
   $(document).on("click", '[data-toggle="lightbox"]', function(event) {
@@ -212,7 +212,13 @@ $(document).ready(function () {
     $(this).ekkoLightbox();
   });
 
+/* heighlight img */
+  $('.add_card .cards img,.doctor_cards .all_cards img,.add_card .logo_container .logo_icon img').on('click',function(){
+    $('.selected').removeClass('selected')
+    $(this).addClass('selected')
+  })
 
+/* end heighlight img */
 
 }); // Document ready
 

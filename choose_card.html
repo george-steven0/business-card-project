@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Choose Card</title>
+    <style>
+        .add_card .cards img{
+            opacity: .5;
+        }
+        .add_card .cards .selected{
+            opacity: 1;
+        }
+    </style>
 </head>
 <body>
     <!-- top header -->
@@ -36,11 +44,11 @@
                       <!-- language dropdown-->
                   <div class="dropdown  btn-group">
                       <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Arabic
+                          English
                       </a>
                       
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <a class="dropdown-item" href="#">English</a>
+                          <a class="dropdown-item" href="#">العربى</a>
                       </div>
                   </div>
                       <!-- language dropdown-->
@@ -171,8 +179,12 @@
                           </a>
                           
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                              <a class="dropdown-item" href="#">كروت</a>
-                              <a class="dropdown-item" href="#">وظائف</a>
+                            <a class="dropdown-item" href="#">أطباء</a>
+                            <a class="dropdown-item" href="#">مهندسين</a>
+                            <a class="dropdown-item" href="#">محامين</a>
+                            <a class="dropdown-item" href="#">تجار</a>
+                            <a class="dropdown-item" href="#">مدرسين</a>
+                            <a class="dropdown-item" href="#">صيادلة</a>
                           </div>
                       </div>
       
@@ -268,7 +280,7 @@
 
                     <div class="col-md-4 col-12">
                         <div class="card_img_container">
-                            <img src="assets/images/card-1.png" />
+                            <img src="assets/images/card-1.png" class="selected" />
                         </div>
                     </div>
                     <div class="col-md-4 col-12">

@@ -16,6 +16,9 @@
         .card_container{
            margin: auto;
         }
+        .fav_btn{
+            color: #FFD21E;
+        }
        
     </style>
     <title>Doctor Jobs</title>
@@ -43,11 +46,11 @@
                 <!-- language dropdown-->
             <div class="dropdown  btn-group">
                 <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Arabic
+                    English
                 </a>
                 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">العربى</a>
                 </div>
             </div>
                 <!-- language dropdown-->
@@ -178,8 +181,12 @@
                     </a>
                     
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">كروت</a>
-                        <a class="dropdown-item" href="#">وظائف</a>
+                        <a class="dropdown-item" href="#">أطباء</a>
+                        <a class="dropdown-item" href="#">مهندسين</a>
+                        <a class="dropdown-item" href="#">محامين</a>
+                        <a class="dropdown-item" href="#">تجار</a>
+                        <a class="dropdown-item" href="#">مدرسين</a>
+                        <a class="dropdown-item" href="#">صيادلة</a>
                     </div>
                 </div>
 
@@ -297,15 +304,17 @@
                                 <div class="row">
                                     <div class="fav_report_btn text-left col-7">
                                         <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
-                                        <span class="fav_btn text-warning" ><i class="text-danger fas fa-backspace"> &nbsp;</i>أضفف إلى المفضلة</span>
-                                    </a>
+                                            <span class="star">
+                                                <i class="far fa-star"> &nbsp; أضف إلى المفضلة</i>
+                                            </span>
+                                        </a>
                                     
                                     <!-- Modal -->
                                     <div class="modal fade text-center" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <i class="fa fa-check text-warning" aria-hidden="true"></i>
+                                                    <i class="fa fa-check fav_check text-warning" aria-hidden="true"></i>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
@@ -314,7 +323,7 @@
                                                     <h5 class="modal-title text-warning" id="exampleModalLabel">تم الإضافة إلى المفضلة</h5>
                                                 </div>
                                                 <div class="modal-footer">
-                                                <a href="#" class="btn btn-warning">حساناً</a>
+                                                <a href="account.html" class="btn btn-warning">المفضلة</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -330,7 +339,7 @@
                                                     <div class="modal-dialog">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                        <h5 class="modal-title" id="exampleModalLabel">إبلاغ</h5>
+                                                        <h5 class="modal-title report_text" id="exampleModalLabel">إبلاغ</h5>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true">&times;</span>
                                                         </button>
@@ -339,7 +348,7 @@
                                                         <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
                                                         </div>
                                                         <div class="modal-footer">
-                                                        <button type="button" class="btn btn-primary">إرسال</button>
+                                                        <button type="button" class="btn btn-info">إرسال</button>
                                                         </div>
                                                     </div>
                                                     </div>
@@ -391,8 +400,9 @@
                             <div class="row">
                                 <div class="fav_report_btn text-left col-7">
                                     <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
-                                    <span class="fav_btn text-warning" ><i class="text-danger fas fa-backspace"> &nbsp;</i>أضف إلى المفضلة</span>
-                                </a>
+                                        <span class="star">
+                                            <i class="far fa-star"> &nbsp; أضف إلى المفضلة</i>
+                                        </span>                                     </a>
                                 
                                 <!-- Modal -->
                                 <div class="modal fade text-center" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -408,7 +418,7 @@
                                                 <h5 class="modal-title text-warning" id="exampleModalLabel">تم الإضافة الى المفضلة</h5>
                                             </div>
                                             <div class="modal-footer">
-                                            <a href="#" class="btn btn-warning">حساناً</a>
+                                            <a href="account.html" class="btn btn-warning">المفضلة</a>
                                             </div>
                                         </div>
                                     </div>
@@ -433,7 +443,7 @@
                                                     <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-primary">إرسال</button>
+                                                    <button type="button" class="btn btn-info">إرسال</button>
                                                     </div>
                                                 </div>
                                                 </div>
@@ -485,8 +495,10 @@
                                 <div class="row">
                                     <div class="fav_report_btn text-left col-7">
                                         <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
-                                        <span class="fav_btn text-warning" ><i class="text-danger fas fa-backspace"> &nbsp;</i>أضفف إلى المفضلة</span>
-                                    </a>
+                                            <span class="star">
+                                                <i class="far fa-star"> &nbsp; أضف إلى المفضلة</i>
+                                            </span>
+                                        </a>
                                     
                                     <!-- Modal -->
                                     <div class="modal fade text-center" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -502,7 +514,7 @@
                                                     <h5 class="modal-title text-warning" id="exampleModalLabel">تم الإضافة إلى المفضلة</h5>
                                                 </div>
                                                 <div class="modal-footer">
-                                                <a href="#" class="btn btn-warning">حساناً</a>
+                                                <a href="account.html" class="btn btn-warning">المفضلة</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -527,7 +539,7 @@
                                                         <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
                                                         </div>
                                                         <div class="modal-footer">
-                                                        <button type="button" class="btn btn-primary">إرسال</button>
+                                                        <button type="button" class="btn btn-info">إرسال</button>
                                                         </div>
                                                     </div>
                                                     </div>
@@ -579,8 +591,10 @@
                             <div class="row">
                                 <div class="fav_report_btn text-left col-7">
                                     <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
-                                    <span class="fav_btn text-warning" ><i class="text-danger fas fa-backspace"> &nbsp;</i>أضف إلى المفضلة</span>
-                                </a>
+                                        <span class="star">
+                                            <i class="far fa-star"> &nbsp; أضف إلى المفضلة</i>
+                                        </span>
+                                    </a>
                                 
                                 <!-- Modal -->
                                 <div class="modal fade text-center" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -596,7 +610,7 @@
                                                 <h5 class="modal-title text-warning" id="exampleModalLabel">تم الإضافة الى المفضلة</h5>
                                             </div>
                                             <div class="modal-footer">
-                                            <a href="#" class="btn btn-warning">حساناً</a>
+                                            <a href="account.html" class="btn btn-warning">المفضلة</a>
                                             </div>
                                         </div>
                                     </div>
@@ -621,7 +635,7 @@
                                                     <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-primary">إرسال</button>
+                                                    <button type="button" class="btn btn-info ">إرسال</button>
                                                     </div>
                                                 </div>
                                                 </div>
@@ -642,7 +656,7 @@
                 </div>  
                 <!-- job div ( repeated )-->                
                 <div class="col-12 text-center">
-                    <a href="#" class="text-secondary">تحميل المزيد ...</a>
+                    <span href="#" class="text-secondary">تحميل المزيد ...</span>
                 </div>
             </div><!-- row -->
         </div><!-- container-->

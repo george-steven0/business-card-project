@@ -195,7 +195,7 @@ body{
     text-align: left;
 }
 .home_content .card_holder .job_ad .fav_report_btn .fav_btn {
-    color: rgb(238, 234, 17);
+    color: #FFD21E
 }
 .home_content .card_holder .job_ad .contact{
     text-align: left;
@@ -241,7 +241,7 @@ body{
 
 /* footer */
 footer{
-    margin-top: 155px;
+    margin-top: 95px;
     background-color: #008a8f;
     padding: 45px;
 }
@@ -267,6 +267,9 @@ footer .footer_links .copy{
 }
 footer .footer_social{
     text-align: left;
+}
+footer .footer_social span{
+  padding: 0 5px;
 }
 footer .footer_social span a{
     color: #ddd;
@@ -396,7 +399,7 @@ footer .footer_social span a{
   position: relative !important;
   z-index: 2;
   cursor: pointer;
-  width: 90%;
+  width: 70%;
 
 }
 .add_job .job_details_container .up_btn input, .add_card .subscribe_row .up_btn input{
@@ -415,9 +418,21 @@ footer .footer_social span a{
 }
 .add_job .job_details_container .up_img, .add_card .subscribe_row .up_img{
   width: 100%;
+  position: relative;
+}
+
+.add_job .job_details_container .up_img .up_img_cont img, .add_card .subscribe_row .up_img .up_img_cont{
+  position: relative;
+}
+.add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon{
+  position: absolute;
+  top: 10px;
+  right:30px;
+  cursor: pointer;
+  color: #c0c0c0;
 }
 .add_job .job_details_container .up_img img, .add_card .subscribe_row .up_img img{
-  width: 100px;
+  width: auto;
   height: 100px;
 }
 .add_job .job_details_container .add_job_btn{
@@ -453,6 +468,7 @@ footer .footer_social span a{
 .add_card .card_cont .card_img_container img{
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 .add_card .card_cont .more_card_btn{
   text-align: center;
@@ -478,13 +494,13 @@ footer .footer_social span a{
   text-align: center;
 }
 .add_card .card_img img{
-  width: 300px;
+  width: 250px;
   height: 200px;
   margin-top: 15px;
 }
 .add_card .logo_container .logo_img img{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 .add_card .modal-body .logo_container .logo_icon img{
     width: 150px;
@@ -756,7 +772,7 @@ footer .footer_social span a{
 }
 .job_card{
   padding: 15px;
-  background-color: #fffadb;
+  background-color: #FFFADB;
   border-radius: 15px;
   box-shadow: 0px 0px 6px rgba(146, 143, 143, 0.45);
 }
@@ -768,8 +784,9 @@ footer .footer_social span a{
 }
 .job_describtion p{
   margin-top: 15px;
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.45);
+  font-weight: 500;
 }
 .card_container{
   margin:10px 5px
@@ -797,6 +814,24 @@ footer .footer_social span a{
 /* End Category*/
 
 /* doctor card */
+.doctor_jobs .fav_check{
+  color:#F6C500 !important
+}
+.doctor_jobs .modal-title{
+  color: #F6C500;
+  font-size: 25px;
+  font-weight: 800;
+}
+.doctor_jobs .report_text{
+  color: #00AAB1;
+  margin: auto;
+  margin-left: 0px;
+  padding: 8px 40px;
+}
+.doctor_jobs .modal-footer a{
+  padding: 8px 40px;
+  color:#fff
+}
 .doctor_cards .special_cards_title{
   background-color: #fffadb;
   padding: 8px;
@@ -822,11 +857,12 @@ footer .footer_social span a{
   width: 100%;
   height: 250px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .doctor_cards .more_card{
   margin-top: 25px;
 }
-.doctor_cards .more_card a{
+.doctor_cards .more_card span{
   color: rgb(145, 143, 143);
 }
 /* end doctor card */
@@ -868,9 +904,10 @@ footer .footer_social span a{
   height:450px;
   width: 100%;
 }
-.fav_btn{
-  color:rgb(239, 241, 69);
+.star{
+  color:#FFD21E;
   cursor: pointer;
+  font-weight: 800;
 }
 .fav_btn:hover{
   color:rgb(241, 227, 19);
