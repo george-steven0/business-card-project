@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="swap_lang">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,66 +20,67 @@
     <div class="top_header">
     <div class="container-fluid">
     <div class="row">
-        <div class="header_links col-lg-6 col-sm-12">
-            <div class="dropdown btn-group">
-                <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    البلد
-                </a>
-                
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">مصر</a>
-                    <a class="dropdown-item" href="#">الاردن</a>
-                    <a class="dropdown-item" href="#">عمان</a>
-                </div>
-            </div>
-            <!-- country dropdown -->
-
-                <!-- language dropdown-->
-            <div class="dropdown  btn-group">
-                <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    English
-                </a>
-                
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">العربى</a>
-                </div>
-            </div>
-                <!-- language dropdown-->
-
-            <div class="dropdown btn-group">
-                <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    الوظائف
-                </a>
-                
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </div>
-                <!-- jobs dropdown -->
-            
-            <!-- cards button -->
-            <div class="header_card_btn btn-group">
-                <a href="#" class="btn btn-outline-info">الكروت</a>
-            </div>
-
-        </div>  <!-- header links --> 
+    <div class="header_links col-md-7 col-sm-12">
+    <div class="dropdown btn-group">
+        <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            البلد
+        </a>
         
-        <!-- header social -->
-        <div class="col-sm-12 col-lg-6">
-            <div class="header_social">
-            <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
-            <span><a href="#"><i class="fab fa-instagram"></i></a></span>
-            <span><a href="#"><i class="fab fa-snapchat"></i></a></span>
-            <span><a href="#"><i class="fab fa-twitter"></i></a></span>
-            <span><a href="#"><i class="fab fa-facebook"></i></a></span>
-            </div>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">مصر</a>
+            <a class="dropdown-item" href="#">الاردن</a>
+            <a class="dropdown-item" href="#">عمان</a>
         </div>
+    </div>
+    <!-- country dropdown -->
+
+        <!-- language dropdown-->
+    <div class="dropdown  btn-group">
+        <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            اللغه
+        </a>
         
-        <!-- header social -->
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#" id="arabic_lang">العربى</a>
+            <a class="dropdown-item" href="#" id="english_lang">English</a>
+        </div>
+    </div>
+        <!-- language dropdown-->
+
+    <div class="dropdown btn-group">
+        <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            الوظائف
+        </a>
         
-        
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+        <!-- jobs dropdown -->
+
+    <!-- cards button -->
+    <div class="header_card_btn btn-group">
+        <a href="#" class="btn btn-outline-info">الكروت</a>
+    </div>
+
+    </div>  <!-- header links --> 
+
+    <!-- header social -->
+    <div class="col-sm-12 col-md-5">
+    <div class="header_social">
+    <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
+    <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+    <span><a href="#"><i class="fab fa-snapchat"></i></a></span>
+    <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+    <span><a href="#"><i class="fab fa-facebook"></i></a></span>
+    </div>
+    </div>
+
+    <!-- header social -->
+
+
     </div> <!-- row -->
     <hr>
     </div> <!-- container -->
@@ -138,11 +139,11 @@
     <div class="filter_search">
     <div class="container-fluid">
     <div class="row">
-        <div class="filter_container col-12">
+    <div class="filter_container col-12">
 
-            <div class="filter_btn">
-
-                <div class="dropdown btn-group">
+        <div class="filter_btn">
+            <div class="slide_down_btn btn-group">
+                <div class="dropdown btn-group col-4">
                     <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-map-marker-alt"></i> الدولة 
                     </a>
@@ -154,7 +155,7 @@
                     </div>
                 </div>
 
-                <div class="dropdown btn-group">
+                <div class="dropdown btn-group col-4">
                     <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="far fa-building"></i> المدينة
                     </a>
@@ -166,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="dropdown btn-group">
+                <div class="dropdown btn-group col-4">
                     <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-sliders-h"></i> الاقسام
                     </a>
@@ -181,25 +182,102 @@
                     </div>
                 </div>
 
-                <div class="dropdown btn-group">
-                    <a class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        النوع
+            </div>
+            
+
+            <div class="search_div btn-group">
+            <div class="dropdown btn-group col-5">
+                <a class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    النوع
+                </a>
+                
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">كروت</a>
+                    <a class="dropdown-item" href="#">وظائف</a>
+                </div>
+            </div>
+
+            <div class="nav_search btn-group  col-6">
+                <input type="search" class="search_input" class="form-control" placeholder="ما الذى تبحث عنه؟" />
+                <button type="button" class="btn btn-warning"><i class="fas fa-search"></i></button>
+            </div>
+            </div>
+
+            <!-- search div for small screens only-->
+
+            <div class="search_div2 col-12 btn-group">
+                <div class="col-7">
+                    <input type="search" class="search_input form-control" placeholder="ما الذى تبحث عنه؟" />
+                </div>
+                <div class="nav_search btn-group  col-5">
+                    <div class="dropdown btn-group col-5">
+                        <a class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            النوع
+                        </a>
+                        
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">كروت</a>
+                            <a class="dropdown-item" href="#">وظائف</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" style="width: 50px; height: 40px; margin-bottom: 10px;"><i class="fas fa-search"></i></button>   
+                    </div>
+                </div>
+            </div>
+            <!-- search div for small screens only-->
+
+
+
+            <div class=" text-center more_filter_btn col-12">
+                <span class="more_span" style="cursor: pointer;">بحث متقدم <i class="aro fas fa-angle-double-down"></i></span>
+            </div>
+
+            <!-- more filter div appears on click for small screens-->
+            <div class="slide_down_btn2 btn-group">
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-map-marker-alt"></i> الدولة 
                     </a>
                     
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">كروت</a>
-                        <a class="dropdown-item" href="#">وظائف</a>
+                        <a class="dropdown-item" href="#">مصر</a>
+                        <a class="dropdown-item" href="#">الاردن</a>
+                        <a class="dropdown-item" href="#">عمان</a>
                     </div>
                 </div>
 
-                <div class="nav_search btn-group">
-                    <input type="search" class="search_input" class="form-control" placeholder="ما الذى تبحث عنه؟" />
-                    <button type="button" class="btn btn-warning"><i class="fas fa-search"></i></button>
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-building"></i> المدينة
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">القاهرة</a>
+                        <a class="dropdown-item" href="#">الاسكندرية</a>
+                        <a class="dropdown-item" href="#">المنصورة</a>
+                    </div>
                 </div>
 
-            </div> <!-- filter btn -->
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-sliders-h"></i> الاقسام
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">أطباء</a>
+                        <a class="dropdown-item" href="#">مهندسين</a>
+                        <a class="dropdown-item" href="#">محامين</a>
+                        <a class="dropdown-item" href="#">تجار</a>
+                        <a class="dropdown-item" href="#">مدرسين</a>
+                        <a class="dropdown-item" href="#">صيادلة</a>
+                    </div>
+                </div>
 
-        </div><!-- filter container-->
+                </div>
+                <!-- more filter div appears on click for small screens-->
+
+        </div> <!-- filter btn -->
+
+    </div><!-- filter container-->
     </div> <!-- row -->
     </div> <!-- container fluid -->
     </div><!-- filter search -->
@@ -268,6 +346,9 @@
                         aria-orientation="vertical">
                         <div class="navs-header">
                         <h5 class="card-header">حسابي</h5>
+                        </div>
+                        <div class="">
+                            
                         </div>
 
                         <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#account-info" role="tab"
@@ -519,33 +600,6 @@
                         </div><!-- most search -->
                         </div> <!-- tab-pane-->
 
-                        <!-- Notification -->
-                        <div class="tab-pane fade notify_holder" id="notify" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <div class="most-search-header">
-
-                            <div class="container">
-                                <h5>إشعاراتى</h5>
-
-                                <div class="notify_container row">
-                                    <div class="col-sm-3">
-                                        <img src="assets/images/cons1.webp" />
-                                    </div>
-
-                                    <div class="col-sm-8 col-md-9">
-                                        <div class="notify">
-                                            <p>نص تجريبى للتجربة علي المواقع ويمكن تجربته في النصوص والمدخلات</p>
-                                            <span>6pm. 2/2/2022</span>
-                                        </div>
-                                    </div>
-
-
-                                </div> <!-- notify_container -->
-                            </div>
-
-                        </div>
-                        </div>
-                        <!-- End Notification -->
-
                         <!-- Favourite jobs/cards-->
                         <div class="tab-pane fade" id="favs" role="tabpanel" aria-labelledby="v-pills-home-tab">
                             <div class="">
@@ -682,104 +736,10 @@
                                                 <div class="search_jobs">
                                                     <div class="container-fluid">
                                                         <div class="row job_cards">
-                                              
-                                                          <!-- repeated div card -->
-                                                          <div class="col-md-12 card_container">
-                                              
-                                                              <div class="job_card">
-                                                                  <div class="row">
-                                              
-                                                                      <div class="col-md-3 col-sm-12 hr_img d-md-block d-none">
-                                                                          <img src="assets/images/cons1.webp" />
-                                                                      </div>
-                                              
-                                                                      <div class="col-md-3 col-sm-12 hr_img d-sm-block d-md-none text-center">
-                                                                          <img src="assets/images/cons1.webp" />
-                                                                      </div>
-                                              
-                                                                      <!--appears lg md screens-->
-                                                                      <div class="col-md-9 col-sm-12 job_describtion d-md-block d-none">
-                                                                          <span> محمد على</span>
-                                                                          <p>"لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
-                                                                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد</p>
-                                                                      </div>
-                                                                      <!-- appears sm screens-->
-                                                                      <div class="col-md-9 col-sm-12 job_describtion d-sm-block d-md-none text-center">
-                                                                          <span> محمد على</span>
-                                                                          <p>"لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
-                                                                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد</p>
-                                                                      </div>
-                                              
-                                                                      <div class="col-md-12">
-                                                                          <div class="row">
-                                                                              <div class="fav_report_btn text-left col-7">
-                                                                                <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
-                                                                                  <span class="fav_btn text-warning" ><i class="text-danger fas fa-backspace"> &nbsp;</i>حذف من المفضلة</span>
-                                                                              </a>
-                                                                              
-                                                                              <!-- Modal -->
-                                                                              <div class="modal fade text-center" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                                                  <div class="modal-dialog" role="document">
-                                                                                      <div class="modal-content">
-                                                                                          <div class="modal-header">
-                                                                                              <i class="fa fa-check text-warning" aria-hidden="true"></i>
-                                                                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                                              <span aria-hidden="true">&times;</span>
-                                                                                          </button>
-                                                                                          </div>
-                                                                                          <div class="modal-body">
-                                                                                              <h5 class="modal-title text-warning" id="exampleModalLabel">تم الحذف من المفضلة</h5>
-                                                                                          </div>
-                                                                                          <div class="modal-footer">
-                                                                                          <a href="#" class="btn btn-warning">حساناً</a>
-                                                                                          </div>
-                                                                                      </div>
-                                                                                  </div>
-                                                                              </div> <!-- popup button-->     
-                                                                                
-                                                   
-                                                                                  <span> | </span>
-                                                                                  <!-- report btn -->
-                                                                                  <span>
-                                                                                       <a type="button" class="text-secondary" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
-                                                               
-                                                                                       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                                                           <div class="modal-dialog">
-                                                                                           <div class="modal-content">
-                                                                                               <div class="modal-header">
-                                                                                               <h5 class="modal-title" id="exampleModalLabel">إبلاغ</h5>
-                                                                                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                                                   <span aria-hidden="true">&times;</span>
-                                                                                               </button>
-                                                                                               </div>
-                                                                                               <div class="modal-body">
-                                                                                               <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
-                                                                                               </div>
-                                                                                               <div class="modal-footer">
-                                                                                               <button type="button" class="btn btn-primary">إرسال</button>
-                                                                                               </div>
-                                                                                           </div>
-                                                                                           </div>
-                                                                                       </div>
-                                                                                  </span>   <!-- report btn -->
-                                              
-                                                                               </div> <!-- fav report btns -->
-                                              
-                                                                               <div class="col-5 contact ">
-                                                                                   <a href="#">تواصل مع المعلن</a>
-                                                                               </div> 
-
-                                                                          </div> <!-- sub row -->
-                                                                      </div> <!-- sub col-12 -->
-                                                                      
-                                                                  </div> <!-- sub row -->
-                                                              </div> <!-- job card -->
-                                                          </div>  
-                                                          <!-- repeated div-->
-
-                                                           <!-- repeated div card -->
-                                                           <div class="col-md-12 card_container">
-                                              
+                                            
+                                                        <!-- repeated div card -->
+                                                        <div class="col-md-12 card_container">
+                                            
                                                             <div class="job_card">
                                                                 <div class="row">
                                             
@@ -806,8 +766,8 @@
                                             
                                                                     <div class="col-md-12">
                                                                         <div class="row">
-                                                                            <div class="fav_report_btn text-left col-7">
-                                                                              <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
+                                                                            <div class="fav_report_btn en_fav_report col-7">
+                                                                                <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
                                                                                 <span class="fav_btn text-warning" ><i class="text-danger fas fa-backspace"> &nbsp;</i>حذف من المفضلة</span>
                                                                             </a>
                                                                             
@@ -830,47 +790,141 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div> <!-- popup button-->     
-                                                                              
-                                                 
+                                                                                
+                                                
                                                                                 <span> | </span>
                                                                                 <!-- report btn -->
                                                                                 <span>
-                                                                                     <a type="button" class="text-secondary" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
-                                                             
-                                                                                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                                                         <div class="modal-dialog">
-                                                                                         <div class="modal-content">
-                                                                                             <div class="modal-header">
-                                                                                             <h5 class="modal-title" id="exampleModalLabel">إبلاغ</h5>
-                                                                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                                                 <span aria-hidden="true">&times;</span>
-                                                                                             </button>
-                                                                                             </div>
-                                                                                             <div class="modal-body">
-                                                                                             <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
-                                                                                             </div>
-                                                                                             <div class="modal-footer">
-                                                                                             <button type="button" class="btn btn-primary">إرسال</button>
-                                                                                             </div>
-                                                                                         </div>
-                                                                                         </div>
-                                                                                     </div>
+                                                                                    <a type="button" class="text-secondary" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
+                                                            
+                                                                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                                        <div class="modal-dialog">
+                                                                                        <div class="modal-content">
+                                                                                            <div class="modal-header">
+                                                                                            <h5 class="modal-title" id="exampleModalLabel">إبلاغ</h5>
+                                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                                <span aria-hidden="true">&times;</span>
+                                                                                            </button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                            <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
+                                                                                            </div>
+                                                                                            <div class="modal-footer">
+                                                                                            <button type="button" class="btn btn-primary">إرسال</button>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </span>   <!-- report btn -->
                                             
-                                                                             </div> <!-- fav report btns -->
+                                                                            </div> <!-- fav report btns -->
                                             
-                                                                             <div class="col-5 contact ">
-                                                                                 <a href="#">تواصل مع المعلن</a>
-                                                                             </div> 
+                                                                            <div class="col-5 contact ">
+                                                                                <a href="#">تواصل مع المعلن</a>
+                                                                            </div> 
 
                                                                         </div> <!-- sub row -->
                                                                     </div> <!-- sub col-12 -->
                                                                     
                                                                 </div> <!-- sub row -->
                                                             </div> <!-- job card -->
-                                                           </div>  
-                                                           <!-- repeated div-->
-                                                          
+                                                        </div>  
+                                                        <!-- repeated div-->
+
+                                                        <!-- repeated div card -->
+                                                        <div class="col-md-12 card_container">
+                                            
+                                                            <div class="job_card">
+                                                                <div class="row">
+                                            
+                                                                    <div class="col-md-3 col-sm-12 hr_img d-md-block d-none">
+                                                                        <img src="assets/images/cons1.webp" />
+                                                                    </div>
+                                            
+                                                                    <div class="col-md-3 col-sm-12 hr_img d-sm-block d-md-none text-center">
+                                                                        <img src="assets/images/cons1.webp" />
+                                                                    </div>
+                                            
+                                                                    <!--appears lg md screens-->
+                                                                    <div class="col-md-9 col-sm-12 job_describtion d-md-block d-none">
+                                                                        <span> محمد على</span>
+                                                                        <p>"لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                                                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد</p>
+                                                                    </div>
+                                                                    <!-- appears sm screens-->
+                                                                    <div class="col-md-9 col-sm-12 job_describtion d-sm-block d-md-none text-center">
+                                                                        <span> محمد على</span>
+                                                                        <p>"لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                                                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد</p>
+                                                                    </div>
+                                            
+                                                                    <div class="col-md-12">
+                                                                        <div class="row">
+                                                                            <div class="fav_report_btn en_fav_report col-7">
+                                                                            <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
+                                                                                <span class="fav_btn text-warning" ><i class="text-danger fas fa-backspace"> &nbsp;</i>حذف من المفضلة</span>
+                                                                            </a>
+                                                                            
+                                                                            <!-- Modal -->
+                                                                            <div class="modal fade text-center" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                                <div class="modal-dialog" role="document">
+                                                                                    <div class="modal-content">
+                                                                                        <div class="modal-header">
+                                                                                            <i class="fa fa-check text-warning" aria-hidden="true"></i>
+                                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                            <span aria-hidden="true">&times;</span>
+                                                                                        </button>
+                                                                                        </div>
+                                                                                        <div class="modal-body">
+                                                                                            <h5 class="modal-title text-warning" id="exampleModalLabel">تم الحذف من المفضلة</h5>
+                                                                                        </div>
+                                                                                        <div class="modal-footer">
+                                                                                        <a href="#" class="btn btn-warning">حساناً</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div> <!-- popup button-->     
+                                                                            
+                                                
+                                                                                <span> | </span>
+                                                                                <!-- report btn -->
+                                                                                <span>
+                                                                                    <a type="button" class="text-secondary" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
+                                                            
+                                                                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                                        <div class="modal-dialog">
+                                                                                        <div class="modal-content">
+                                                                                            <div class="modal-header">
+                                                                                            <h5 class="modal-title" id="exampleModalLabel">إبلاغ</h5>
+                                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                                <span aria-hidden="true">&times;</span>
+                                                                                            </button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                            <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
+                                                                                            </div>
+                                                                                            <div class="modal-footer">
+                                                                                            <button type="button" class="btn btn-primary">إرسال</button>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </span>   <!-- report btn -->
+                                            
+                                                                            </div> <!-- fav report btns -->
+                                            
+                                                                            <div class="col-5 contact ">
+                                                                                <a href="#">تواصل مع المعلن</a>
+                                                                            </div> 
+
+                                                                        </div> <!-- sub row -->
+                                                                    </div> <!-- sub col-12 -->
+                                                                    
+                                                                </div> <!-- sub row -->
+                                                            </div> <!-- job card -->
+                                                        </div>  
+                                                        <!-- repeated div-->
+                                                        
                                                         </div> <!-- job cards-->
                                                     </div> <!-- container fluid -->
                                                 </div> <!-- search jobs -->
@@ -884,6 +938,33 @@
                         <!-- End Favourite jobs/cards-->
 
                         </div> <!-- tab-pane -->
+
+                        <!-- Notification -->
+                        <div class="tab-pane fade notify_holder" id="notify" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="most-search-header">
+
+                            <div class="container">
+                                <h5>إشعاراتى</h5>
+
+                                <div class="notify_container row">
+                                    <div class="col-sm-3">
+                                        <img src="assets/images/cons1.webp" />
+                                    </div>
+
+                                    <div class="col-sm-8 col-md-9">
+                                        <div class="notify">
+                                            <p>نص تجريبى للتجربة علي المواقع ويمكن تجربته في النصوص والمدخلات</p>
+                                            <span>6pm. 2/2/2022</span>
+                                        </div>
+                                    </div>
+
+
+                                </div> <!-- notify_container -->
+                            </div>
+
+                        </div>
+                        </div>
+                        <!-- End Notification -->
 
                     </div> <!-- tab-content -->
 

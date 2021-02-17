@@ -220,7 +220,38 @@ $(document).ready(function () {
 
 /* end heighlight img */
 
+/* swap language */
+$('#arabic_lang').on('click',function () {
+    $('#eng_style').remove()
+})
+$('#english_lang').on('click',function () {
+  $('.swap_lang').append('<link rel="stylesheet" id="eng_style" href="./assets/css/enStyle.css" />')
+})
+/* end swap language */
+
+/* slidedown filter search */
+$('.more_filter_btn').on('click',function () {
+    $('.slide_down_btn2').toggle({
+      'display':'block'
+    })
+    $('.aro').toggleClass('fas fa-angle-double-down')
+    $('.aro').toggleClass('fas fa-angle-double-up')
+})
+
+
 }); // Document ready
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 $(function () {

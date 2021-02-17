@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="swap_lang">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./assets/css/slick-theme.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/enStyle.css" id="eng_style" />
+
     <title>Add Card</title>
     <style>
         .add_card .logo_container .logo_icon img{
@@ -21,79 +23,87 @@
         .add_card .logo_container .logo_icon .selected{
             opacity: 1;
         }
+        .fixed_div{
+            width: 100%;
+            background-color: #fff;
+        }
+        /*
         .add_card .subscribe_row{
             height: 600px;
             overflow-y: scroll;
         }
+        */
     </style>
 </head>
 <body>
+
     <!-- top header -->
     <div class="top_header">
     <div class="container-fluid">
-        <div class="row">
-            <div class="header_links col-lg-6 col-sm-12">
-                <div class="dropdown btn-group">
-                    <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        البلد
-                    </a>
-                    
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">مصر</a>
-                        <a class="dropdown-item" href="#">الاردن</a>
-                        <a class="dropdown-item" href="#">عمان</a>
-                    </div>
-                </div>
-                <!-- country dropdown -->
-
-                    <!-- language dropdown-->
-                <div class="dropdown  btn-group">
-                    <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        English
-                    </a>
-                    
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">العربى</a>
-                    </div>
-                </div>
-                    <!-- language dropdown-->
-
-                <div class="dropdown btn-group">
-                    <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        الوظائف
-                    </a>
-                    
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </div>
-                    <!-- jobs dropdown -->
-                
-                <!-- cards button -->
-                <div class="header_card_btn btn-group">
-                    <a href="#" class="btn btn-outline-info">الكروت</a>
-                </div>
-
-            </div>  <!-- header links --> 
+    <div class="row">
+    <div class="header_links col-md-7 col-sm-12">
+        <div class="dropdown btn-group">
+            <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                البلد
+            </a>
             
-            <!-- header social -->
-            <div class="col-sm-12 col-lg-6">
-                <div class="header_social">
-                <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
-                <span><a href="#"><i class="fab fa-instagram"></i></a></span>
-                <span><a href="#"><i class="fab fa-snapchat"></i></a></span>
-                <span><a href="#"><i class="fab fa-twitter"></i></a></span>
-                <span><a href="#"><i class="fab fa-facebook"></i></a></span>
-                </div>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">مصر</a>
+                <a class="dropdown-item" href="#">الاردن</a>
+                <a class="dropdown-item" href="#">عمان</a>
             </div>
+        </div>
+        <!-- country dropdown -->
+
+            <!-- language dropdown-->
+        <div class="dropdown  btn-group">
+            <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                اللغه
+            </a>
             
-            <!-- header social -->
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#" id="arabic_lang">العربى</a>
+                <a class="dropdown-item" href="#" id="english_lang">English</a>
+            </div>
+        </div>
+            <!-- language dropdown-->
+
+        <div class="dropdown btn-group">
+            <a class="btn btn-outline-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                الوظائف
+            </a>
             
-            
-        </div> <!-- row -->
-        <hr>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+            <!-- jobs dropdown -->
+        
+        <!-- cards button -->
+        <div class="header_card_btn btn-group">
+            <a href="#" class="btn btn-outline-info">الكروت</a>
+        </div>
+
+    </div>  <!-- header links --> 
+
+    <!-- header social -->
+    <div class="col-sm-12 col-md-5">
+        <div class="header_social">
+        <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
+        <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+        <span><a href="#"><i class="fab fa-snapchat"></i></a></span>
+        <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+        <span><a href="#"><i class="fab fa-facebook"></i></a></span>
+        </div>
+    </div>
+
+    <!-- header social -->
+
+
+    </div> <!-- row -->
+    <hr>
     </div> <!-- container -->
     </div> <!-- top header -->
 
@@ -147,53 +157,81 @@
     </div> 
     <!-- End upper navbar -->
 
-    <div class="filter_search">
+     <div class="filter_search">
     <div class="container-fluid">
-        <div class="row">
-            <div class="filter_container col-12">
+    <div class="row">
+    <div class="filter_container col-12">
 
-                <div class="filter_btn">
-
-                    <div class="dropdown btn-group">
-                        <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-map-marker-alt"></i> الدولة 
-                        </a>
-                        
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">مصر</a>
-                            <a class="dropdown-item" href="#">الاردن</a>
-                            <a class="dropdown-item" href="#">عمان</a>
-                        </div>
+        <div class="filter_btn">
+            <div class="slide_down_btn btn-group">
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-map-marker-alt"></i> الدولة 
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">مصر</a>
+                        <a class="dropdown-item" href="#">الاردن</a>
+                        <a class="dropdown-item" href="#">عمان</a>
                     </div>
+                </div>
 
-                    <div class="dropdown btn-group">
-                        <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="far fa-building"></i> المدينة
-                        </a>
-                        
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">القاهرة</a>
-                            <a class="dropdown-item" href="#">الاسكندرية</a>
-                            <a class="dropdown-item" href="#">المنصورة</a>
-                        </div>
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-building"></i> المدينة
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">القاهرة</a>
+                        <a class="dropdown-item" href="#">الاسكندرية</a>
+                        <a class="dropdown-item" href="#">المنصورة</a>
                     </div>
+                </div>
 
-                    <div class="dropdown btn-group">
-                        <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-sliders-h"></i> الاقسام
-                        </a>
-                        
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">أطباء</a>
-                            <a class="dropdown-item" href="#">مهندسين</a>
-                            <a class="dropdown-item" href="#">محامين</a>
-                            <a class="dropdown-item" href="#">تجار</a>
-                            <a class="dropdown-item" href="#">مدرسين</a>
-                            <a class="dropdown-item" href="#">صيادلة</a>
-                        </div>
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-sliders-h"></i> الاقسام
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">أطباء</a>
+                        <a class="dropdown-item" href="#">مهندسين</a>
+                        <a class="dropdown-item" href="#">محامين</a>
+                        <a class="dropdown-item" href="#">تجار</a>
+                        <a class="dropdown-item" href="#">مدرسين</a>
+                        <a class="dropdown-item" href="#">صيادلة</a>
                     </div>
+                </div>
 
-                    <div class="dropdown btn-group">
+            </div>
+            
+
+            <div class="search_div btn-group">
+            <div class="dropdown btn-group col-5">
+                <a class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    النوع
+                </a>
+                
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">كروت</a>
+                    <a class="dropdown-item" href="#">وظائف</a>
+                </div>
+            </div>
+
+            <div class="nav_search btn-group  col-6">
+                <input type="search" class="search_input" class="form-control" placeholder="ما الذى تبحث عنه؟" />
+                <button type="button" class="btn btn-warning"><i class="fas fa-search"></i></button>
+            </div>
+            </div>
+
+            <!-- search div for small screens only-->
+
+            <div class="search_div2 col-12 btn-group">
+                <div class="col-7">
+                    <input type="search" class="search_input form-control" placeholder="ما الذى تبحث عنه؟" />
+                </div>
+                <div class="nav_search btn-group  col-5">
+                    <div class="dropdown btn-group col-5">
                         <a class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             النوع
                         </a>
@@ -202,17 +240,66 @@
                             <a class="dropdown-item" href="#">كروت</a>
                             <a class="dropdown-item" href="#">وظائف</a>
                         </div>
+                        <button type="button" class="btn btn-warning" style="width: 50px; height: 40px; margin-bottom: 10px;"><i class="fas fa-search"></i></button>   
                     </div>
+                </div>
+            </div>
+            <!-- search div for small screens only-->
 
-                    <div class="nav_search btn-group">
-                        <input type="search" class="search_input" class="form-control" placeholder="ما الذى تبحث عنه؟" />
-                        <button type="button" class="btn btn-warning"><i class="fas fa-search"></i></button>
+
+
+            <div class=" text-center more_filter_btn col-12">
+                <span class="more_span" style="cursor: pointer;">بحث متقدم <i class="aro fas fa-angle-double-down"></i></span>
+            </div>
+
+            <!-- more filter div appears on click for small screens-->
+            <div class="slide_down_btn2 btn-group">
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-map-marker-alt"></i> الدولة 
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">مصر</a>
+                        <a class="dropdown-item" href="#">الاردن</a>
+                        <a class="dropdown-item" href="#">عمان</a>
                     </div>
+                </div>
 
-                </div> <!-- filter btn -->
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-building"></i> المدينة
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">القاهرة</a>
+                        <a class="dropdown-item" href="#">الاسكندرية</a>
+                        <a class="dropdown-item" href="#">المنصورة</a>
+                    </div>
+                </div>
 
-            </div><!-- filter container-->
-        </div> <!-- row -->
+                <div class="dropdown btn-group col-4">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-sliders-h"></i> الاقسام
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">أطباء</a>
+                        <a class="dropdown-item" href="#">مهندسين</a>
+                        <a class="dropdown-item" href="#">محامين</a>
+                        <a class="dropdown-item" href="#">تجار</a>
+                        <a class="dropdown-item" href="#">مدرسين</a>
+                        <a class="dropdown-item" href="#">صيادلة</a>
+                    </div>
+                </div>
+
+                </div>
+                <!-- more filter div appears on click for small screens-->
+
+        </div> <!-- filter btn -->
+
+    </div><!-- filter container-->
+    </div> <!-- row -->
     </div> <!-- container fluid -->
     </div><!-- filter search -->
 
@@ -280,7 +367,7 @@
                     <h4>أضف بياناتك ومعلومات العمل</h4>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4 fixed_div">
                       <!-- ads picture -->
                   <div class="row">
                       <div class="col-sm-12">
@@ -664,5 +751,129 @@
     <script src="./assets/js/tail.select-full.min.js"></script>
     <script src="assets/js/lightbox.js"></script>
     <script src="./assets/js/main.js"></script>
+
+    <script>
+
+                var fixmeTop = $('.fixed_div').offset().top;       // get initial position of the element
+
+                $(window).scroll(function() {                  // assign scroll event listener
+                    if($('body').css('direction')=='rtl'){
+                        if($(window).width() >= 730){
+                    var currentScroll = $(window).scrollTop(); // get current position
+
+                if (currentScroll >= 800) {           // apply position: fixed if you
+                    $('.fixed_div').css({                      // scroll to that element or below it
+                        position: 'fixed',
+                        top: '0',
+                        left: '0',
+                        zIndex: '99999999'
+                    });
+                } else {                                   // apply position: static
+                    $('.fixed_div').css({                      // if you scroll above it
+                        position: 'static'
+                    });
+                }
+                if (currentScroll >= 1600) {           // apply position: static if you
+                    $('.fixed_div').css({                     
+                        position: 'static'
+                    });
+                }
+
+                }
+
+                // medium screens
+                
+                if($(window).width() <= 768){
+                    var currentScroll = $(window).scrollTop(); // get current position
+
+                if (currentScroll >= 1100) {           // apply position: fixed if you
+                    $('.fixed_div').css({                      // scroll to that element or below it
+                        position: 'fixed',
+                        top: '0',
+                        left: '0',
+                        zIndex: '99999999'
+                    });
+                } else {                                   // apply position: static
+                    $('.fixed_div').css({                      // if you scroll above it
+                        position: 'static'
+                    });
+                }
+                if (currentScroll >= 2550) {           // apply position: static if you
+                    $('.fixed_div').css({                     
+                        position: 'static'
+                    });
+                }
+                
+                }
+                
+
+                    }
+                   
+                }) // window scroll
+        
+
+        /* for english language */
+                 console.log($('body').css('direction')=='ltr')
+                var fixmeTop = $('.fixed_div').offset().top;       // get initial position of the element
+
+                $(window).scroll(function() {                  // assign scroll event listener
+                    if($('body').css('direction')=='ltr'){
+                        if($(window).width() >= 730){
+                    var currentScroll = $(window).scrollTop(); // get current position
+
+                if (currentScroll >= 800) {           // apply position: fixed if you
+                    $('.fixed_div').css({                      // scroll to that element or below it
+                        position: 'fixed',
+                        top: '0',
+                        right: '0',
+                        zIndex: '99999999'
+                    });
+                } else {                                   // apply position: static
+                    $('.fixed_div').css({                      // if you scroll above it
+                        position: 'static'
+                    });
+                }
+                if (currentScroll >= 1600) {           // apply position: static if you
+                    $('.fixed_div').css({                     
+                        position: 'static'
+                    });
+                }
+
+                }
+
+                // medium screens
+                
+                if($(window).width() <= 768){
+                    var currentScroll = $(window).scrollTop(); // get current position
+
+                if (currentScroll >= 1100) {           // apply position: fixed if you
+                    $('.fixed_div').css({                      // scroll to that element or below it
+                        position: 'fixed',
+                        top: '0',
+                        right: '0',
+                        zIndex: '99999999'
+                    });
+                } else {                                   // apply position: static
+                    $('.fixed_div').css({                      // if you scroll above it
+                        position: 'static'
+                    });
+                }
+                if (currentScroll >= 2550) {           // apply position: static if you
+                    $('.fixed_div').css({                     
+                        position: 'static'
+                    });
+                }
+                
+                }
+                
+
+                    }
+                   
+                }) // window scroll
+
+        /* for english language */
+            
+        
+    </script>
 </body>
 </html>

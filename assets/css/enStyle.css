@@ -1,0 +1,140 @@
+body{
+    direction: ltr;
+}
+.top_header .header_links,.upper_nav .upper_nav_row .company_logo .nav_logo,.home_content .doc_card_title,.home_content .home_special_ads .special_ads_title h4,.home_content .card_holder .job_ad,footer .footer_links .copy,.path .path_row,.about_us p,.my-account .my-account-navs .navs-header,.my-account .my-account-navs a,.my-account .new-ads-most-search .most-search-header h5,.my-account .account-info-form,.my-account .most-search-header #job_date_span,.my-account .most-search-header .job_details,.my-account .most-search-header .job_location,.my-account .favorite_card .card_cont .exp_date,.my-account .fav_jobcard_dropdown .click_btn,.search_jobs .job_cards .job_card,.search_jobs .job_describtion p,.my-account .most-search-header .notify_container,.add_card .subscribe_row,.add_job .job_details_container,.card_details_content .client_title,.card_details_content .client_details,.add_card .card_cont .card_title,.login .login-form .code_label,.contact_us .contact_us_row,.doctor_jobs .job_card,.forget_password .login-form .forget_text,.forget_label,.job_details_container .job_describtion,.job_details_container .client_title,.job_details_container .client_details,.job_details_container .employee_details,.payment .payment_collapse,.payment .bank-account
+{
+   text-align: left;    
+}
+.top_header .header_social,.upper_nav .upper_nav_row .nav_links,.home_content .more_cards,.home_content .card_holder .job_ad .contact,footer .footer_social,.upper_nav .upper_nav_row .login_welcome,.my-account .most-search-header .my_cards .card_edit_btn,.my-account .most-search-header .edit_btn,.my-account .most-search-header .remove_btn,.my-account .card_cont .remove_icon,.contact,.card_details_content .add_contact_btn,.card_details_content .report_btn,.login .login-form .forget_link
+{
+    text-align: right;
+}
+
+.filter_search .filter_container .filter_btn
+{
+    text-align: left;
+}
+.home_content .special_cards_title h4,.doctor_cards .special_cards_title h3
+{
+    text-align: left;
+    padding-left: 5%;
+}
+footer ul
+{
+    text-align: right;
+    direction: rtl;
+}
+.my-account .my-account-navs .nav-link i,.add_job .job_details_container .ad_type input
+{
+    margin-left: 0px;
+}
+.my-account .tab-content .account-info-form .personal-img .per
+{
+    left: 100px;
+}
+.en_fav_report,.card_details_fav,.doctor_jobs .fav_report_btn,.home_content .fav_report_btn,.job_details_container .fav_report_btn,.login .check_input,.payment .client_data
+{
+    text-align: left;
+    direction: rtl;
+}
+.add_job .job_details_container .ad_type label
+{
+    margin-left: 0px;
+    margin-right:0px;
+}
+.add_job .jon_type
+{
+    direction: rtl;
+}
+.add_job .job_details_container .ad_type input{
+    margin-right: 95px;
+}
+.job_details_container .ad_type input
+{
+    margin-right:190px ;
+}
+.fa-check
+{
+    margin-right: 0px;
+    margin-left: 40%;
+}
+.job_details_container .employee_details li
+{
+    margin-left: -35px;
+}
+.job_details_container .employee_details li i
+{
+    margin: 10px;
+}
+.payment .bank-account .card .card-img{
+    left: 20px;
+}
+.payment .bank-account .card .card-text{
+    margin-right: 0px;
+    margin-left: 90px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:295px) and (max-width:768px){
+    .upper_nav .upper_nav_row .company_logo .nav_logo,.upper_nav .upper_nav_row .nav_links,.top_header .header_links,.top_header .header_social{
+        text-align: center;
+    }
+    .card_details_content .add_contact_btn{
+        text-align: center;
+    }
+    .add_job .job_details_container .ad_type input{
+        margin-right: 35px;
+    }
+    
+  
+}
+
+@media (min-width:992px) and (max-width:1313px){
+    .filter_search .filter_container .filter_btn{
+      text-align: center;
+    }
+    .filter_search .filter_container .filter_btn .dropdown{
+        margin-bottom: 5px;
+    }
+  }
+
+  @media (min-width:1251px) and (max-width:1800px){
+    .upper_nav .upper_nav_row .login_welcome{
+        position: relative;
+        padding-left: 240px;
+        overflow: hidden;
+    }
+  }
+  @media (min-width:1400px) and (max-width:1560px){
+    .add_job .job_details_container .up_img .up_img_cont .rem_icon{
+      position: absolute;
+      right:30%
+    }
+  }
