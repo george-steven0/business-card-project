@@ -4,6 +4,7 @@ body{
   }
 
 /* top header */
+.ar_lang{display: none;}
 .top_header .header_links{
     margin-top: 15px;
     
@@ -133,12 +134,11 @@ body{
 .home_content .special_cards_title h4{
     color:#3ea4c0 ;
     font-weight: 600;
-    padding-right: 13%;
+    padding-right: 5%;
 }
 .home_content .doc_card_title{
     color: #3ea4c0;
     font-weight: 600;
-    padding-right: 13%
 }
 .home_content .more_cards{
     text-align: left;
@@ -455,7 +455,7 @@ footer .footer_social span a{
 
 /* add card */
 .add_card .card_cont{
-  padding: 0px 60px;
+  padding: 10px;
 }
 .add_card .card_cont .card_title{
   margin-bottom: 45px;
@@ -467,7 +467,7 @@ footer .footer_social span a{
 }
 .add_card .card_cont .card_img_container{
   width: 100%;
-  height: 300px;
+  height: auto;
   margin-bottom: 20px;
 }
 .add_card .card_cont .card_img_container img{
@@ -744,7 +744,7 @@ footer .footer_social span a{
 }
 .my-account .card_cont .cards img{
   width: 100%;
-  height: 350px;
+  height: 250px;
 }
 .my-account .favorite_card{
   margin-top: 15px;
@@ -814,7 +814,7 @@ footer .footer_social span a{
 }
 .category .categ_main_container .img_container{
   margin:5px;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 /* End Category*/
 
@@ -858,10 +858,14 @@ footer .footer_social span a{
   padding-bottom:12px ;
 
 }
-.doctor_cards .special_cards .all_cards img{
+.doctor_cards .special_cards .all_cards .card_img_container{
   width: 100%;
-  height: 250px;
-  margin-bottom: 10px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.doctor_cards .special_cards .all_cards .card_img_container img{
+  width: 100%;
+  height: 100%;
   cursor: pointer;
 }
 .doctor_cards .more_card{
@@ -898,6 +902,7 @@ footer .footer_social span a{
 }
 .card_details_content .add_contact_btn{
   margin-top: 5%;
+  text-align: left;
 }
 .card_details_content .card_img{
   margin-top:25px;
@@ -1091,27 +1096,6 @@ footer .footer_social span a{
   color: #00AAB1;
   font-weight: 800;
 }
-@media (min-width:370px) and (max-width:435px){
-  /*
-  .bouquet .card{
-      position: relative;
-      left: -25px !important;
-      margin-bottom: 10px;
-  }
-  */
-}
-@media (min-width:455px) and (max-width:555px){
-  /*
-  .bouquet .card{
-      position: relative;
-      left: -55px !important;
-      margin-bottom: 10px;
-  }
-  */
-  
-}
-
-
 
 /* End Bouquet Page */
 
@@ -1412,14 +1396,21 @@ color: #243C82;
 
 
 /* media query */
-@media (min-width:300px) and (max-width:475px){
+@media (min-width:200px) and (max-width:475px){
   .login .login-form, .forget_password .login-form{
     width: 100%;
   }
-  
+  .category .categ_main_container .img_container img{
+    width: 60px;
+  }
+  .card_details_content .card_img img{
+      height: 335px;
+  }
   
 }
-@media (min-width:300px) and (max-width:759px){
+
+
+@media (min-width:200px) and (max-width:759px){
   .add_job .job_details_container .ad_type{
     text-align: center;
   }
@@ -1462,11 +1453,14 @@ color: #243C82;
   .add_card .logo_container .logo_img img{
     height: 100px;
   }
+  .card_details_content .add_contact_btn{
+    text-align: center;
+  }
 
 
 }
 
-@media (min-width:300px) and (max-width:992px){
+@media (min-width:200px) and (max-width:992px){
   .top_header .header_links .dropdown a,.filter_search .filter_container .filter_btn .dropdown a{
     margin-bottom: 10px;
     padding-left:10px ;
@@ -1539,6 +1533,7 @@ color: #243C82;
     position: absolute;
     right:10%
   }
+ 
 }
 @media (min-width:1400px) and (max-width:1560px){
   .add_job .job_details_container .up_img .up_img_cont .rem_icon{

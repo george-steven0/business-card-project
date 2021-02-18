@@ -221,11 +221,51 @@ $(document).ready(function () {
 /* end heighlight img */
 
 /* swap language */
-$('#arabic_lang').on('click',function () {
-    $('#eng_style').remove()
+
+
+$('.eng_lang').on('click',function () {
+  /*
+  $('head').append('<link rel="stylesheet" id="eng_style" href="./assets/css/enStyle.css" />')
+  $('.main_lang').text()
+  $('.main_lang').text(' English')
+  $('#english_lang').remove()
+  $('.lang_dropdown').append('<a class="dropdown-item" href="#" id="arabic_lang">العربى</a>')
+  */
+
+ $('head').append('<link rel="stylesheet" id="eng_style" href="./assets/css/enStyle.css" />')
+ $('.main_lang').text()
+ $('.main_lang').text('العربى')
+ $('.eng_lang').css({display:'none'})
+ $('.ar_lang').css({display:'block'}) 
 })
-$('#english_lang').on('click',function () {
-  $('.swap_lang').append('<link rel="stylesheet" id="eng_style" href="./assets/css/enStyle.css" />')
+
+
+
+$('.ar_lang').on('click',function () {
+  /*
+  x = $('head').children('#eng_style').length
+  
+    for(i=0;i<=x;i++){
+      $('#eng_style').remove()
+    }
+  
+    $('#eng_style').remove()
+    $('.main_lang').text()
+    $('.main_lang').text(' العربى')
+    $('.lang_dropdown').append('<a class="dropdown-item" href="#" id="english_lang">English</a>')
+      */
+
+     x = $('head').children('#eng_style').length
+     console.log(x)
+  
+     for(i=0;i<=x;i++){
+       $('#eng_style').remove()
+     }
+     $('.main_lang').text()
+     $('.main_lang').text('English')
+     $('.ar_lang').css({display:'none'})
+     $('.eng_lang').css({display:'block'})
+      
 })
 /* end swap language */
 
