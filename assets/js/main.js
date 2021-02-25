@@ -234,7 +234,7 @@ $('.eng_lang').on('click',function () {
 
  $('head').append('<link rel="stylesheet" id="eng_style" href="./assets/css/enStyle.css" />')
  $('.main_lang').text()
- $('.main_lang').text('العربى')
+ $('.main_lang').text('عربى')
  $('.eng_lang').css({display:'none'})
  $('.ar_lang').css({display:'block'}) 
 })
@@ -271,13 +271,29 @@ $('.ar_lang').on('click',function () {
 
 /* slidedown filter search */
 $('.more_filter_btn').on('click',function () {
-    $('.slide_down_btn2').toggle({
+    $('.slide_down').toggle({
       'display':'block'
     })
     $('.aro').toggleClass('fas fa-angle-double-down')
     $('.aro').toggleClass('fas fa-angle-double-up')
 })
 
+
+/* show/hide pass */ 
+$('.show_pass').on('click',function(){
+
+  if($('.pass_input').attr('type')=='password'){
+    $('.pass_input').attr('type','text')
+    $(this).removeClass('far fa-eye-slash')
+    $(this).addClass('far fa-eye')
+  }
+  else if($('.pass_input').attr('type')=='text'){
+    $('.pass_input').attr('type','password')
+    $(this).removeClass('far fa-eye')
+    $(this).addClass('far fa-eye-slash')
+  }
+  
+})
 
 }); // Document ready
 

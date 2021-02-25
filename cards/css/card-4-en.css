@@ -1,0 +1,194 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_4{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.card_4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    position: absolute;
+    top:3%;
+    right: 0px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.left_part{
+    width: 56%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.left_part ul{
+    padding: 5px 0px 0px 15px;
+    text-align: left;
+    position: relative;
+}
+.left_part ul li:first-child{
+    font-size: 29px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.left_part ul li:nth-child(2){
+    font-size: 22px;
+    color:#fff;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.left_part ul::after{
+    content:"";
+    position: absolute;
+    top: 115%;
+    left: 5%;
+    width: 60%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.bottom_part .social_icons{
+    position: absolute;
+    bottom: 4%;
+    left: -6%;
+    width: 18%;
+    text-align: left;
+}
+.bottom_part .social_icons ul{
+    position: relative;
+}
+.bottom_part .social_icons ul li a{
+    color: #0d1f33;
+    font-size: 19px;
+}
+.bottom_part .social_icons ul::after{
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 97%;
+    width: 1px;
+    height: 88%;
+    background-color: #0d1f33;
+}
+.bottom_part .client_details{
+    position: absolute;
+    left:15%;
+    bottom:15%;
+}
+.client_details span{
+    font-size: 16px;
+}
+.client_details .email{
+    text-align: left;
+    margin-bottom: 8px;
+}
+.client_details .location, .client_details .phone{
+    text-align: left;
+}
+.client_details .phone{
+    padding-left: 0px;
+}
+.client_details .email span i {
+    color: #353b49;
+}
+.client_details i {
+    font-size: 19px;
+}
+
+
+
+
+
+@media (min-width:300px) and (max-width:405px){
+    .logo img{
+        width: 75px;
+        height: 75px;
+    }
+    .left_part ul li:first-child,.left_part ul li:nth-child(2){
+        font-size: 22px;
+    }
+    .bottom_part .social_icons ul{
+        padding-left: 30px;
+    }
+    .client_details .email span i{
+        font-size: 17px;
+    }
+    .client_details span{
+        font-size: 14px;
+    }
+    .bottom_part .social_icons ul::after {
+        left: 120%;
+    }
+    .bottom_part .client_details{
+        left: 19%;
+    }
+   
+}
+@media (min-width:405px) and (max-width:515px){
+    .logo img{
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media (min-width:570px) and (max-width:767px){
+ 
+    .bottom_part .social_icons{
+        left: -4%;
+    }
+    .bottom_part .social_icons ul::after {
+        left: 75%;
+    }
+    .bottom_part .client_details{
+        left: 14%;
+    }
+}
+@media (min-width:768px) and (max-width:890px){
+    .logo img{
+        width: 85px;
+        height: 85px;
+    }
+    .bottom_part .social_icons ul{
+        padding-left: 30px;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .logo img{
+        width: 65px;
+        height: 65px;
+    }
+    .left_part ul li:first-child{
+        font-size: 25px;
+    }
+    .left_part ul li:nth-child(2){
+        font-size: 23px;
+    }
+    .left_part ul::after{
+        width: 75%;
+    }
+    .bottom_part .social_icons{
+        left: -9%;
+    }
+    .bottom_part .social_icons ul::after {
+        left: 120%;
+    }
+    .client_details span{
+        font-size: 14px;
+    }
+    .client_details i{
+        font-size: 16px;
+    }
+}
+@media (min-width:1200px) and (max-width:1380px){
+    .logo img{
+        width: 85px;
+        height: 85px;
+    }
+}

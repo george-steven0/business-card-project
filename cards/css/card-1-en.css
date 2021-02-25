@@ -1,0 +1,214 @@
+
+.cards .card_1{
+    height: 300px;
+    border: 1px solid rgba(110, 109, 109, 0.3);
+}
+.cards .card_1 .c-1-en{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cards .card_1 .c-1-en img{
+    width: 100%;
+    height: 100%;
+}
+  
+.cards .card_1 .c-1-en .g_logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.cards .card_1{
+    margin-bottom: 35px;
+}
+
+.cards .card_1 .c-1-en .g_logo{
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    width: 40%;
+    text-align: center;
+}
+
+.card_1 .c-1-en .g_inputs{
+    position: absolute;
+    top: 43%;
+    width: 40%;
+    text-align: center;
+    left: 0%;
+}
+.cards .card_1 .c-1-en .g_inputs ul li span{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+}
+.card_1 .c-1-en .g_inputs ul{
+    padding: 0px;
+}
+.cards .card_1 .c-1-en .g_inputs ul::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  margin-top: 10px;
+  text-align: center;
+  width: 70%;
+  height: 1px;
+  background-color: #fff;
+}
+.card_1 .c-1-en .right_part{
+  width: 55%;
+  position: absolute;
+  top: 16%;
+  right: 0px;
+}
+.cards .cards_container .card_1 .c-1-en .right_part ul {
+  direction: ltr;
+  text-align: left;
+  padding: 0px;
+}
+.cards .cards_container .card_1 .c-1-en .right_part ul li{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.cards .card_1 .c-1-en .right_part .social_icons::before{
+  content: "";
+  position: absolute;
+  top: -120%;
+  left: 0%;
+  margin-top: 10px;
+  text-align: center;
+  width: 80%;
+  height: 1px;
+  background-color: rgba(23, 14, 73, 0.692);
+}
+.cards .card_1 .c-1-en .right_part .social_icons ul li i{
+  padding: 5px;
+  margin-right: 15px;
+  font-size: 35px;
+  color: #0255a3;
+}
+
+.cards .card_1 .c-1-en .g_inputs ul{
+  position: relative;
+}
+
+.cards .card_1 .c-1-en .slogan{
+  margin-top: 62px;
+  text-align: center;
+}
+.card_1 .c-1-en .slogan span{
+  color: #fff;
+  font-size: 20px;
+  border-bottom: none;
+  text-align: center;
+}
+
+.cards .cards_container .card_1 .c-1-en ul li{
+  width: 100%;
+}
+.cards .card_1 .c-1-en ul li span i{
+  font-size: 20px ;
+  padding: 5px;
+  color: #02286f;
+}
+.cards .card_1 .c-1-en .right_part .c-1-en_form input{
+  text-align: center;
+}
+.cards .card_1 .c-1-en .right_part .c-1-en_form input::placeholder{
+  color: #000;
+  font-size: 16px;
+}
+.cards .card_1 .c-1-en .right_part .social_icons{
+  position: relative;
+  bottom: -70px;
+}
+
+.cards .card_1 .c-1-en .right_part .social_icons ul li {
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width:768px){
+    .cards .card_1 .c-1-en .g_inputs ul li span{
+        font-size: 18px;
+    }
+    .cards .card_1 .c-1-en ul li span i{
+        font-size: 17px;
+    }
+    .cards .card_1 .c-1-en .g_inputs ul::after{
+        top: 142%;
+    }
+    .cards .cards_container .card_1 .c-1-en .right_part ul li{
+        font-size: 16px;
+    }
+    .cards .card_1 .c-1-en .right_part .social_icons{
+        bottom: -82px;
+    }
+    .cards .card_1 .c-1-en .right_part .social_icons ul li i{
+        font-size: 24px;
+        margin-right: 8px;
+    }
+}
+
+@media (min-width:460px) and (max-width:768px){
+
+    .cards .card_1 .c-1-en .right_part .social_icons ul li i{
+        font-size: 32px;
+        margin-right: 12px;
+    }
+    .cards .card_1 .c-1-en .right_part .social_icons::before{
+        top: -107%;
+    }
+}
+@media (min-width:768px) and (max-width:990px){
+    .cards .cards_container .card_1 .c-1-en .right_part ul li{
+        font-size: 16px;
+    }
+    .cards .card_1 .c-1-en .g_inputs ul::after{
+        top: 125%;
+    }
+    .cards .card_1 .c-1-en .right_part .social_icons ul li i{
+        font-size: 25px;
+        margin-right: 10px;
+    }
+}
+@media (min-width:991px) and (max-width:1412px){
+    .cards .card_1 .c-1-en .g_logo img{
+        width: 80px;
+        height: 80px;
+    }
+    .cards .card_1 .c-1-en .g_inputs ul li span{
+        font-size: 18px;
+    }
+    .cards .card_1 .c-1-en ul li span i{
+        font-size: 17px;
+    }
+    .cards .cards_container .card_1 .c-1-en .right_part ul li{
+        font-size: 14px;
+    }
+    .cards .card_1 .c-1-en .g_inputs ul::after{
+        top: 155%;
+    }
+    .cards .card_1 .c-1-en .right_part .social_icons{
+        bottom: -85px;
+    }
+    .cards .card_1 .c-1-en .right_part .social_icons ul li i{
+        margin-right: 8px;
+        font-size: 22px;
+    }
+}
