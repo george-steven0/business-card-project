@@ -70,6 +70,19 @@ body{
     padding-left: 10px;
     border-left: 1px solid #ddd;
 }
+.upper_nav .nav_login_links .regi_btn{
+  border:2px solid #00AAB1;
+  border-radius: 10px;
+}
+.upper_nav .nav_login_links .regi_btn a:hover{
+  background-color: transparent;
+  color:#00AAB1 ;
+}
+.upper_nav .add_new_btn a{
+  font-size: 18px;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
 .upper_nav .upper_nav_row .login_welcome{
   text-align: center;
   font-size: 19px;
@@ -81,7 +94,6 @@ body{
 
 /* fliter search */
 .filter_search{
-  overflow: hidden;
   margin-bottom: 15px;
 }
 .filter_search .filter_container{
@@ -106,10 +118,10 @@ body{
   top: 47%;
 }
 .search{
-  flex:0 0 60%
+  flex:0 0 50%
 }
 .search input{
-  width: 70%;
+  width: 80%;
   padding: 5px 10px 5px 20px;
   border-radius: 10px;
   outline: none;
@@ -153,7 +165,7 @@ body{
       max-width: 13.8%;
   }
   .search{
-      flex:0 0 60%
+      flex:0 0 50%
   }
 }
 @media(min-width:1145px) and (max-width:1280px){
@@ -167,15 +179,22 @@ body{
 }
 @media(min-width:985px) and (max-width:1144px){
   .country,.city,.sections{
-      flex: 0 0 17.5%;
+      flex: 0 0 16.5%;
       max-width: 17.8%;
   }
+  .country button, .city button, .sections button{
+    padding: 5px 10px 5px 50px;
+    margin-left: 0px;
+  }
   .type{
-      flex: 0 0 14.5%;
+      flex: 0 0 13.5%;
       max-width: 14.8%;
   }
   .search{
-      flex:0 0 30%
+      flex:0 0 38%
+  }
+  .search_icon{
+    padding: 6px;
   }
 }
 @media(min-width:200px) and (max-width:986px){
@@ -445,7 +464,7 @@ body{
     margin-top: 25px;
 }
 .home_content .card_holder .job_ad{
-    padding: 25px;
+    padding: 12px;
     background-color: #fffadb;
     border-radius: 10px;
     box-shadow: 0px 0px 6px #ddd;
@@ -456,6 +475,8 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    box-shadow: 0px 3px #00000029;
+    border:2px solid #FFFFFF
 }
 .home_content .card_holder .job_ad .job_ad_img span{
     font-size: 20px;
@@ -464,14 +485,34 @@ body{
 }
 .home_content .card_holder .job_ad .job_ad_details{
     text-align: left;
+    color: #707070;
 }
 .home_content .card_holder .job_ad .fav_report_btn .fav_btn {
     color: #FFD21E
 }
 .home_content .card_holder .job_ad .contact{
     text-align: left;
+    font-size: 15px;
 }
-
+.home_content .card_holder .job_ad .contact a{
+  color: #00AAB1;
+}
+.home_content .left_arrow_cont{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: 100%;
+}
+.home_content .left_arrow{
+  height: 100%;
+  position: absolute;
+  top: 110px;
+  left: 25px;
+}
+.home_content .left_arrow img{
+  width: 100%;
+  
+}
 /* End home content */
 
 /* path */
@@ -1913,6 +1954,7 @@ color: #243C82;
     .top_header .header_links .header_card_btn a{
         width: 100% !important;
         text-align: center;
+        margin-bottom: 10px;
     }
     .filter_container .filter_btn .nav_search{
       margin-bottom: 10px;
@@ -2010,6 +2052,92 @@ color: #243C82;
   .bouquet .sub_btn a{
     width: 100%;
   }
+  .home_content .card_holder .job_ad{
+    margin-bottom: 15px;
+  }
+ 
+}
+@media (min-width:300px) and (max-width:520px){
+  .top_header .header_links .dropdown a,.top_header .header_links .header_card_btn a{
+    font-size: 13px;
+    padding: 0px;
+  }
+  .top_header .header_links .header_card_btn a{
+    padding-left: 12px;
+  }
+
+  .upper_nav .nav_login_links .log_btn{
+    width: 100%;
+  }
+  .upper_nav .nav_login_links .regi_btn{
+    margin-bottom: 0px;
+    border:2px solid #00AAB1;
+    border-radius: 10px;
+  }
+  .upper_nav .nav_login_links .header_card_btn{
+    padding: 0px;
+    border-radius: 10px;
+  }
+  .upper_nav .nav_login_links .regi_btn:hover{
+    border:2px solid #00AAB1 !important;
+    border-radius: 10px;
+  }
+  .upper_nav .nav_login_links .add_new_btn a{
+    border-radius: 10px;
+    margin-bottom: 0px;
+  }
+  .upper_nav .nav_login_links .header_card_btn a{
+    font-size: 14px;
+  }
+
+}
+@media (min-width:300px) and (max-width:767.9px){
+  .top_header .header_links{
+    text-align: center;
+  }
+  .top_header .header_social{
+    display: none;
+  }
+  .upper_nav .upper_nav_row .login_welcome{
+    bottom: -8px;
+  }
+  .upper_nav .upper_nav_row{
+    padding: 0px;
+  }
+  .upper_nav .nav_login_links{
+    margin-top: 10px;
+  }
+  .upper_nav .nav_logo img{
+    width: 50%;
+    height: 50%;
+  }
+  .upper_nav .add_new_btn a{
+    margin-bottom: 10px;
+  }
+
+  .home_content .card_holder .job_ad .job_ad_img img{
+    width: 70px;
+    height: 70px;
+  }
+  .home_content .card_holder .job_ad .job_ad_img span{
+    font-size: 14px;
+    margin-right: 7px;
+  }
+  .home_content .card_holder .job_ad .job_ad_details{
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .home_content .card_holder .fav_report_btn{
+    font-size: 14px;
+  }
+  .home_content .card_holder .job_ad .contact{
+    font-size: 14px;
+    text-align: right;
+  }
+  .home_content .card_holder .job_ad .rep{
+    text-align: left;
+  }
+  
 }
 @media (min-width:768px) and (max-width:900px){
   .bouquet .cardi{
@@ -2026,6 +2154,24 @@ color: #243C82;
   .bouquet .card-body p:nth-child(2) {
     font-size: 28px;
     
+  }
+  .top_header .header_links .dropdown a{
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  .upper_nav .nav_logo img{
+    width: 100%;
+    height: 100%;
+  }
+  .upper_nav .add_new_btn a{
+    margin-bottom: 10px;
+  }
+  .home_content .card_holder .fav_report_btn{
+    font-size: 14px;
+  }
+  .home_content .card_holder .job_ad .contact{
+    font-size: 13px;
+    text-align: left;
   }
  
 }
@@ -2045,11 +2191,77 @@ color: #243C82;
     font-size: 28px;
     
   }
+  .upper_nav .nav_login_links .nav_links{
+    margin-top: -30px;
+  }
 }
 
+/* end media */ 
 
-/* end bouquet media */ 
+/* xlg screen media */
+@media (min-width:1600px) and (max-width:1700px){
+  .country, .city, .sections{
+    flex: 13.5%;
+    max-width: 20%;
+  }
+  .type{
+    flex: 11.5%;
+    margin-left: 5px;
+    text-align: right;
+  }
+  .country button, .city button, .sections button{
+    padding: 5px 30px 5px 75px
+  }
+  .type .button{
+    padding: 6px 40px 6px 75px
+  }
+  .search{
+    flex:43% ;
+  }
+  .search input{
+    width: 85%;
+  }
+}
+@media (min-width:1700px) and (max-width:2185px){
+  .country button, .city button, .sections button{
+    padding: 5px 25px 5px 85px
+  }
+  .type{
+    text-align: right;
+    margin-right: 8px;
+  }
+  .type button{
+    padding: 6px 50px 6px 85px;
+  }
+  .search input{
+    width: 85%;
+  }
+}
 
+@media (min-width:1560px) and (max-width:2185px){
+  .add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon{
+    right: 6%;
+  }
+}
+/* end xlg screen media */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* light box arrows */
 #r{
   font-size: 30px;
   opacity: 1 !important;
@@ -2066,6 +2278,8 @@ color: #243C82;
   left: 0px;
   text-align: left;
 }
+/* light box arrows */
+
 
 /* bootstrap modal */
 .modal-footer{
