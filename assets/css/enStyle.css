@@ -93,14 +93,69 @@ footer ul
     background-color: transparent;
     box-shadow: none;
 }
-
+#r{
+    font-size: 30px;
+    opacity: 1 !important;
+    color: #000;
+    position: relative;
+    left:100%;
+    visibility: visible;
+    order: 2;
+}
+#l{
+    font-size: 30px;
+    opacity: 1 !important;
+    color: #000;
+    position: relative;
+    left: -100%;
+    text-align: left;
+}
+.show_pass{
+    right: 10px;
+    text-align: right;
+}
+.req_nm{
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    color: #FB2828;
+}
+.req_em{
+    position: absolute;
+    top: 5px;
+    left: 120px;
+    color: #FB2828;
+}
+.req_ps1{
+    position: absolute;
+    top: -28px;
+    left: 80px;
+    color: #FB2828;
+}
+.req_ps2{
+    position: absolute;
+    top: -28px;
+    left: 115px;
+    color: #FB2828;
+}
+.req_subj{
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    color: #FB2828;
+  }
 @media (min-width:330px) and (max-width:487px){
  .close_ic{
     left:-66%;
 }
 .add_card .card_data h5{
     font-size: 16px;
+    }
 }
+@media (min-width:300px) and (max-width:767.9px){
+    footer .footer_social,footer .footer_links .copy{
+        text-align: center;
+    }
 }
 @media (min-width:390px) and (max-width:445px){
  .close_ic{
@@ -116,7 +171,8 @@ footer ul
     .close_ic{
        left: 2%;
    }
-   }
+  
+}
 @media (min-width:736px) and (max-width:820px){
 .close_ic{
     left: 6%;

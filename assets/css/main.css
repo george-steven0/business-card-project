@@ -98,7 +98,7 @@ body{
 }
 .filter_search .filter_container{
     background-color: #00aab1;
-    padding: 30px;
+    padding: 20px;
     margin-top: 15px;
 }
 .filter_search .division{
@@ -256,11 +256,11 @@ body{
   justify-content: center;
 }
 .country_s, .city_s, .section_s{
-  flex: 0 0 20.5%;
-  max-width: 20.8%;
+  flex: 0 0 28.5%;
+  max-width: 30.8%;
 }
 .country_s button,.city_s button,.section_s button{
-  padding: 5px 20px 5px 60px;
+  padding: 5px 30px 5px 90px;
   border-radius: 10px;
   color: rgb(145, 143, 143);
   width: 100%;
@@ -307,7 +307,7 @@ body{
 
 @media(min-width:401px) and (max-width:500px){
   .small_screen .search_in_sm{
-      flex:0 0 52%
+      flex:1 0 52%
   }
   .small_screen .type_s {
       flex: 0 0 10%;
@@ -338,7 +338,7 @@ body{
 
 @media(min-width:501px) and (max-width:600px){
   .small_screen .search_in_sm{
-      flex:0 0 62%
+      flex:1 0 62%
   }
   .small_screen .type_s {
       flex: 0 0 12%;
@@ -560,7 +560,8 @@ footer{
 footer ul{
     list-style: none;
     margin-top: 30px;
-    color:rgba(238, 238, 238, 0.678)
+    color:rgba(238, 238, 238, 0.678);
+    padding: 0px;
 }
 footer ul a{
   color:#fff
@@ -688,6 +689,36 @@ footer .footer_social span a{
 .register .register_form .reg_btn{
   margin-top: 25px;
 }
+.req_nm{
+  position: absolute;
+  top: 5px;
+  right: 60px;
+  color: #FB2828;
+}
+.req_em{
+  position: absolute;
+  top: 5px;
+  right: 120px;
+  color: #FB2828;
+}
+.req_ps1{
+  position: absolute;
+  top: -28px;
+  right: 80px;
+  color: #FB2828;
+}
+.req_ps2{
+  position: absolute;
+  top: -28px;
+  right: 115px;
+  color: #FB2828;
+}
+.req_subj{
+  position: absolute;
+  top: 5px;
+  right: 80px;
+  color: #FB2828;
+}
 
 /* end register page */
 
@@ -721,6 +752,7 @@ footer .footer_social span a{
 }
 .add_job .job_details_container .cate_list a{
   width: 100%;
+  border: 1px solid #C2BFBF;
 }
 .add_job .job_details_container .up_btn, .add_card .subscribe_row .up_btn{
   position: relative !important;
@@ -873,6 +905,7 @@ footer .footer_social span a{
 }
 .add_card .subscribe_row .opt_btn .add_card_btn{
   margin-left: 15px;
+  margin-top: 15px;
 }
 .add_card .bm_sc{
   padding: 0px;
@@ -1159,7 +1192,7 @@ footer .footer_social span a{
 .my-account .most-search-header .notify_container{
   margin-top: 5px;
   position: relative;
-  background-color: rgba(76, 222, 248, 0.3);
+  background-color: #84DCF13B;
   padding: 10px;
 
 }
@@ -1281,6 +1314,9 @@ footer .footer_social span a{
 .category .categ_main_container .img_container{
   margin:5px;
   margin-right: 20px;
+  padding: 20px 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #00000029;
 }
 /* End Category*/
 
@@ -1458,6 +1494,9 @@ footer .footer_social span a{
   max-height: 78px;
   right: 20px;
   top: 20px;
+}
+.payment .bank_details{
+  background-color: #F1F1F1;
 }
 .payment .bank-account .card .card-img img {
   width: 70px;
@@ -1875,7 +1914,7 @@ color: #243C82;
 
 /* media query */
 @media (min-width:200px) and (max-width:475px){
-  .login .login-form, .forget_password .login-form{
+  .forget_password .login-form{
     width: 100%;
   }
   .category .categ_main_container .img_container img{
@@ -1892,10 +1931,39 @@ color: #243C82;
   .add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon{
     right: 11%;
   }
+  .bouquet .cardi{
+    height: 250px;
+  }
+  .bouquet .cardi img{
+    width: 40%;
+    height: 30%;
+  }
+  .bouquet .card-body p:nth-child(1){
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .bouquet .card-body p:nth-child(2){
+    font-size: 22px;
+  }
   
 }
 
-
+@media (min-width:476px) and (max-width:991.8px){
+  .bouquet .cardi{
+    height: 290px;
+  }
+  .bouquet .cardi img{
+    width: 50%;
+    height: 40%;
+  }
+  .bouquet .card-body p:nth-child(1){
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .bouquet .card-body p:nth-child(2){
+    font-size: 24px;
+  }
+}
 @media (min-width:200px) and (max-width:759px){
   .add_job .job_details_container .ad_type{
     text-align: center;
@@ -1904,8 +1972,15 @@ color: #243C82;
   .add_card .card_cont .card_title{
     text-align: center;
   }
+  .my-account .most-search-header .notify_container img{
+    width: 60px;
+    height: 60px;
+  }
+  .my-account .most-search-header .notify p{
+    font-size: 13px;
+  }
   .my-account .most-search-header .notify_container{
-    text-align: center;
+    text-align: right;
   }
   .my-account .fav_jobcard_dropdown{
     margin-top: 20px;
@@ -1942,8 +2017,65 @@ color: #243C82;
   .card_details_content .add_contact_btn{
     text-align: center;
   }
-
-
+  .login .login-form{
+    width: 100%;
+  }
+  .login .login-form .btn-login button{
+    border-radius: 15px;
+    padding: 8px 15px;
+  }
+  .forget_password .login-form .forget_text{
+    font-size: 16px;
+  }
+  .forget_password .login-form .sendCode_btn a{
+    border-radius: 15px;
+    padding: 10px 40px;
+  }
+  .enter_code .login-form .sendCode_btn button,.my-account .most-search-header .add_new_card_btn a{
+    border-radius: 25px;
+    padding: 10px 80px;
+  }
+  .register .register_form .reg_btn a,.add_job .job_details_container .add_job_btn .add_job_button,.add_job .job_details_container .choose_bouquet_btn,.add_card .card_cont .more_card_btn a,.my-account .btn-submit button, .my-account .add_job_btn a,.subm,.contact_us_row .send{
+    border-radius: 25px !important;
+    padding: 10px 40px;
+  }
+  .enter_code .pass_input,.contact_us_row input, .contact_us_row textarea{
+    border-radius: 15px;
+  }
+  .enter_code .code{
+    padding: 0px;
+  }
+  .enter_code .code input{
+    width: 60%;
+    border-radius: 15px;
+  }
+  .login .login-form .code_label input{
+    border-radius: 15px;
+  }
+  .add_job .job_details_container{
+    padding: 10px 20px;
+  }
+  .add_job input, .add_job textarea,.add_job .job_details_container .cate_list a,.add_card .subscribe_row input,.add_card .subscribe_row textarea, .my-account .log-out .btn,.my-account .account-info-form input, .payment input,.payment textarea{
+    border-radius: 15px;
+  }
+  .add_job .job_details_container .up_btn{
+    width: 40%;
+    border-radius: 15px;
+  }
+  .add_card .add_card_links{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .add_card .add_card_links a,.my-account .most-search-header .my_cards .card_btn button{
+    padding:10px 20px;
+    border-radius: 15px;
+    font-size: 13px;
+  }
+  .my-account .new-ads-most-search .most-search-header h5{
+    margin-top: 15px;
+  }
+  
+  
 }
 
 @media (min-width:200px) and (max-width:992px){
@@ -1962,9 +2094,7 @@ color: #243C82;
     .upper_nav .nav_logo{
       text-align: center;
     }
-    footer .copy, footer .footer_social,.footer_logo{
-        text-align: center;
-    }
+   
     footer .footer_logo img{
         width: 200px;
     }
@@ -1992,6 +2122,15 @@ color: #243C82;
 @media (min-width:768px) and (max-width:1040px){
   .add_card .subscribe_row .up_img{
     width: 155%;
+  }
+ 
+}
+@media (min-width:758.9px) and (max-width:991.8px){
+  .login .login-form{
+    width: 85%;
+  }
+  .forget_password .login-form .forget_text{
+    font-size: 18px;
   }
 }
 @media (min-width:767px) and (max-width:1270px){
@@ -2031,24 +2170,8 @@ color: #243C82;
   }
 }
 
-
-
 @media (min-width:300px) and (max-width:420px){
-  .bouquet .cardi{
-    height: 330px;
-  }
-  .cardi img{
-    width: 100px;
-    height: 150px;
-  }
-  .bouquet .card-body p:nth-child(1) {
-    font-size: 26px;
-    margin-bottom: 25px;
-  }
-  .bouquet .card-body p:nth-child(2) {
-    font-size: 31px;
-    
-  }
+  
   .bouquet .sub_btn a{
     width: 100%;
   }
@@ -2088,6 +2211,9 @@ color: #243C82;
   }
   .upper_nav .nav_login_links .header_card_btn a{
     font-size: 14px;
+  }
+  .enter_code .login-form .code_text{
+    font-size: 19px;
   }
 
 }
@@ -2136,6 +2262,20 @@ color: #243C82;
   }
   .home_content .card_holder .job_ad .rep{
     text-align: left;
+  }
+  footer .copy, footer .footer_social,.footer_logo{
+    text-align: center;
+  }
+  footer hr{
+    display: none;
+  }
+  footer .footer_social{
+    padding: 10px 0px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  footer .copy_order{
+    order: 2;
   }
   
 }
@@ -2188,7 +2328,7 @@ color: #243C82;
     margin-bottom: 25px;
   }
   .bouquet .card-body p:nth-child(2) {
-    font-size: 28px;
+    font-size: 25px;
     
   }
   .upper_nav .nav_login_links .nav_links{

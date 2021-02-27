@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Login</title>
+   
 </head>
 <body>
 
@@ -53,8 +54,8 @@
                     </a>
                     
                     <div class="dropdown-menu job_radio" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#"><input type="radio"> أبحث عن وظيفة</a>
-                        <a class="dropdown-item" href="#"><input type="radio"> أبحث عن عمالة</a>
+                        <a class="dropdown-item" href="#"><input type="radio" name="find_job"> أبحث عن وظيفة</a>
+                        <a class="dropdown-item" href="#"><input type="radio" name="find_job"> أبحث عن عمالة</a>
                     </div>
                 </div>
                     <!-- jobs dropdown -->
@@ -127,165 +128,165 @@
     </div> 
   <!-- End upper navbar -->
   
-    <div class="filter_search">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="filter_container col-12">
-                    <div class="bms">
-                        <div class="country">
-                            <div class="dropdown btn-group">
-                                <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i><img src="assets/images/location.svg" /></i> الدولة 
-                                </button>
-                                
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">مصر</a>
-                                    <a class="dropdown-item" href="#">الاردن</a>
-                                    <a class="dropdown-item" href="#">عمان</a>
-                                </div>
+  <div class="filter_search">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="filter_container col-12">
+                <div class="bms">
+                    <div class="country">
+                        <div class="dropdown btn-group">
+                            <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i><img src="assets/images/location.svg" /></i> الدولة 
+                            </button>
+                            
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">مصر</a>
+                                <a class="dropdown-item" href="#">الاردن</a>
+                                <a class="dropdown-item" href="#">عمان</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="city">
-                            <div class="dropdown btn-group">
-                                <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i><img src="assets/images/city.svg" /></i> المدينة
-                                </button>
-                                
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">القاهرة</a>
-                                    <a class="dropdown-item" href="#">الاسكندرية</a>
-                                    <a class="dropdown-item" href="#">المنصورة</a>
-                                </div>
+                    <div class="city">
+                        <div class="dropdown btn-group">
+                            <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i><img src="assets/images/city.svg" /></i> المدينة
+                            </button>
+                            
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">القاهرة</a>
+                                <a class="dropdown-item" href="#">الاسكندرية</a>
+                                <a class="dropdown-item" href="#">المنصورة</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="sections">
-                            <div class="dropdown btn-group">
-                                <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i><img src="assets/images/options.svg" /></i> الاقسام
-                                </button>
-                                
-                                <div class="dropdown-menu division" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">أطباء</a>
-                                    <a class="dropdown-item" href="#">مهندسين</a>
-                                    <a class="dropdown-item" href="#">محامين</a>
-                                    <a class="dropdown-item" href="#">تجار</a>
-                                    <a class="dropdown-item" href="#">مدرسين</a>
-                                    <a class="dropdown-item" href="#">صيادلة</a>
-                                </div>
+                    <div class="sections">
+                        <div class="dropdown btn-group">
+                            <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i><img src="assets/images/options.svg" /></i> الاقسام
+                            </button>
+                            
+                            <div class="dropdown-menu division" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">أطباء</a>
+                                <a class="dropdown-item" href="#">مهندسين</a>
+                                <a class="dropdown-item" href="#">محامين</a>
+                                <a class="dropdown-item" href="#">تجار</a>
+                                <a class="dropdown-item" href="#">مدرسين</a>
+                                <a class="dropdown-item" href="#">صيادلة</a>
                             </div>
+                        </div>
+        
+                    </div>
+
+                    <div class="type">
+                        <div class="dropdown btn-group">
+                            <button class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                النوع
+                            </button>
+                            
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">كروت</a>
+                                <a class="dropdown-item" href="#">وظائف</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search">
+                        <input type="search" class="search_input" class="form-control" placeholder="ما الذى تبحث عنه؟" /> &nbsp;&nbsp;&nbsp;&nbsp;
+                         <button type="button" class="btn btn-warning search_icon"><i><img src="assets/images/search.svg" /></i></button>
+                    </div>
+
+
+
+
+
+                </div><!--big medium screen only -->
+
+               <div class="sm">
+                <div class="small_screen">
+                    <div class="search_in_sm">
+                        <input type="search" class="search_input" placeholder="ما الذى تبحث عنه؟" />
+                    </div>
+
+                    <div class="type_s">
+                        <div class="dropdown btn-group">
+                            <button class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                النوع
+                            </button>
+                            
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">كروت</a>
+                                <a class="dropdown-item" href="#">وظائف</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search_icon">
+                        <a type="button" class="btn btn-warning"><i><img src="assets/images/search.svg" /></i></a>
+                    </div>
+                    <!--small screen -->
+                </div>
+                <div class=" text-center more_filter_btn col-12">
+                    <span class="more_span" style="cursor: pointer;">بحث متقدم <i class="aro fas fa-angle-double-up"></i></span>
+                </div>
+
+                <!-- container hold buttons appear on small screen-->
+                <div class="slide_down">
+
+                    <div class="country_s">
+                        <div class="dropdown btn-group">
+                            <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-map-marker-alt"></i> الدولة 
+                            </button>
+                            
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">مصر</a>
+                                <a class="dropdown-item" href="#">الاردن</a>
+                                <a class="dropdown-item" href="#">عمان</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="city_s">
+                        <div class="dropdown btn-group">
+                            <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-building"></i> المدينة
+                            </button>
+                            
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">القاهرة</a>
+                                <a class="dropdown-item" href="#">الاسكندرية</a>
+                                <a class="dropdown-item" href="#">المنصورة</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section_s">
+                        <div class="dropdown btn-group">
+                            <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-sliders-h"></i> الاقسام
+                            </button>
+                            
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">أطباء</a>
+                                <a class="dropdown-item" href="#">مهندسين</a>
+                                <a class="dropdown-item" href="#">محامين</a>
+                                <a class="dropdown-item" href="#">تجار</a>
+                                <a class="dropdown-item" href="#">مدرسين</a>
+                                <a class="dropdown-item" href="#">صيادلة</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end container hold buttons appear on small screen-->
+               </div>
             
-                        </div>
-
-                        <div class="type">
-                            <div class="dropdown btn-group">
-                                <button class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    النوع
-                                </button>
-                                
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">كروت</a>
-                                    <a class="dropdown-item" href="#">وظائف</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="search">
-                            <input type="search" class="search_input" class="form-control" placeholder="ما الذى تبحث عنه؟" /> &nbsp;&nbsp;&nbsp;&nbsp;
-                             <button type="button" class="btn btn-warning search_icon"><i><img src="assets/images/search.svg" /></i></button>
-                        </div>
-
-
-
-
-
-                    </div><!--big medium screen only -->
-
-                   <div class="sm">
-                    <div class="small_screen">
-                        <div class="search_in_sm">
-                            <input type="search" class="search_input" placeholder="ما الذى تبحث عنه؟" />
-                        </div>
-
-                        <div class="type_s">
-                            <div class="dropdown btn-group">
-                                <button class="btn btn-light dropdown-toggle type_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    النوع
-                                </button>
-                                
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">كروت</a>
-                                    <a class="dropdown-item" href="#">وظائف</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="search_icon">
-                            <a type="button" class="btn btn-warning"><i><img src="assets/images/search.svg" /></i></a>
-                        </div>
-                        <!--small screen -->
-                    </div>
-                    <div class=" text-center more_filter_btn col-12">
-                        <span class="more_span" style="cursor: pointer;">بحث متقدم <i class="aro fas fa-angle-double-down"></i></span>
-                    </div>
-
-                    <!-- container hold buttons appear on small screen-->
-                    <div class="slide_down">
-
-                        <div class="country_s">
-                            <div class="dropdown btn-group">
-                                <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fas fa-map-marker-alt"></i> الدولة 
-                                </button>
-                                
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">مصر</a>
-                                    <a class="dropdown-item" href="#">الاردن</a>
-                                    <a class="dropdown-item" href="#">عمان</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="city_s">
-                            <div class="dropdown btn-group">
-                                <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="far fa-building"></i> المدينة
-                                </button>
-                                
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">القاهرة</a>
-                                    <a class="dropdown-item" href="#">الاسكندرية</a>
-                                    <a class="dropdown-item" href="#">المنصورة</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="section_s">
-                            <div class="dropdown btn-group">
-                                <button class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fas fa-sliders-h"></i> الاقسام
-                                </button>
-                                
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">أطباء</a>
-                                    <a class="dropdown-item" href="#">مهندسين</a>
-                                    <a class="dropdown-item" href="#">محامين</a>
-                                    <a class="dropdown-item" href="#">تجار</a>
-                                    <a class="dropdown-item" href="#">مدرسين</a>
-                                    <a class="dropdown-item" href="#">صيادلة</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end container hold buttons appear on small screen-->
-                   </div>
-                
-            
-                </div><!-- filter container-->
-            </div> <!-- row -->
-        </div> <!-- container fluid -->
-    </div><!-- filter search -->
+        
+            </div><!-- filter container-->
+        </div> <!-- row -->
+    </div> <!-- container fluid -->
+</div><!-- filter search -->
     
     <!-- start path  -->
     <div class="path">
@@ -319,7 +320,7 @@
                 <div class="form-group code_label">
                 <label for="exampleInputEmail1">البريد لالكتروني</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="example@gmail.com">
+                    placeholder="example@gmail.com" required>
                 </div>
             </div>
 
@@ -328,14 +329,14 @@
                 <label for="PassInput">كلمة المرور</label>
                 <div class="passinp">
                     <input type="password" class="form-control pass_input" id="PassInput" aria-describedby="emailHelp"
-                    placeholder="*************">
+                    placeholder="*************" required>
                     <span><i class="far fa-eye-slash show_pass"></i> </span>
                 </div>
                
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="col-6">
                 <div class="form-check check_input">
                 <input class="form-check-input" type="checkbox" name="exampleRadios" id="rem_check" value="option1"
                     checked>
@@ -345,7 +346,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-6 txt-l forget_link">
+            <div class="col-6 txt-l forget_link">
                 <a href="forget_password.html">هل نسيت كلمة المرور ؟</a>
             </div>
 
@@ -404,7 +405,7 @@
 
         <div class="footer_links row">
 
-            <div class="col-md-6 col-12 ">
+            <div class="col-md-6 col-12 copy_order">
                 <div class="copy">
                     <p>جميع الحقوق محفوظة - Online-Business Card 2021</p>
                 </div>

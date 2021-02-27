@@ -13,6 +13,18 @@
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Add Job</title>
+    <style>
+        .dropdown-toggle::after{
+            position: absolute;
+            left: 20px;
+        }
+        .cate_drop, .country_drop, .city_drop{
+            padding: 20px;
+        }
+        .dropdown-item{
+            border:none !important
+        }
+    </style>
 </head>
 <body>
 
@@ -53,8 +65,8 @@
             </a>
             
             <div class="dropdown-menu job_radio" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#"><input type="radio"> أبحث عن وظيفة</a>
-                <a class="dropdown-item" href="#"><input type="radio"> أبحث عن عمالة</a>
+                <a class="dropdown-item" href="#"><input type="radio" name="find_job"> أبحث عن وظيفة</a>
+                <a class="dropdown-item" href="#"><input type="radio" name="find_job"> أبحث عن عمالة</a>
             </div>
         </div>
             <!-- jobs dropdown -->
@@ -237,7 +249,7 @@
                         <!--small screen -->
                     </div>
                     <div class=" text-center more_filter_btn col-12">
-                        <span class="more_span" style="cursor: pointer;">بحث متقدم <i class="aro fas fa-angle-double-down"></i></span>
+                        <span class="more_span" style="cursor: pointer;">بحث متقدم <i class="aro fas fa-angle-double-up"></i></span>
                     </div>
 
                     <!-- container hold buttons appear on small screen-->
@@ -389,25 +401,24 @@
                                 <label>التصنيف</label>
                             </div>
                             <div class="dropdown btn-group cate_list">
-                                <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="btn btn-outline-secondary dropdown-toggle cate_drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 </a>
                                 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">مصر</a>
-                                    <a class="dropdown-item" href="#">الاردن</a>
-                                    <a class="dropdown-item" href="#">عمان</a>
+                                    <a class="dropdown-item" href="#">job</a>
+                                    <a class="dropdown-item" href="#">card</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-6">
                         <div class="form-group">
                             <div>
                                 <label>الدولة</label>
                             </div>
                             <div class="dropdown btn-group cate_list">
-                                <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="btn btn-outline-secondary dropdown-toggle country_drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 </a>
                                 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -419,21 +430,32 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-6">
                         <div class="form-group">
-                          <label for="name-add">المدينة</label>
-                          <input class="form-control" type="text" name="" id="name-add" placeholder="إسم">
+                            <div>
+                                <label>المدينة</label>
+                            </div>
+                            <div class="dropdown btn-group cate_list">
+                                <a class="btn btn-outline-secondary dropdown-toggle city_drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </a>
+                                
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">القاهرة</a>
+                                    <a class="dropdown-item" href="#">الاسكندرية</a>
+                                    <a class="dropdown-item" href="#">المنصورة</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-6">
                         <div class="form-group">
                           <label for="name-add">البريد الإلكترونى</label>
                           <input class="form-control" type="email" name="" id="name-add" placeholder="Email@example.com">
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-6">
                         <div class="form-group">
                           <label for="name-add">الهاتف</label>
                           <input class="form-control" type="number" name="" id="name-add" placeholder="0123456789">
@@ -525,13 +547,13 @@
 
         <div class="footer_links row">
 
-            <div class="col-md-6 col-12 ">
+            <div class="col-md-6 col-12 copy_order">
                 <div class="copy">
                     <p>جميع الحقوق محفوظة - Online-Business Card 2021</p>
                 </div>
             </div>
 
-            <div class="footer_social col-lg-6 col-12">
+            <div class="footer_social col-md-6 col-12">
                 <span><a href="#"><i class="fab fa-youtube"></i></a></span>
                 <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
                 <span><a href="#"><i class="fab fa-instagram"></i></a></span>
