@@ -1,0 +1,217 @@
+*{
+    font-family: sans-serif;
+}
+.card_15{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid rgb(199, 196, 196);
+}
+.card_15 img{
+    width: 100%;
+    height: 100%;
+}
+.card_15 .logo{
+    position: absolute;
+    top:2%;
+    left: 5%;
+    width: 45%;
+    text-align: left;
+}
+.card_15 .logo img{
+    width: 85px;
+    height: 85px;
+}
+.card_15 .grid_1{
+    text-align: center;
+    position: absolute;
+    top: 31.5%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+
+}
+.card_15 .grid_1 ul{
+    padding: 0px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.card_15 .grid_1 .g_inputs{
+    flex: 0 0 52%;
+    text-align: left;
+    position: relative;
+    left: 5%;
+}
+.card_15 .grid_1 .g_inputs ul li:first-child{
+    font-size: 25px;
+    font-weight: 700;
+    color: #006CB7;
+    letter-spacing: 1.5px;
+}
+.card_15 .grid_1 .g_inputs ul li:nth-child(2){
+    font-size: 20px;
+    font-weight: 300;
+    color: #006CB7;
+    letter-spacing: 1.5px;
+
+}
+.card_15 .grid_1 .g_inputs ul::after{
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 0%;
+    width: 60%;
+    height: 1.5px;
+    background-color: #006CB7;
+}
+.card_15 .grid_1 .slogan{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.card_15 .client_details{
+    flex: 0 0 47.2%;
+    color: #fff;
+    text-align: left;
+}
+.card_15 .client_details ul{
+    padding-left: 4%;
+    text-align: left;
+}
+.card_15 .client_details ul li{
+    margin-bottom: 21px;
+}
+.card_15 .client_details ul li i{
+    margin-right: 16px;
+    font-size: 13px;
+    color:#006CB7 ;
+}
+
+.card_15 .social_icons{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 42%;
+    text-align: center;
+}
+.card_15 .social_icons ul{
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.card_15 .social_icons ul li{
+    display: inline;
+    margin-right: 15px;
+}
+.card_15 .social_icons ul li a{
+    font-size: 25px;
+    color: #fff;
+}
+
+@media (min-width:300px) and (max-width:445px){
+    .card_15 .logo img {
+        width: 70px;
+        height: 70px;
+    }
+    .card_15 .grid_1{
+        top: 30.5%;
+    }
+    .card_15 .grid_1 .g_inputs ul li:first-child{
+        font-size: 21px;
+    }
+    .card_15 .grid_1 .g_inputs ul li:nth-child(2){
+        font-size: 19px;
+    }
+    .card_15 .grid_1 .slogan{
+        font-size: 13px;
+    }
+    .card_15 .client_details ul{
+        padding-left: 3%;
+    }
+    .card_15 .client_details ul li i{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .card_15 .client_details ul li span{
+        font-size: 12px;
+    }
+    .card_15 .social_icons ul li a{
+        font-size: 15px;
+    }
+}
+@media (min-width:500px) and (max-width:615px){
+    .card_15 .client_details ul li i{
+        margin-right: 16px;
+    }
+}
+@media (min-width:616px) and (max-width:767.5px){
+    .card_15 .client_details ul{
+        padding-left: 5%;
+    }
+    .card_15 .client_details ul li i{
+        margin-right: 25px;
+    }
+}
+@media (min-width:767.9px) and (max-width:901px){
+    .card_15 .logo img {
+        width: 70px;
+        height: 70px;
+    }
+    .card_15 .grid_1{
+        top: 30.5%;
+    }
+    .card_15 .grid_1 .g_inputs ul li:first-child{
+        font-size: 21px;
+    }
+    .card_15 .grid_1 .g_inputs ul li:nth-child(2){
+        font-size: 19px;
+    }
+    .card_15 .grid_1 .slogan{
+        font-size: 13px;
+    }
+    .card_15 .client_details ul{
+        padding-left: 4%;
+    }
+    .card_15 .client_details ul li i{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .card_15 .client_details ul li span{
+        font-size: 12px;
+    }
+    .card_15 .social_icons ul li a{
+        font-size: 15px;
+    }
+}
+@media (min-width:991.9px) and (max-width:1351px){
+    .card_15 .logo img {
+        width: 70px;
+        height: 70px;
+    }
+    .card_15 .grid_1{
+        top: 30.5%;
+    }
+    .card_15 .grid_1 .g_inputs ul li:first-child{
+        font-size: 21px;
+    }
+    .card_15 .grid_1 .g_inputs ul li:nth-child(2){
+        font-size: 19px;
+    }
+    .card_15 .grid_1 .slogan{
+        font-size: 13px;
+    }
+    .card_15 .client_details ul{
+        padding-left: 3%;
+    }
+    .card_15 .client_details ul li i{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .card_15 .client_details ul li span{
+        font-size: 12px;
+    }
+    .card_15 .social_icons ul li a{
+        font-size: 15px;
+    }
+}
+

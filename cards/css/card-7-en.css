@@ -1,0 +1,200 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_7{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid rgb(199, 196, 196);
+}
+.card_7 img{
+    width: 100%;
+    height: 100%;
+}
+.card_7 .logo{
+    position: absolute;
+    top: -10px;
+    left: 5%;
+}
+.card_7 .logo img{
+    width: 110px;
+    height: 110px;
+}
+.card_7 .g_inputs{
+    position: absolute;
+    top: 12px;
+    left: 130px;
+}
+.card_7 .g_inputs ul {
+    padding-left: 0px;
+    text-align: center;
+    position: relative;
+    text-align: center;
+}
+.card_7 .g_inputs ul li:first-child{
+    font-weight: bold;
+    font-size: 30px;
+    color: #6D0000;
+}
+.card_7 .g_inputs ul li:nth-child(2){
+    font-weight: normal;
+    font-size: 22px;
+    color: #6D0000;
+    text-align: left;
+}
+.card_7 .client_details{
+    position: absolute;
+    top: 105px;
+    left: 72px;
+    text-align: left;
+}
+.card_7 .client_details ul{
+    padding: 0px;
+}
+.card_7 .client_details ul li{
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #6D0000;
+}
+.card_7 .client_details ul li i{
+    color: #6D0000;
+    font-size: 18px;
+    margin-right: 8px;
+}
+.card_7 .slogan{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #6D0000;
+    text-align: center;
+}
+.card_7 .slogan::after{
+    content: "";
+    position: absolute;
+    top: 38px;
+    left: 1%;
+    width: 100%;
+    height: 1px;
+    background-color: #140505;
+}
+.card_7 .social_icons{
+    margin-bottom: -15px;
+    padding-top: 16px;
+}
+.card_7 .social_icons ul{
+    text-align: center;
+    padding: 0;
+}
+.card_7 .social_icons ul li{
+    display: inline;
+    margin-left: 10px;
+}
+.card_7 .social_icons ul li a{
+    font-size: 25px;
+    color: #6D0000;
+}
+
+@media (min-width:300px) and (max-width:405px){
+    .card_7 .logo {
+        left: -1%;
+    }
+    .card_7 .g_inputs {
+        top: 20px;
+        left: 115px;
+    }
+    .card_7 .g_inputs ul li:first-child{
+        font-size: 24px;
+    }
+    .card_7 .g_inputs ul li:nth-child(2){
+        font-size: 20px;        
+    }
+    .card_7 .client_details {
+        top: 96px;
+        left: 33px;
+    }
+    .card_7 .client_details ul li {
+        font-size: 14px;
+    }
+    .card_7 .client_details ul li i{
+        font-size: 15px;
+    }
+    .card_7 .slogan{
+        font-size: 16px;
+        right: 10px;
+    }
+    .card_7 .slogan::after{
+        width: 95%;
+    }
+    .card_7 .social_icons ul li a{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:767px) and (max-width:990px){
+    .card_7 .g_inputs ul li:first-child{
+        font-size: 26px;
+    }
+    .card_7 .g_inputs ul li:nth-child(2){
+        font-size: 22px;        
+    }
+    .card_7 .client_details {
+        top: 96px;
+        left: 53px;
+    }
+    .card_7 .client_details ul li {
+        font-size: 15px;
+    }
+    .card_7 .client_details ul li i{
+        font-size: 17px;
+    }
+    .card_7 .slogan{
+        font-size: 18px;
+        right: 22px;
+    }
+    .card_7 .slogan::after{
+        width: 100%;
+    }
+    .card_7 .social_icons ul li a{
+        font-size: 23px;
+    }
+}
+@media(min-width:992px) and (max-width:1249px){
+    .card_7 .logo {
+        left: -1%;
+    }
+    .card_7 .g_inputs {
+        top: 20px;
+        left: 115px;
+    }
+    .card_7 .g_inputs ul li:first-child{
+        font-size: 24px;
+    }
+    .card_7 .g_inputs ul li:nth-child(2){
+        font-size: 20px;        
+    }
+    .card_7 .client_details {
+        top: 96px;
+        left: 33px;
+    }
+    .card_7 .client_details ul li {
+        font-size: 14px;
+    }
+    .card_7 .client_details ul li i{
+        font-size: 15px;
+    }
+    .card_7 .slogan{
+        font-size: 16px;
+        right: 10px;
+    }
+    .card_7 .slogan::after{
+        width: 95%;
+    }
+    .card_7 .social_icons ul li a{
+        font-size: 20px;
+    }
+}
+

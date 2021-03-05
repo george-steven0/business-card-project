@@ -1,0 +1,274 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_18{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid rgb(199, 196, 196);
+}
+.card_18 img{
+    width: 100%;
+    height: 100%;
+}
+.card_18 .grid{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.card_18 .grid .details{
+    flex: 0 0 78%;
+    width: 100%;
+    text-align: left;
+}
+.card_18 .grid .details ul{
+    padding-left: 0px;
+    margin-top: 3.5%;
+    position: absolute;
+    left: 19%;
+    line-height: 1.2;
+}
+.card_18 .grid .details ul li:first-child{
+    font-size: 23px;
+    font-weight: bold;
+}
+.card_18 .grid .slogan{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    border-bottom: 1.7px solid rgba(0,0,0,.5);
+}
+.card_18 .client_details{
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    left: 12.7%;
+    top: 45%;
+}
+.card_18 .client_details ul{
+    padding: 0px;
+}
+.card_18 .client_details ul li{
+    margin-bottom: 12px;
+}
+.card_18 .client_details ul li img{
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+}
+
+.card_18 .grid .logo{
+    flex: 0 0 22%;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.card_18 .grid .logo img{
+    width: 80px;
+    height: 80px;
+}
+.card_18 .social_icons{
+    position: absolute;
+    bottom: 3%;
+    text-align: left;
+    width: 52%;
+    left: 12.7%;
+}
+.card_18 .social_icons ul{
+    padding: 0px;
+    margin: 0px;
+}
+.card_18 .social_icons ul li{
+    display: inline;
+}
+.card_18 .social_icons ul li a{
+    margin-right: 15px;
+    color: #C3212E;
+    font-size: 20px;
+   
+}
+@media (min-width:300px) and (max-width:445px){
+    .card_18 .grid .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .card_18 .grid .slogan{
+        top: 130%;
+    }
+    .card_18 .client_details{
+        top: 46%;
+        left: 12.3%;
+    }
+    .card_18 .client_details ul li{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .card_18 .client_details ul li img{
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
+    }
+}
+@media (min-width:585px) and (max-width:650px){
+    .card_18 .client_details ul li{
+        margin-bottom: 4.4%;
+    }
+}
+@media (min-width:650px) and (max-width:710px){
+    .card_18 .grid .logo img{
+        width: 90px;
+        height: 90px;
+    }
+    .card_18 .grid .slogan{
+        top: 75%;
+    }
+    .card_18 .client_details ul li{
+        margin-bottom: 4%;
+    }
+    .card_18 .client_details ul li img{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+}
+@media (min-width:710px) and (max-width:767.5px){
+    .card_18 .grid .logo img{
+        width: 90px;
+        height: 90px;
+    }
+    .card_18 .grid .slogan{
+        top: 72%;
+    }
+    .card_18 .client_details ul li{
+        margin-bottom: 3.5%;
+    }
+    .card_18 .client_details ul li img{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+}
+@media (min-width:767.9px) and (max-width:855px){
+    .card_18 .grid .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .card_18 .grid .slogan{
+        top: 130%;
+    }
+    .card_18 .client_details{
+        top: 45.8%;
+        left: 12.5%;
+    }
+    .card_18 .client_details ul li{
+        font-size: 14px;
+        margin-bottom: 8.5%;
+    }
+    .card_18 .client_details ul li img{
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
+    }
+}
+@media (min-width:855px) and (max-width:991.5px){
+    .card_18 .grid .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .card_18 .grid .slogan{
+        top: 120%;
+    }
+    .card_18 .client_details{
+        top: 45.8%;
+        left: 12.5%;
+    }
+    .card_18 .client_details ul li{
+        font-size: 14px;
+        margin-bottom: 7%;
+    }
+    .card_18 .client_details ul li img{
+        width: 11.5px;
+        height: 11.5px;
+        margin-right: 3px;
+    }
+}
+@media (min-width:992px) and (max-width:1050px){
+    .card_18 .grid .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .card_18 .grid .slogan{
+        top: 130%;
+    }
+    .card_18 .client_details{
+        top: 46%;
+        left: 12.3%;
+    }
+    .card_18 .client_details ul li{
+        font-size: 14px;
+        margin-bottom: 10.5%;
+    }
+    .card_18 .client_details ul li img{
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
+    }
+}
+@media (min-width:1050px) and (max-width:1150px){
+    .card_18 .grid .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .card_18 .grid .slogan{
+        top: 120%;
+    }
+    .card_18 .client_details{
+        top: 46%;
+        left: 12.3%;
+    }
+    .card_18 .client_details ul li{
+        font-size: 14px;
+        margin-bottom: 9.5%;
+    }
+    .card_18 .client_details ul li img{
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
+    }
+}
+@media (min-width:1051px) and (max-width:1350px){
+    .card_18 .client_details{
+        top: 45.5%;
+        left: 12.5%;
+    }
+    .card_18 .client_details ul li{
+        font-size: 14px;
+        margin-bottom: 9.7%;
+    }
+    .card_18 .client_details ul li img{
+        width: 11px;
+        height: 11px;
+        margin-right: 3px;
+    }
+}
+@media (min-width:1225px) and (max-width:1350px){
+    .card_18 .client_details{
+        top: 45.5%;
+        left: 12.5%;
+    }
+    .card_18 .client_details ul li{
+        font-size: 14px;
+        margin-bottom: 8.8%;
+    }
+    .card_18 .client_details ul li img{
+        width: 11px;
+        height: 11px;
+        margin-right: 3px;
+    }
+}
+

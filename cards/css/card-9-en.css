@@ -1,0 +1,187 @@
+*{
+    font-family: sans-serif;
+}
+.card_9{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid rgb(199, 196, 196);
+}
+.card_9 img{
+    width: 100%;
+    height: 100%;
+}
+.card_9 .grid_1{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 9%;
+    left: 0%;
+}
+.grid_1 .uName{
+    flex: 1 1 32%;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.grid_1 .slogan{
+    flex: 1 1 50%;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 25px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.card_9 .logo{
+    position: absolute;
+    top: 33%;
+    left: 14%;
+}
+.card_9 .logo img{
+    width: 85px;
+    height: 85px;
+}
+.card_9 .social_icons{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+.card_9 .social_icons ul{
+    padding-left: 0px;
+}
+.card_9 .social_icons ul li{
+    margin-bottom: 5px;
+}
+.card_9 .social_icons ul li a{
+    font-size: 22px;
+    color: #ACACAC;
+}
+.card_9 .client_details {
+    position: absolute;
+    top: 39.5%;
+    left: 41%;
+    width: 59%;
+}
+.card_9 .client_details ul{
+    padding-left: 0px;
+    text-align: left;
+}
+.card_9 .client_details ul li{
+    margin-bottom: 6px;
+    display: flex;
+}
+.card_9 .client_details ul li i{
+    color: #fff;
+    font-size: 13px;
+    flex: 1 0 0%;
+    padding-right: 10px;
+}
+.card_9 .client_details ul li span{
+    flex: 3 1 60%;
+    text-align: left;
+}
+
+@media (min-width:300px) and (max-width:475px){
+    .grid_1 .uName{
+        font-size: 18px;
+        padding-left: 10px;
+        margin-top: 12px;
+    }
+    .grid_1 .slogan{
+        font-size: 17px;
+        margin-top: 14px;
+        padding-left: 18px;
+    }
+    .card_9 .logo{
+        left: 10%;
+    }
+    .card_9 .logo img {
+        width: 70px;
+        height: 70px;
+    }
+    .card_9 .social_icons{
+        top: 55%;
+    }
+    .card_9 .client_details ul li{
+        margin-bottom: 9px;
+    }
+    .card_9 .social_icons ul li a{
+        font-size: 19px;
+    }
+    .card_9 .client_details {
+        top: 40%;
+        left: 40%;
+    }
+    .card_9 .client_details ul li i{
+        font-size: 13px;
+        padding-left: 2px;
+        padding-right: 7px;
+    }
+    .card_9 .client_details ul li span{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:520px) and (max-width:767px){
+    .grid_1 .uName{
+        font-size:32px;
+    }
+    .grid_1 .slogan{
+        margin-top: 2px;
+        font-size: 28px;
+    }
+    .card_9 .logo {
+        top: 30%;
+        left: 13%;
+    }
+    .card_9 .logo img {
+        width: 100px;
+        height: 100px;
+    }
+    .card_9 .client_details ul li i{
+        font-size: 14px;
+    }
+   
+}
+@media (min-width:767.5px) and (max-width:1402px){
+    .grid_1 .uName{
+        font-size: 18px;
+        padding-left: 10px;
+        margin-top: 12px;
+    }
+    .grid_1 .slogan{
+        font-size: 17px;
+        margin-top: 14px;
+        padding-left: 18px;
+    }
+    .card_9 .logo{
+        left: 10%;
+    }
+    .card_9 .logo img {
+        width: 70px;
+        height: 70px;
+    }
+    .card_9 .social_icons{
+        top: 55%;
+    }
+    .card_9 .client_details ul li{
+        margin-bottom: 9px;
+    }
+    .card_9 .social_icons ul li a{
+        font-size: 19px;
+    }
+    .card_9 .client_details {
+        top: 40%;
+        left: 40%;
+    }
+    .card_9 .client_details ul li i{
+        font-size: 13px;
+        padding-left: 2px;
+        padding-right: 7px;
+    }
+    .card_9 .client_details ul li span{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,166 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_19{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid rgb(199, 196, 196);
+}
+.card_19 img{
+    width: 100%;
+    height: 100%;
+}
+.card_19 .grid{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.card_19 .grid .details_grid{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.card_19 .grid .details_grid .g_inputs{
+    position: absolute;
+    top: 12%;
+    left: 14%;
+    text-align: left;
+}
+.card_19 .grid .details_grid .g_inputs ul{
+    padding: 0px;
+}
+.card_19 .grid .details_grid .g_inputs ul li:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.card_19 .grid .details_grid .g_inputs ul li:nth-child(2){
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.card_19 .grid .details_grid .slogan{
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    text-align: left;
+}
+.card_19 .grid .details_grid .slogan::after{
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 130px;
+    height: 1.7px;
+    background-color: rgba(0,0,0,.5);
+}
+.card_19 .grid .details_grid .client_details{
+    position: absolute;
+    top:50%;
+    left: 14%;
+    text-align: left;
+    width: 44%;
+    overflow-wrap: break-word;
+}
+.card_19 .grid .details_grid .client_details img{
+    width: 12px;
+    height: 12px;
+}
+.card_19 .grid .details_grid .client_details ul{
+    padding:0px
+}
+.card_19 .grid .details_grid .social_icons{
+    position: absolute;
+    top: 78%;
+    left: 14%;
+}
+.card_19 .grid .details_grid .social_icons ul{
+    padding: 0px;
+}
+.card_19 .grid .details_grid .social_icons ul li{
+    display: inline;
+    margin-right: 17px;
+}
+.card_19 .grid .details_grid .social_icons ul li a{
+    font-size: 19px;
+    color: #E12C37;
+}
+
+.card_19 .grid .logo_grid{
+    flex: 20%;
+
+}
+.card_19 .grid .logo_grid .logo{
+    position: absolute;
+    top: 38%;
+    right: 17%;
+    width: 22%;
+    text-align: center;
+}
+.card_19 .grid .logo_grid .logo img{
+    width: 80px;
+    height: 90px;
+}
+@media (min-width:300px) and (max-width:445px){
+    .card_19 .grid .details_grid .g_inputs ul li:first-child{
+        font-size: 21px;
+    }
+    .card_19 .grid .details_grid .g_inputs ul li:nth-child(2){
+        font-size: 17px;
+    }
+    .card_19 .grid .details_grid .slogan{
+        top: 33%;
+        font-size: 15px;
+    }
+    .card_19 .grid .details_grid .slogan::after{
+        top: 30px;
+        width: 120px;
+    }
+    .card_19 .grid .details_grid .client_details ul li{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .card_19 .grid .details_grid .social_icons ul li{
+        margin-right: 14px;
+    }
+    .card_19 .grid .details_grid .social_icons ul li a{
+        font-size: 16px;
+    }
+    .card_19 .grid .logo_grid .logo img {
+        width: 59px;
+        height: 80px;
+    }
+}
+@media (min-width:767px) and (max-width:1220px){
+    .card_19 .grid .details_grid .g_inputs ul li:first-child{
+        font-size: 21px;
+    }
+    .card_19 .grid .details_grid .g_inputs ul li:nth-child(2){
+        font-size: 17px;
+    }
+    .card_19 .grid .details_grid .slogan{
+        top: 33%;
+        font-size: 15px;
+    }
+    .card_19 .grid .details_grid .slogan::after{
+        top: 30px;
+        width: 120px;
+    }
+    .card_19 .grid .details_grid .client_details ul li{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .card_19 .grid .details_grid .social_icons ul li{
+        margin-right: 14px;
+    }
+    .card_19 .grid .details_grid .social_icons ul li a{
+        font-size: 16px;
+    }
+    .card_19 .grid .logo_grid .logo img {
+        width: 59px;
+        height: 80px;
+    }
+}

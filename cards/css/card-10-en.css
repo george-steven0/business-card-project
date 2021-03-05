@@ -1,0 +1,232 @@
+*{
+    font-family: sans-serif;
+}
+.card_10{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid rgb(199, 196, 196);
+}
+.card_10 img{
+    width: 100%;
+    height: 100%;
+}
+.card_10 .logo{
+    position: absolute;
+    top:2%;
+    left: 0%;
+    text-align: center;
+    width: 37%;
+}
+.card_10 .logo img{
+    width: 180px;
+    height: 120px;
+}
+.card_10 .grid_1{
+    text-align: center;
+    position: absolute;
+    top: 42%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+
+}
+.card_10 .grid_1 ul{
+    padding: 0px;
+    position: relative;
+}
+.card_10 .grid_1 .g_inputs{
+    flex: 0 0 37%;
+}
+.card_10 .grid_1 .g_inputs ul li:first-child{
+    font-size: 25px;
+    font-weight: 700;
+    color: #141E42;
+    letter-spacing: 1.5px;
+}
+.card_10 .grid_1 .g_inputs ul li:nth-child(2){
+    font-size: 20px;
+    font-weight: 300;
+    color: #141E42;
+    letter-spacing: 1.5px;
+
+}
+.card_10 .grid_1 .g_inputs ul::after{
+ content: "";
+ position: absolute;
+ top: 105%;
+ left: 14%;
+ width: 70%;
+ height: 1.5px;
+ background-color: #141E42;
+}
+.card_10 .grid_1 .slogan{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.card_10 .social_icons{
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    width: 38%;
+}
+.card_10 .social_icons ul{
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.card_10 .social_icons ul li{
+    display: inline;
+    margin-right: 15px;
+}
+.card_10 .social_icons ul li a{
+    font-size: 25px;
+    color: #141E42;
+}
+.card_10 .client_details{
+    flex: 0 0 63%;
+    color: #fff;
+}
+.card_10 .client_details ul{
+    padding-left: 27.5%;
+    text-align: left;
+}
+.card_10 .client_details ul li{
+    margin-bottom: 7px;
+}
+.card_10 .client_details ul li i{
+    margin-right: 10px;
+}
+
+
+
+@media (min-width:300px) and (max-width:445px){
+    .card_10 .logo img {
+        width: 120px;
+        height: 90px;
+    }
+    .card_10 .grid_1{
+        text-align: center;
+        position: absolute;
+        top: 38%;
+    }
+    .card_10 .grid_1 .g_inputs ul li:first-child{
+        font-size: 16px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .grid_1 .g_inputs ul li:nth-child(2){
+        font-size: 14px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .grid_1 .slogan{
+        font-size: 14px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .social_icons{
+        bottom: 4%;
+        left: 3%;
+    }
+    .card_10 .social_icons ul li{
+        margin-right: 8px;
+    }
+    .card_10 .social_icons ul li a{
+        font-size: 18px;
+    }
+    .card_10 .client_details ul{
+        padding-left: 27%;
+    }
+    .card_10 .client_details ul li i{
+        font-size: 12px;
+        margin-right: 4px;
+    }
+    .card_10 .client_details ul li span{
+        font-size: 10px;
+    }
+}
+@media (min-width:767.5px) and (max-width:900px){
+    .card_10 .logo img {
+        width: 150px;
+        height: 90px;
+    }
+    .card_10 .grid_1{
+        text-align: center;
+        position: absolute;
+        top: 38%;
+    }
+    .card_10 .grid_1 .g_inputs ul li:first-child{
+        font-size: 17px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .grid_1 .g_inputs ul li:nth-child(2){
+        font-size: 15px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .grid_1 .slogan{
+        font-size: 15px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .social_icons{
+        bottom: 4%;
+        left: 3%;
+    }
+    .card_10 .social_icons ul li{
+        margin-right: 8px;
+    }
+    .card_10 .social_icons ul li a{
+        font-size: 20px;
+    }
+    .card_10 .client_details ul{
+        padding-left: 27%;
+    }
+    .card_10 .client_details ul li i{
+        font-size: 14px;
+        margin-right: 4px;
+    }
+    .card_10 .client_details ul li span{
+        font-size: 13px;
+    }
+}
+@media (min-width:992px) and (max-width:1300px){
+    .card_10 .logo img {
+        width: 120px;
+        height: 90px;
+    }
+    .card_10 .grid_1{
+        text-align: center;
+        position: absolute;
+        top: 38%;
+    }
+    .card_10 .grid_1 .g_inputs ul li:first-child{
+        font-size: 16px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .grid_1 .g_inputs ul li:nth-child(2){
+        font-size: 14px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .grid_1 .slogan{
+        font-size: 14px;
+        letter-spacing: 1.2px;
+    }
+    .card_10 .social_icons{
+        bottom: 4%;
+        left: 3%;
+    }
+    .card_10 .social_icons ul li{
+        margin-right: 8px;
+    }
+    .card_10 .social_icons ul li a{
+        font-size: 20px;
+    }
+    .card_10 .client_details ul{
+        padding-left: 27%;
+    }
+    .card_10 .client_details ul li i{
+        font-size: 12px;
+        margin-right: 4px;
+    }
+    .card_10 .client_details ul li span{
+        font-size: 12px;
+    }
+}
