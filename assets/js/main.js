@@ -218,6 +218,11 @@ $(document).ready(function () {
     $(this).addClass('selected')
   })
 
+  $('.bouquet .cardi').on('click',function(){
+    $('.selected').removeClass('selected')
+    $(this).addClass('selected')
+  })
+
 /* end heighlight img */
 
 /* swap language */
@@ -294,6 +299,7 @@ $('.show_pass').on('click',function(){
   }
   
 })
+
 
 }); // Document ready
 

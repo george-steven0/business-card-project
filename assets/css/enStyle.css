@@ -5,14 +5,26 @@ body{
 {
    text-align: left;    
 }
-.top_header .header_social,.upper_nav .upper_nav_row .nav_links,.home_content .more_cards,.home_content .card_holder .job_ad .contact,footer .footer_social,.upper_nav .upper_nav_row .login_welcome,.my-account .most-search-header .my_cards .card_edit_btn,.my-account .most-search-header .edit_btn,.my-account .most-search-header .remove_btn,.my-account .card_cont .remove_icon,.contact,.card_details_content .add_contact_btn,.card_details_content .report_btn,.login .login-form .forget_link
+.top_header .header_social,.upper_nav .upper_nav_row .nav_links,.home_content .more_cards,.home_content .card_holder .job_ad .contact,footer .footer_social,.upper_nav .upper_nav_row .login_welcome,.my-account .most-search-header .my_cards .card_edit_btn,.my-account .most-search-header .edit_btn,.my-account .most-search-header .remove_btn,.my-account .card_cont .remove_icon,.contact,.card_details_content .add_contact_btn,.card_details_content .report_btn,.login .login-form .forget_link,.job_details_container .rep_text
 {
     text-align: right;
 }
 
-.filter_search .filter_container .filter_btn
+.filter_search .filter_container .filter_btn,.doctor_jobs .job_ad_img,.doctor_jobs .job_ad .job_ad_details p,.job_details_container .job_ad_img,.job_details_container .job_ad .job_ad_details p,.job_details_container .fav_bt
 {
     text-align: left;
+}
+.doctor_jobs .job_ad .job_ad_details{
+    margin-left: 20%;
+    margin-right: 0%;
+}
+.job_details_container .job_ad .job_ad_details{
+    margin-left: 10%;
+    margin-right: 0%;
+}
+.doctor_jobs .job_ad_img span, .job_details_container .job_ad_img span{
+    margin-left: 25px;
+    margin-right: 0px;
 }
 .home_content .special_cards_title h4,.doctor_cards .special_cards_title h3
 {
@@ -78,7 +90,7 @@ footer ul
     text-align: center;
 }
 .type_s{
-    margin: 0px 5px 0px 15px;
+    margin: 0px 5px 0px 5px;
 }
 
 .close_ic{
@@ -144,6 +156,88 @@ footer ul
     left: 80px;
     color: #FB2828;
   }
+  .up_text{
+      margin-left: 10px;
+  }
+  .upper_nav .add_new_btn{
+    margin-left: 15px;
+  }
+
+  .upper_nav .upper_nav_row .login_welcome{
+   
+    margin-left: 0%;
+    margin-right: 19.5%;
+  }
+
+  @media (min-width:400px) and (max-width:990.9px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 35%;
+    }
+  }
+  @media (min-width:990.5px) and (max-width:1190px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 27%;
+    }
+  }
+  @media (min-width:1190px) and (max-width:1300px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 23.5%;
+    }
+  }
+  @media (min-width:1300px) and (max-width:1450px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 20.5%;
+    }
+  }
+  @media (min-width:1450px) and (max-width:1550px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 19%;
+    }
+  }
+  @media (min-width:1550px) and (max-width:1619.8px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 18%;
+    }
+  }
+  @media (min-width:1620px) and (max-width:1800px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 17%;
+    }
+  }
+  @media (min-width:1800px) and (max-width:1940px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 15.5%;
+    }
+  }
+  @media (min-width:1940px) and (max-width:2340px){
+    .upper_nav .upper_nav_row .login_welcome{
+      margin-left: 0%;
+      margin-right: 14.5%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+@media (min-width: 200px) and (max-width: 475px){
+    .upper_nav .upper_nav_row .login_welcome {
+        right: 0%;
+        left: 0%;
+    }
+}
 @media (min-width:330px) and (max-width:487px){
  .close_ic{
     left:-66%;
@@ -152,11 +246,7 @@ footer ul
     font-size: 16px;
     }
 }
-@media (min-width:300px) and (max-width:767.9px){
-    footer .footer_social,footer .footer_links .copy{
-        text-align: center;
-    }
-}
+
 @media (min-width:390px) and (max-width:445px){
  .close_ic{
     left: -33%;
@@ -182,41 +272,51 @@ footer ul
     .close_ic{
         left: 17%;
     }
+}
+@media (min-width: 300px) and (max-width: 992px)
+{
+    .contact, .home_content .card_holder .job_ad .contact{
+        text-align: left;
     }
+    .job_details_container .contact{
+        text-align: right;
+    }
+    .upper_nav .upper_nav_row .login_welcome{
+        left: 0%;
+    }
+    .rep_text{
+        float: right;
+    }
+   
+}
+@media (min-width:300px) and (max-width:767.9px){
+    footer .footer_social,footer .footer_links .copy{
+        text-align: center;
+    }
+    .home_content .card_holder .job_ad .rep {
+        text-align: left;
+    }
+    .job_ad .rep_text{
+        float: right;
+    }
+    
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width:300px) and (max-width:520px){
+    .upper_nav .upper_nav_row .login_welcome {
+        margin-right: 14%;
+        margin-left: 0%;
+      }
+}
 
 @media (min-width:295px) and (max-width:768px){
     .upper_nav .upper_nav_row .company_logo .nav_logo,.upper_nav .upper_nav_row .nav_links,.top_header .header_links,.top_header .header_social{
         text-align: center;
     }
     .card_details_content .add_contact_btn{
-        text-align: center;
+        text-align: right;
     }
     .add_job .job_details_container .ad_type input{
         margin-right: 35px;
@@ -234,10 +334,10 @@ footer ul
     }
   }
 
-  @media (min-width:1251px) and (max-width:1800px){
+  @media (min-width:1200px) and (max-width:1800px){
     .upper_nav .upper_nav_row .login_welcome{
         position: relative;
-        padding-left: 240px;
+        padding-left: 30%;
         overflow: hidden;
     }
   }
@@ -247,3 +347,45 @@ footer ul
       right:30%
     }
   }
+
+  @media (min-width:1200px) and (max-width:2180px){
+    .pn{
+      margin-right: 15px;
+      margin-left: -18px;
+    }
+  }
+  @media (min-width:767.8px) and (max-width:992px){
+    .pn{
+      margin-right: -51px;
+      margin-left: 15px;
+    }
+    .card_details_content .add_contact_btn{
+      margin-top: 6%;
+    }
+  }
+  @media (min-width: 521px) and (max-width: 767px){
+    .pn {
+        margin-right: -51px;
+        margin-left: 45px;
+    }
+}
+
+@media (min-width: 484px) and (max-width: 521px){
+    .pn {
+        margin-right: -51px;
+        margin-left: 45px;
+    }
+}
+@media (min-width: 409px) and (max-width: 484px){
+    .pn {
+        margin-right: -41px;
+        margin-left: 45px;
+    }
+}
+@media (min-width: 309px) and (max-width: 409px){
+    .pn {
+        margin-right: -55px;
+        margin-left: 45px;
+    }
+}
+

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Add Job</title>
     <style>
-        .dropdown-toggle::after{
+        .cate_list .dropdown-toggle::after{
             position: absolute;
             left: 20px;
         }
@@ -113,7 +113,7 @@
                   <div class="nav_login_links col-md-9 col-sm-12">
                       <div class="login_welcome row">
 
-                          <div class="col-7 offset-5">
+                          <div class="col-12">
                             <i class="far fa-user text-info"></i>
                             <span> مرحبا بكم<span> User Name</span> </span>
                           </div>
@@ -122,16 +122,16 @@
                       <br>
                       <div class="nav_links">
   
-                          <div class="header_card_btn btn-group">
+                          <div class="header_card_btn btn-group my_acc">
                               <a href="account.html" class="text-info"><i class="fas fa-user"></i> حسابى </a>
                           </div>
   
                           <div class="header_card_btn btn-group">
-                              <a href="index.html" class="btn btn-outline-info"> <i class="fas fa-sign-out-alt"></i> تسجيل الخروج </a>
+                              <a href="index.html" class="btn btn-outline-info sign_out_btn"> <i class="fas fa-sign-out-alt"></i> تسجيل الخروج </a>
                           </div>
   
                           <div class="dropdown btn-group">
-                              <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <a class="btn btn-info add_new" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                  أضف جديد
                               </a>
                               
@@ -471,16 +471,16 @@
 
                     <div class="col-md-7 col-sm-12">
                         <label>أضف صور</label><br />
-                        <div class="up_btn btn btn-outline-info">
-                            <input type="file"/>
+                        <div class="up_btn">
+                            <input type="file" name="files[]" id="file" onchange="showImage(this)" data-multiple-caption="{count} files selected" multiple/>
                             <div class="upload text-center">اختر صورة</div>
                         </div> 
                         <div class="up_img row">
-                            <div class="up_img_cont col-sm-5">
+                            <div class="up_img_cont col-sm-3">
                                 <img src="assets/images/car-4.png" class="img-thumbnail" />
                                 <i class="rem_icon"> <img src="assets/images/remove.svg" /></i>
                             </div>
-                            <div class="up_img_cont col-sm-5">
+                            <div class="up_img_cont col-sm-3">
                                 <img src="assets/images/car-3.png" class="img-thumbnail" />
                                 <i class="rem_icon"> <img src="assets/images/remove.svg" /></i>
                             </div>
@@ -582,5 +582,25 @@
     <script src="./assets/js/tail.select-full.min.js"></script>
     <script src="assets/js/lightbox.js"></script>
     <script src="./assets/js/main.js"></script>
+
+
+    <script>
+    function showImage(file){
+
+        for (var i = 0; i < file.files['length']; i++) {
+
+            var img='<div class="upload-image up_img_cont col-sm-3" id="upload-image" style="display:inline-flex">'+
+                    "<img id='img_src' class='img-thumbnail' src="+"'" +window.URL.createObjectURL(file.files[i])+"'"+">"+
+                    "<i class='rem_icon'> <img src='assets/images/remove.svg' /></i>"+
+                '</div>';
+
+            $(".up_img").append(img);
+
+                                    
+                                    
+
+         };
+    };
+    </script>
 </body>
 </html>

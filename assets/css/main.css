@@ -72,22 +72,84 @@ body{
 }
 .upper_nav .nav_login_links .regi_btn{
   border:2px solid #00AAB1;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+.upper_nav .nav_login_links .regi_btn a{
+  padding: 5px 10px;
 }
 .upper_nav .nav_login_links .regi_btn a:hover{
   background-color: transparent;
   color:#00AAB1 ;
 }
+.upper_nav .add_new_btn{
+  margin-right: 15px;
+}
 .upper_nav .add_new_btn a{
-  font-size: 18px;
+  font-size: 16px;
   padding: 8px 20px;
   border-radius: 10px;
+}
+.upper_nav .add_new{
+  padding: 5px 30px !important;
+  border-radius: 6px !important;
+}
+.upper_nav .sign_out_btn{
+  padding: 5px 12px;
+  border: 2px solid #00AAB1 !important;
+  border-radius: 6px ;
 }
 .upper_nav .upper_nav_row .login_welcome{
   text-align: center;
   font-size: 19px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.65);
+  text-align: left;
+  margin-left: 19.5%;
+}
+@media (min-width:400px) and (max-width:990.9px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 46%;
+  }
+}
+@media (min-width:990.5px) and (max-width:1190px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 27%;
+  }
+}
+@media (min-width:1190px) and (max-width:1300px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 23.5%;
+  }
+}
+@media (min-width:1300px) and (max-width:1450px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 20.5%;
+  }
+}
+@media (min-width:1450px) and (max-width:1550px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 19%;
+  }
+}
+@media (min-width:1550px) and (max-width:1619.8px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 18%;
+  }
+}
+@media (min-width:1620px) and (max-width:1800px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 17%;
+  }
+}
+@media (min-width:1800px) and (max-width:1940px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 15.5%;
+  }
+}
+@media (min-width:1940px) and (max-width:2340px){
+  .upper_nav .upper_nav_row .login_welcome{
+    margin-left: 14.5%;
+  }
 }
 
 /* End navbar upper nav */
@@ -165,7 +227,7 @@ body{
       max-width: 13.8%;
   }
   .search{
-      flex:0 0 50%
+      flex:0 0 46.5%
   }
 }
 @media(min-width:1145px) and (max-width:1280px){
@@ -218,7 +280,7 @@ body{
   flex: 0 0 70% ;
 }
 .small_screen .search_in_sm input{
-  width: 97%;
+  width: 95%;
   padding: 5px 10px 5px 20px;
   border-radius: 10px;
   outline: none;
@@ -228,13 +290,13 @@ body{
   flex: 0 0 13%;
 }
 .small_screen .type_s button{
-  padding: 5px 27px 5px 60px;
+  padding: 5px 10px 5px 30px;
   border-radius: 10px;
   color: rgb(145, 143, 143);
 }
 .small_screen .search_icon{
   flex: 0 0 8%;
-  margin-right: 18px;
+  margin-right: 5px;
   margin-top: 0px;
 }
 .small_screen .search_icon a{
@@ -260,7 +322,7 @@ body{
   max-width: 30.8%;
 }
 .country_s button,.city_s button,.section_s button{
-  padding: 5px 30px 5px 90px;
+  padding: 5px 10px 5px 30px;
   border-radius: 10px;
   color: rgb(145, 143, 143);
   width: 100%;
@@ -365,7 +427,7 @@ body{
    }
    /* style slide down */
 }
-@media(min-width:601px) and (max-width:800px){
+@media(min-width:601px) and (max-width:985.9px){
  /* style slide down */
  .country_s, .city_s, .section_s{
   flex: 0 0 35.1%;
@@ -463,7 +525,7 @@ body{
 .home_content .card_holder{
     margin-top: 25px;
 }
-.home_content .card_holder .job_ad{
+.home_content .card_holder .job_ad, .doctor_jobs .job_ad{
     padding: 12px;
     background-color: #fffadb;
     border-radius: 10px;
@@ -471,21 +533,29 @@ body{
     width: 100%;
     margin: auto;
 }
-.home_content .card_holder .job_ad .job_ad_img img{
+.home_content .card_holder .job_ad .job_ad_img img, .doctor_jobs .job_ad .job_ad_img img, .job_details_container .job_ad_img img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     box-shadow: 0px 3px #00000029;
     border:2px solid #FFFFFF
 }
-.home_content .card_holder .job_ad .job_ad_img span{
+.home_content .card_holder .job_ad .job_ad_img span,.doctor_jobs .job_ad .job_ad_img span,.job_details_container .job_ad_img span{
     font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
 }
-.home_content .card_holder .job_ad .job_ad_details{
-    text-align: left;
-    color: #707070;
+.home_content .card_holder .job_ad .job_ad_details, .doctor_jobs .job_ad .job_ad_details{
+  text-align: right;
+  color: #707070;
+  margin-right: 20%;
+}
+.job_details_container .job_ad .job_ad_details{
+  text-align: right;
+  color: #707070;
+  margin-right: 11%;
+  margin-top: -2%;
+  margin-bottom: 3.5%;
 }
 .home_content .card_holder .job_ad .fav_report_btn .fav_btn {
     color: #FFD21E
@@ -514,7 +584,9 @@ body{
   
 }
 /* End home content */
-
+.star span{
+  font-family: 'Tajawal', sans-serif;
+}
 /* path */
 .path{
   margin-bottom: 20px;
@@ -594,6 +666,9 @@ footer .footer_social span a{
     color: #fff;
     font-size: 20px;
 }
+footer .footer_logo img{
+  width: 100%;
+}
 /* end footer */
 
 /* login page */ 
@@ -667,20 +742,30 @@ footer .footer_social span a{
   font-weight: bold;
 }
 .enter_code .login-form .code_container{
+  width: 45%;
   margin-bottom: 30px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .enter_code .login-form .code_container input{
   text-align: center;
   color: #1186e1;
   font-size: 20px;
   font-weight: bolder;
+  border-radius: 5px;
+  height: 60px;
 }
 .enter_code .login-form .sendCode_btn, .register .register_form .reg_btn{
   text-align: center;
 }
 .enter_code .login-form .sendCode_btn button, .register .register_form .reg_btn a{
   padding: 10px 60px;
+}
+.enter_code .code{
+  flex: 0 0 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* end enter code page */
@@ -752,28 +837,38 @@ footer .footer_social span a{
 }
 .add_job .job_details_container .cate_list a{
   width: 100%;
-  border: 1px solid #C2BFBF;
+  border: 1px solid #ced4da;
 }
-.add_job .job_details_container .up_btn, .add_card .subscribe_row .up_btn{
+.add_job .job_details_container .up_btn, .add_card .subscribe_row .up_btn, .payment .up_btn{
   position: relative !important;
   z-index: 2;
   cursor: pointer;
-  width: 70%;
-
+  width: 25%;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border-width: 2px;
 }
-.add_job .job_details_container .up_btn input, .add_card .subscribe_row .up_btn input{
+.add_job .job_details_container .up_btn input, .add_card .subscribe_row .up_btn input, .payment .up_btn input{
   opacity: 0;
   cursor: pointer;
+  width: 100%;
 }
 
-.add_job .job_details_container .up_btn .upload, .add_card .subscribe_row .up_btn .upload{
+.add_job .job_details_container .up_btn .upload, .add_card .subscribe_row .up_btn .upload, .payment .up_btn .upload{
   position: absolute !important;
   top: 0px !important;
+  left: 2px;
   width: 100%;
   text-align: center;
   padding: 5px;
   z-index: -1;
   cursor: pointer;
+  border:3px solid #17a2b8;
+  color: #008a8f;
+  border-radius: 10px;
+
 }
 .add_job .job_details_container .up_img, .add_card .subscribe_row .up_img{
   width: 100%;
@@ -784,15 +879,19 @@ footer .footer_social span a{
 .add_job .job_details_container .up_img img, .add_card .subscribe_row .up_img img{
   display: inline-block;
   position: relative;
-  width: auto;
+  width: 100%;
   height: 100px;
 }
-.add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon{
+.add_job .job_details_container .up_img .up_img_cont, .add_card .subscribe_row .up_img .up_img_cont{
+    margin-bottom: 15px;
+    padding-left: 0px;
+}
+.add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon,.payment .up_img .up_img_cont .rem_icon{
   width: auto;
   height: auto;
   position: absolute;
   top: 7%;
-  right:11%;
+  right:14%;
   cursor: pointer;
 }
  .up_img .up_img_cont .rem_icon img{
@@ -811,9 +910,11 @@ footer .footer_social span a{
   margin-right: 10px;
   margin-left: 10px;
   cursor: pointer;
+  border-radius: 5px !important;
 }
 .add_job .job_details_container .choose_bouquet_btn{
   margin-top: 10px;
+  border-radius: 5px !important;
 }
 .add_job .choose_bouq a{
   color: #828282;
@@ -914,6 +1015,9 @@ footer .footer_social span a{
 .add_card .subscribe_row{
   height: 500px;
   overflow-y: scroll;
+}
+.add_card .subscribe_row::-webkit-scrollbar{
+  display: none;
 }
 .add_card .choose_bouquet_btn{
   margin-top: 10px;
@@ -1280,6 +1384,16 @@ footer .footer_social span a{
   border-radius: 15px;
   box-shadow: 0px 0px 6px rgba(146, 143, 143, 0.45);
 }
+.job_card_2{
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px rgba(146, 143, 143, 0.45);
+  background-color: #fff;
+}
+.contact a {
+  color: #00AAB1;
+  text-decoration: underline;
+}
 .job_describtion span{
   font-size: 1.5em;
   font-weight: bold;
@@ -1308,16 +1422,89 @@ footer .footer_social span a{
 .category{
   margin-top: 35px;
 }
+
 .category .categ_main_container .more{
   margin-top:50px
 }
+
 .category .categ_main_container .img_container{
   margin:5px;
-  margin-right: 20px;
-  padding: 20px 5px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 6px #00000029;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  margin-left: auto;
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: 1px solid #C2BFBF;
+  box-shadow: 0px 3px 6px #00000029;
+  flex: 0 0 17%;
+  text-align: center;
+  width: auto;
 }
+
+.category .categ_main_container .img_container img{
+  width: 75px;
+  height: 75px;
+}
+.category .categ_main_container .img_container span{
+  font-size: 19px;
+  font-weight: 600;
+  color: #333333;
+}
+
+@media (min-width:300px) and (max-width:450px){
+  .category .categ_main_container .img_container{
+    flex: 0 0 20%;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    
+  }
+  .category .categ_main_container .img_container img{
+    width: 45px;
+    height: 45px;
+  }
+  .category .categ_main_container .img_container span{
+    font-size: 10px;
+  }
+}
+@media (min-width:450px) and (max-width:767.5px){
+  .category .categ_main_container .img_container{
+    flex: 0 0 22%;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    
+  }
+  .category .categ_main_container .img_container img{
+    width: 55px;
+    height: 55px;
+  }
+  .category .categ_main_container .img_container span{
+    font-size: 14px;
+  }
+}
+@media (min-width:767px) and (max-width:992px){
+  .category .categ_main_container .img_container{
+    flex: 0 0 25%;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    
+  }
+  .category .categ_main_container .img_container img{
+    width: 65px;
+    height: 65px;
+  }
+  .category .categ_main_container .img_container span{
+    font-size: 15px;
+  }
+ 
+}
+
 /* End Category*/
 
 /* doctor card */
@@ -1376,6 +1563,18 @@ footer .footer_social span a{
 .doctor_cards .more_card span{
   color: rgb(145, 143, 143);
 }
+.line{
+  color: #C2BFBF;
+}
+.rep_text{
+  color: #C2BFBF !important;
+}
+.job_details_container .rep_text{
+  text-align: left;
+}
+.doctor_jobs .job_ad{
+  margin-bottom: 15px;
+}
 /* end doctor card */
 
 
@@ -1393,17 +1592,17 @@ footer .footer_social span a{
   border-radius: 5px;
 }
 .card_details_content .profile_name {
-  margin-top: 25%;
+  margin-top: 34%;
   font-weight: bold;
-  margin-left: 60px;
-}
+  text-align: right;
+  }
 .card_details_content .profile_name p{
   font-size: 22px;
   font-weight: bolder;
   color: rgb(71, 70, 70);
 }
 .card_details_content .add_contact_btn{
-  margin-top: 5%;
+  margin-top: 3%;
   text-align: left;
 }
 .card_details_content .card_img{
@@ -1474,6 +1673,7 @@ footer .footer_social span a{
   color:rgb(53, 151, 243)
 }
 
+
 /* end job details */
 
 /* payment */
@@ -1530,12 +1730,13 @@ footer .footer_social span a{
   position: relative !important;
   z-index: 2;
   cursor: pointer;
-  width: 90%;
+  width: 15%;
 
 }
 .payment .up_btn input{
   opacity: 0;
   cursor: pointer;
+  width: 100%;
 }
 
 .payment .up_btn .upload{
@@ -1550,6 +1751,10 @@ footer .footer_social span a{
 .payment .payment_collapse{
   text-align: right;
 }
+.payment .up_img_cont img{
+  width: 100%;
+  height: 100%;
+}
 /* end payment */
 
 
@@ -1558,11 +1763,12 @@ footer .footer_social span a{
   margin: auto;
   background-color: rgba(240, 236, 236, 0.288);
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 10px 0px !important;
   box-shadow: 7px 8px 12px #00000029;
   width: 100%;
   height: 402px;
+  cursor: pointer;
 }
 .bouquet .bouquet_details{
   margin: 25px 0px;
@@ -1570,7 +1776,7 @@ footer .footer_social span a{
 .bouquet .bouquet_details p{
   color: #00AAB1;
   line-height: 1.9;
-  font-weight: 800 !important;
+  font-weight: 500 !important;
 }
 .bouquet .bouquet_title{
   color: #00AAB1;
@@ -1602,6 +1808,9 @@ footer .footer_social span a{
   font-size:36px;
   color: #00AAB1;
   font-weight: bold;
+}
+.bouquet .selected{
+  background: #00AAB145;
 }
 
 /* End Bouquet Page */
@@ -1913,13 +2122,23 @@ color: #243C82;
 
 
 /* media query */
-@media (min-width:200px) and (max-width:475px){
+@media (min-width:200px) and (max-width:340px){
+  .small_screen .search_in_sm{
+    flex: 0 0 60%;
+  }
+  .small_screen .search_icon{
+    flex: 0 0 11%;
+  }
+  .small_screen .search_icon a{
+    padding: 5px 0px;
+  }
+}
+@media (min-width:200px) and (max-width:495px){
+ 
   .forget_password .login-form{
     width: 100%;
   }
-  .category .categ_main_container .img_container img{
-    width: 60px;
-  }
+  
   .card_details_content .card_img img{
       height: 335px;
   }
@@ -1928,15 +2147,18 @@ color: #243C82;
     height: 25px;
     margin-right: 8px;
   }
-  .add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon{
+  .add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon, .payment .up_img .up_img_cont .rem_icon{
     right: 11%;
   }
   .bouquet .cardi{
     height: 250px;
   }
   .bouquet .cardi img{
-    width: 40%;
+    width: 65%;
     height: 30%;
+  }
+  .bouquet .bouquet_details p{
+    font-size: 12px;
   }
   .bouquet .card-body p:nth-child(1){
     font-size: 18px;
@@ -1945,7 +2167,22 @@ color: #243C82;
   .bouquet .card-body p:nth-child(2){
     font-size: 22px;
   }
-  
+  .add_job .job_details_container .up_btn, .add_card .subscribe_row .up_btn, .payment .up_btn{
+    width: 33%;
+  }
+  .add_card .add_card_links a, .my-account .most-search-header .my_cards .card_btn button {
+    padding: 7px 16px !important;
+    font-size: 11px !important;
+  }
+  .fav_report_btn,.contact{
+    font-size: 10px !important;
+  }
+  .card_details_content .fav_report_btn{
+    font-size: 1rem !important;
+  }
+  .upper_nav .upper_nav_row .login_welcome{
+    font-size: 15px;
+  }
 }
 
 @media (min-width:476px) and (max-width:991.8px){
@@ -1962,6 +2199,9 @@ color: #243C82;
   }
   .bouquet .card-body p:nth-child(2){
     font-size: 24px;
+  }
+  .payment .up_btn{
+    width: 23%;
   }
 }
 @media (min-width:200px) and (max-width:759px){
@@ -1984,11 +2224,6 @@ color: #243C82;
   }
   .my-account .fav_jobcard_dropdown{
     margin-top: 20px;
-  }
-  .card_details_content .profile_name {
-    text-align: center;
-    margin-left: 0;
-    margin-top: 0px;
   }
   .home_content .doc_cards img{
     margin-bottom: 15px;
@@ -2014,9 +2249,6 @@ color: #243C82;
   .add_card .logo_container .logo_img img{
     height: 100px;
   }
-  .card_details_content .add_contact_btn{
-    text-align: center;
-  }
   .login .login-form{
     width: 100%;
   }
@@ -2039,15 +2271,22 @@ color: #243C82;
     border-radius: 25px !important;
     padding: 10px 40px;
   }
+  .add_job .job_details_container .add_job_btn .add_job_button,.choose_bouquet_btn{
+    padding: 10px 12px;
+    font-size: 12px;
+  }
   .enter_code .pass_input,.contact_us_row input, .contact_us_row textarea{
     border-radius: 15px;
   }
   .enter_code .code{
     padding: 0px;
   }
-  .enter_code .code input{
-    width: 60%;
-    border-radius: 15px;
+  .enter_code .login-form .code_container{
+    width: 80%;
+  }
+  .enter_code .login-form .code_container input{
+    border-radius: 10px;
+    height: 45px;
   }
   .login .login-form .code_label input{
     border-radius: 15px;
@@ -2078,6 +2317,20 @@ color: #243C82;
   
 }
 
+@media (min-width:1200px) and (max-width:2180px){
+  .pn{
+    margin-right: -18px;
+    margin-left: 15px;
+  }
+}
+@media (min-width:992px) and (max-width:1200px){
+  .pn{
+    margin-right: -10px;
+    margin-left: -7px;
+  }
+}
+
+
 @media (min-width:200px) and (max-width:992px){
   .top_header .header_links .dropdown a{
     margin-bottom: 10px;
@@ -2104,13 +2357,11 @@ color: #243C82;
     .upper_nav .nav_login_links{
         text-align: center !important;
     }
-    .top_header .header_social,.upper_nav .nav_login_links .header_card_btn{
-        margin-bottom: 10px;
-    }
+    
    .upper_nav .upper_nav_row .login_welcome{
      position: relative;
      bottom: 40px;
-     left: 20%;
+     left: 0%;
    }
     
 }
@@ -2132,6 +2383,9 @@ color: #243C82;
   .forget_password .login-form .forget_text{
     font-size: 18px;
   }
+  .payment .up_btn{
+    width: 23%;
+  }
 }
 @media (min-width:767px) and (max-width:1270px){
   .upper_nav .nav_login_links .nav_links{
@@ -2142,7 +2396,7 @@ color: #243C82;
   .upper_nav .upper_nav_row .login_welcome{
     position: relative;
     bottom: 30px;
-    left: 20%;
+    left: 0%;
   }
 }
 
@@ -2159,14 +2413,14 @@ color: #243C82;
 }
 @media (min-width:1140px) and (max-width:2060px){
   .add_job .job_details_container .up_img .up_img_cont .rem_icon{
-    right:10%
+    right:14%
   }
  
 }
-@media (min-width:1400px) and (max-width:1560px){
+@media (min-width:1400px) and (max-width:1460px){
   .add_job .job_details_container .up_img .up_img_cont .rem_icon{
     position: absolute;
-    right:8%
+    right:12%
   }
 }
 
@@ -2195,11 +2449,11 @@ color: #243C82;
   .upper_nav .nav_login_links .regi_btn{
     margin-bottom: 0px;
     border:2px solid #00AAB1;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .upper_nav .nav_login_links .header_card_btn{
     padding: 0px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .upper_nav .nav_login_links .regi_btn:hover{
     border:2px solid #00AAB1 !important;
@@ -2209,11 +2463,21 @@ color: #243C82;
     border-radius: 10px;
     margin-bottom: 0px;
   }
+  .dropdown-toggle::after{
+    border: none !important;
+  }
   .upper_nav .nav_login_links .header_card_btn a{
     font-size: 14px;
   }
   .enter_code .login-form .code_text{
     font-size: 19px;
+  }
+  .my_acc,  .my_acc a{
+    text-align: center;
+    width: 100%;
+}
+  .upper_nav .upper_nav_row .login_welcome {
+    margin-left: 14%;
   }
 
 }
@@ -2238,18 +2502,18 @@ color: #243C82;
     height: 50%;
   }
   .upper_nav .add_new_btn a{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
-
-  .home_content .card_holder .job_ad .job_ad_img img{
+  
+  .home_content .card_holder .job_ad .job_ad_img img,  .doctor_jobs .job_ad .job_ad_img img{
     width: 70px;
     height: 70px;
   }
-  .home_content .card_holder .job_ad .job_ad_img span{
+  .home_content .card_holder .job_ad .job_ad_img span,.doctor_jobs .job_ad .job_ad_img span{
     font-size: 14px;
     margin-right: 7px;
   }
-  .home_content .card_holder .job_ad .job_ad_details{
+  .home_content .card_holder .job_ad .job_ad_details, .doctor_jobs .job_ad .job_ad_details{
     margin-top: 5px;
     font-size: 14px;
   }
@@ -2288,11 +2552,11 @@ color: #243C82;
     height: 150px;
   }
   .bouquet .card-body p:nth-child(1) {
-    font-size: 26px;
+    font-size: 26px !important;
     margin-bottom: 25px;
   }
   .bouquet .card-body p:nth-child(2) {
-    font-size: 28px;
+    font-size: 28px !important;
     
   }
   .top_header .header_links .dropdown a{
@@ -2304,7 +2568,7 @@ color: #243C82;
     height: 100%;
   }
   .upper_nav .add_new_btn a{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .home_content .card_holder .fav_report_btn{
     font-size: 14px;
@@ -2313,8 +2577,151 @@ color: #243C82;
     font-size: 13px;
     text-align: left;
   }
+  .footer_logo img{
+    width: 100%;
+  }
  
 }
+@media (min-width:300px) and (max-width:992px){
+  .fav_report_btn,  .contact{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .card_details_content .fav_report_btn{
+    flex: 0 0 50%;
+    max-width: 50%;
+    order: 0;
+  }
+ 
+ 
+   .contact ,.home_content .card_holder .job_ad .contact{
+    order: 1;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+   .fav_report_btn{
+    order: 2;
+  }
+  .rep_text{
+    float: left;
+  }
+  .job_details_container .rep_text{
+    float: none;
+  }
+  .line{
+    display: none;
+  }
+  .job_details_container .job_ad_img img{
+    width: 80px;
+    height: 80px;
+  }
+  .job_details_container .job_ad .job_ad_details{
+    margin-top: 1%;
+  }
+}
+@media (min-width:767.8px) and (max-width:992px){
+  .pn{
+    margin-right: 15px;
+    margin-left: -51px;
+  }
+  .card_details_content .add_contact_btn{
+    margin-top: 6%;
+  }
+}
+@media (min-width:521px) and (max-width:767px){
+  .pn{
+    margin-right: 45px;
+    margin-left: -51px;
+  }
+  .card_details_content .profile_name{
+    margin-top: 44%;
+  }
+  .card_details_content .profile_name p{
+    font-size: 18px;
+  }
+  .save_cont_col{
+    flex: 0 0 70%;
+  }
+  .card_details_content .add_contact_btn{
+    margin-top: 9%;
+  }
+  .card_details_content .add_contact_btn button{
+    font-size: 14px;
+  }
+}
+@media (min-width:484px) and (max-width:521px){
+  .pn{
+    margin-right: 45px;
+    margin-left: -51px;
+  }
+  .card_details_content .profile_name{
+    margin-top: 44%;
+  }
+  .card_details_content .profile_name p{
+    font-size: 18px;
+  }
+  .save_cont_col{
+    flex: 0 0 69%;
+  }
+  .card_details_content .add_contact_btn{
+    margin-top: 10%;
+  }
+  .card_details_content .add_contact_btn button{
+    font-size: 14px;
+  }
+}
+@media (min-width:409px) and (max-width:484px){
+  .profile_img img {
+    width: 80px;
+    height: 80px;
+  }
+  .pn{
+    margin-right: 45px;
+    margin-left: -41px;
+  }
+  .card_details_content .profile_name{
+    margin-top: 44%;
+  }
+  .card_details_content .profile_name p{
+    font-size: 15px;
+  }
+  .save_cont_col{
+    flex: 0 0 67%;
+  }
+  .card_details_content .add_contact_btn{
+    margin-top: 10%;
+  }
+  .card_details_content .add_contact_btn button{
+    font-size: 12px;
+  }
+}
+@media (min-width:309px) and (max-width:409px){
+  .profile_img img {
+    width: 80px;
+    height: 80px;
+  }
+  .pn{
+    margin-right: 45px;
+    margin-left: -55px;
+  }
+  .card_details_content .profile_name{
+    margin-top: 44%;
+  }
+  .card_details_content .profile_name p{
+    font-size: 15px;
+  }
+  .save_cont_col{
+    flex: 0 0 67%;
+  }
+  .card_details_content .add_contact_btn{
+    margin-top: 10%;
+  }
+  .card_details_content .add_contact_btn button{
+    font-size: 12px;
+  }
+}
+
 @media (min-width:992px) and (max-width:1195px){
   .bouquet .cardi{
     height: 330px;
@@ -2334,6 +2741,7 @@ color: #243C82;
   .upper_nav .nav_login_links .nav_links{
     margin-top: -30px;
   }
+  
 }
 
 /* end media */ 
@@ -2379,10 +2787,13 @@ color: #243C82;
 }
 
 @media (min-width:1560px) and (max-width:2185px){
-  .add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon{
-    right: 6%;
+  .add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon,.payment .up_img .up_img_cont .rem_icon{
+    right: 11%;
   }
+ 
 }
+
+
 /* end xlg screen media */ 
 
 

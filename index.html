@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/tail.select-teal.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/slick-theme.css" />
     <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css" />
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/slick.css" />
-    <link rel="stylesheet" href="./assets/css/slick-theme.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
+    
     <link rel="stylesheet" href="./assets/css/main.css" />
+    
     <title>Home</title>
     <style>
         .fa-check{
@@ -19,6 +21,20 @@
         }
         .modal-footer a{
             color: #fff;
+        }
+        .slick-initialized{
+            direction: ltr;
+        }
+        .slick-prev{
+            left: 0px;
+            right: 0px;
+        }
+        .slick-next{
+            left: 0px;
+            right: 0px;
+        }
+        .slide_doc{
+            margin: 0px;
         }
     </style>
 </head>
@@ -117,7 +133,7 @@
                         </div>
 
                         <div class="dropdown btn-group add_new_btn">
-                            <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="btn btn-info add_new" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                أضف جديد
                             </a>
                             
@@ -398,7 +414,10 @@
                 <a href="#">المزيد</a>
             </div> <!-- End doctors cards-->
 
-            <div class="col-md-3 col-6">
+          </div><!-- row -->
+
+          <div class="slick-carousel type-one-carousel row">
+              <div class="col-md-3 col-6">
                 <div class="doc_cards">
                     <img src="assets/images/card-1.png" />
                 </div>
@@ -407,6 +426,12 @@
             <div class="col-md-3 col-6">
                 <div class="doc_cards">
                     <img src="assets/images/card-2.png" />
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <div class="doc_cards">
+                    <img src="assets/images/card-1.png" />
                 </div>
             </div>
 
@@ -422,8 +447,7 @@
                 </div>
             </div>
 
-
-          </div><!-- row -->
+          </div>
 
           <hr>
 
@@ -437,32 +461,46 @@
                 <a href="#">المزيد</a>
             </div> <!-- End doctors cards-->
 
-            <div class="col-md-3 col-6">
-                <div class="doc_cards">
-                    <img src="assets/images/card-3.png" />
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="doc_cards">
-                    <img src="assets/images/card-1.png" />
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="doc_cards">
-                    <img src="assets/images/card-2.png" />
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="doc_cards">
-                    <img src="assets/images/card-1.png" />
-                </div>
-            </div>
-
-
           </div><!-- row -->
+
+          <div class="slick-carousel type-two-carousel row">
+            <div class="col-md-3 col-6">
+              <div class="doc_cards">
+                  <img src="assets/images/card-1.png" />
+              </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+              <div class="doc_cards">
+                  <img src="assets/images/card-2.png" />
+              </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+              <div class="doc_cards">
+                  <img src="assets/images/card-3.png" />
+              </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+              <div class="doc_cards">
+                  <img src="assets/images/card-1.png" />
+              </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+            <div class="doc_cards">
+                <img src="assets/images/card-2.png" />
+            </div>
+        </div>
+
+        <div class="col-md-3 col-6">
+            <div class="doc_cards">
+                <img src="assets/images/card-3.png" />
+            </div>
+        </div>
+
+        </div>
 
           <div class="row home_special_ads">
 
@@ -487,11 +525,11 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-8 col-12">
+                    <div class="col-md-8 col-12 fav_report_btn">
                         <div class="fav_report_btn">
                             <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
                                 <span class="star">
-                                    <i class="far fa-star"> &nbsp; أضف إلى المفضلة</i>
+                                    <i class="far fa-star"> &nbsp; <span>أضف إلى المفضلة</span></i>
                                 </span>
                           </a>
                           
@@ -516,10 +554,10 @@
                           </div> <!-- popup button-->     
                             
 
-                              <span> | </span>
+                              <span class="line"> | </span>
                               <!-- report btn -->
-                              <span>
-                                   <a type="button" class="text-secondary rep" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
+                              <span class="rep_text">
+                                   <a type="button" class="rep" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
            
                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                        <div class="modal-dialog">
@@ -564,11 +602,11 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-8 col-12">
+                    <div class="col-md-8 col-12 fav_report_btn">
                         <div class="fav_report_btn">
                             <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
                                 <span class="star">
-                                    <i class="far fa-star"> &nbsp; أضف إلى المفضلة</i>
+                                    <i class="far fa-star"> &nbsp; <span>أضف إلى المفضلة</span></i>
                                 </span>
                           </a>
                           
@@ -593,10 +631,10 @@
                           </div> <!-- popup button-->     
                             
 
-                              <span> | </span>
+                              <span class="line"> | </span>
                               <!-- report btn -->
-                              <span>
-                                   <a type="button" class="text-secondary rep" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
+                              <span class="rep_text">
+                                   <a type="button" class="rep" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
            
                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                        <div class="modal-dialog">
@@ -645,32 +683,47 @@
                 <a href="#">المزيد</a>
             </div> <!-- End doctors cards-->
 
-            <div class="col-md-3 col-6">
-                <div class="doc_cards">
-                    <img src="assets/images/card-3.png" />
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="doc_cards">
-                    <img src="assets/images/card-1.png" />
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="doc_cards">
-                    <img src="assets/images/card-2.png" />
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="doc_cards">
-                    <img src="assets/images/card-1.png" />
-                </div>
-            </div>
-
-
+           
           </div><!-- row -->
+
+          <div class="slick-carousel type-three-carousel row">
+            <div class="col-md-3 col-6">
+              <div class="doc_cards">
+                  <img src="assets/images/card-1.png" />
+              </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+              <div class="doc_cards">
+                  <img src="assets/images/card-2.png" />
+              </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+              <div class="doc_cards">
+                  <img src="assets/images/card-3.png" />
+              </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+              <div class="doc_cards">
+                  <img src="assets/images/card-1.png" />
+              </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+            <div class="doc_cards">
+                <img src="assets/images/card-2.png" />
+            </div>
+        </div>
+
+        <div class="col-md-3 col-6">
+            <div class="doc_cards">
+                <img src="assets/images/card-3.png" />
+            </div>
+        </div>
+
+        </div>
 
           <hr>
       </div> <!-- container fluid -->
@@ -732,20 +785,59 @@
       </div> <!-- container -->
   </footer>
   <!-- end footer -->
-
-
-
+  
+ 
 
 
     <script src="./assets/js/jquery-3.3.1.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/fgEmojiPicker.js"></script>
     <script src="./assets/js/tail.select-full.min.js"></script>
     <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
 
-    
+
+    <script>
+        
+        $(document).ready(function(){
+            var gadgetCarousel = $(".slick-carousel");
+  
+            gadgetCarousel.each(function() {
+                if ($(this).is(".type-one-carousel")) {
+                    $(this).slick({
+                    dots: true,
+                    infinite: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 4
+                });
+                } 
+                else if ($(this).is(".type-two-carousel")){
+                $(this).slick({
+                    dots: true,
+                    infinite: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 4
+                });
+                }
+                else if ($(this).is(".type-three-carousel")){
+                $(this).slick({
+                    dots: true,
+                    infinite: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 4
+                });
+                }
+                else {
+                $(this).slick();
+                }
+            })
+            
+        });
+    </script>
+
+   
 </body>
 </html>

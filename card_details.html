@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Card Details</title>
+    <style>
+        .card_details_fav{
+            font-family: 'Tajawal', sans-serif;
+        }
+       
+    </style>
 </head>
 <body>
     
@@ -100,7 +106,7 @@
             <div class="nav_login_links col-md-9 col-sm-12">
                 <div class="login_welcome row">
 
-                    <div class="col-7 offset-5">
+                    <div class="col-12">
                     <i class="far fa-user text-info"></i>
                     <span> مرحبا بكم<span> User Name</span> </span>
                     </div>
@@ -109,16 +115,16 @@
                 <br>
                 <div class="nav_links">
 
-                    <div class="header_card_btn btn-group">
+                    <div class="header_card_btn btn-group my_acc">
                         <a href="account.html" class="text-info"><i class="fas fa-user"></i> حسابى </a>
                     </div>
 
                     <div class="header_card_btn btn-group">
-                        <a href="index.html" class="btn btn-outline-info"> <i class="fas fa-sign-out-alt"></i> تسجيل الخروج </a>
+                        <a href="index.html" class="btn btn-outline-info sign_out_btn"> <i class="fas fa-sign-out-alt"></i> تسجيل الخروج </a>
                     </div>
 
                     <div class="dropdown btn-group">
-                        <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="btn btn-info add_new" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             أضف جديد
                         </a>
                         
@@ -342,7 +348,9 @@
                     <div>
                         <span class="first"> <a href="index.html">الرئيسية</a></span>
                         <span class="path_angle"><i class="fas fa-angle-left"></i> </span>
-                        <span><a href="account.html">حسابى</a> </span>
+                        <span><a href="account.html">الكروت</a> </span>
+                        <span class="path_angle"><i class="fas fa-angle-left"></i> </span>
+                        <span><a href="account.html">الأطباء</a> </span>
                     </div>
                 </div>
             </div>
@@ -356,30 +364,25 @@
         <div class="container">
             <div class="profile_details">
                 <div class="row">
-                    <div class="col-md-2 col-sm-12 text-center">
+                    <div class="col-2 text-center">
                         <div class="profile_img">
                             <img src="assets/images/cons1.webp" />
                         </div>
                     </div>
   
-                    <div class="col-md-2 col-sm-12 text-right">
+                    <div class="col-4-12 pn text-right">
                         <div class="profile_name">
                             <p>على محمد</p>
                         </div>
                     </div>
   
                     <!-- this one appears on medium and big screens only -->
-                    <div class="col-md-8 col-sm-12 d-md-block d-none">
+                    <div class="col-9 save_cont_col">
                       <div class="add_contact_btn">
                           <button class="btn btn-info">حفظ إلى جهات الإتصال <i class="fas fa-plus"></i></button>
                       </div>
                     </div>
-                    <!-- this one appears on small screens only -->
-                    <div class="col-md-8 col-sm-12 text-center d-sm-block  d-md-none">
-                      <div class="add_contact_btn">
-                          <button class="btn btn-info">حفظ إلى جهات الإتصال <i class="fas fa-plus"></i></button>
-                      </div>
-                    </div>
+                    
   
                 </div> <!-- row -->
             </div> <!-- profile details -->
@@ -396,7 +399,7 @@
                 <div class="fav_report_btn card_details_fav col-6">
                                   
                     <span class="star">
-                        <i class="far fa-star"> &nbsp; أضف إلى المفضلة</i>
+                        <i class="far fa-star"> &nbsp; <span>أضف إلى المفضلة</span></i>
                     </span>
                   
                   <!-- Modal -->
@@ -425,7 +428,7 @@
                 <div class="col-6">
                   <div class="report_btn">
   
-                    <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#report">
+                    <button type="button" class="btn text-secondary" data-toggle="modal" data-target="#report">
                       إبلاغ
                     </button>
   

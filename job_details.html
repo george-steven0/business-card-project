@@ -21,10 +21,14 @@
         .modal-footer a{
             color: #fff;
         }
-        .job_card{
+        .job_ad{
             background-color: #fff;
             box-shadow: 0px 0px 6px #00000029;
+            border-radius: 2px;
+            padding: 15px;
         }
+       
+        
     </style>
 </head>
 <body>
@@ -113,7 +117,7 @@
             <div class="nav_login_links col-md-9 col-sm-12">
                 <div class="login_welcome row">
 
-                    <div class="col-7 offset-5">
+                    <div class="col-12">
                     <i class="far fa-user text-info"></i>
                     <span> مرحبا بكم<span> User Name</span> </span>
                     </div>
@@ -122,16 +126,16 @@
                 <br>
                 <div class="nav_links">
 
-                    <div class="header_card_btn btn-group">
+                    <div class="header_card_btn btn-group my_acc">
                         <a href="account.html" class="text-info"><i class="fas fa-user"></i> حسابى </a>
                     </div>
 
                     <div class="header_card_btn btn-group">
-                        <a href="index.html" class="btn btn-outline-info"> <i class="fas fa-sign-out-alt"></i> تسجيل الخروج </a>
+                        <a href="index.html" class="btn btn-outline-info sign_out_btn"> <i class="fas fa-sign-out-alt"></i> تسجيل الخروج </a>
                     </div>
 
                     <div class="dropdown btn-group">
-                        <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="btn btn-info add_new" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             أضف جديد
                         </a>
                         
@@ -368,98 +372,81 @@
      <!--job details content-->
     <div class="job_details_container">
         <div class="container">
-        <div class="col-md-12 card_container">
+             <!-- repeated div-->
+             <div class="job_ad col-12">
 
-            <div class="job_card">
+                <div class="job_ad_img">
+                    <img src="assets/images/cons1.webp" />
+                    <span>محمد على</span>
+                </div>
+
+                <div class="job_ad_details">
+                    <p>مطلوب علي وجه السرعة عمال انتاج في مصنع مواد غذائية المرتب 3000 جنيه عدد ساعات العمل 12 ساعة 26 يوم شغل</p>
+                </div>
+
                 <div class="row">
+                    <div class="col-8 fav_bt">
+                        <div class="">
+                            <a type="button" class="text-center" data-toggle="modal" data-target="#fav">
+                                <span class="star">
+                                    <i class="far fa-star"> &nbsp; <span>أضف إلى المفضلة</span></i>
+                                </span>
+                          </a>
+                          
+                          <!-- Modal -->
+                          <div class="modal fade text-center" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <i class="fa fa-check text-warning" aria-hidden="true"></i>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                      </button>
+                                      </div>
+                                      <div class="modal-body">
+                                          <h5 class="modal-title text-warning" id="exampleModalLabel">تمت الإضافة إلى المفضلة</h5>
+                                      </div>
+                                      <div class="modal-footer">
+                                      <a href="#" class="btn btn-warning">المفضلة</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div> <!-- popup button-->     
+                            
 
-                    <div class="col-md-2 col-sm-12 hr_img d-md-block d-none">
-                        <img src="assets/images/cons1.webp" />
-                    </div>
+                             
 
-                    <div class="col-md-2 col-sm-12 hr_img d-sm-block d-md-none text-center">
-                        <img src="assets/images/cons1.webp" />
-                    </div>
+                        </div> <!-- fav report btns -->
+                    </div> <!-- col-7 -->
 
-                    <!--appears lg md screens-->
-                    <div class="col-md-9 col-sm-12 job_describtion d-md-block d-none">
-                        <span> محمد على</span>
-                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
-                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
-                            أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .</p>
-                    </div>
-                    <!-- appears sm screens-->
-                    <div class="col-md-9 col-sm-12 job_describtion d-sm-block d-md-none text-center">
-                        <span> محمد على</span>
-                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
-                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
-                            أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .</p>
-                    </div>
-
-                    <div class="col-md-12">
-                        <div class="row">
-                            <!-- fav  btn -->
-                            <div class="fav_report_btn col-7">
-                                
-                                <a type="button" class="text-center" data-toggle="modal" data-target="#exampleModal">
-                                    <span class="star">
-                                        <i class="far fa-star"> &nbsp; أضف إلى المفضلة</i>
-                                    </span>
-                                </a>
-                                
-                                <!-- Modal -->
-                                <div class="modal fade text-center" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <i class="fa fa-check text-warning" aria-hidden="true"></i>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h5 class="modal-title text-warning" id="exampleModalLabel">تمت الإضافة إلى المفضلة</h5>
-                                            </div>
-                                            <div class="modal-footer">
-                                            <a href="account.html" class="btn btn-warning">المفضلة</a>
-                                            </div>
-                                        </div>
+                    <div class="col-4 rep_text ">
+                         <!-- report btn -->
+                         <span class="rep_text">
+                            <a type="button" class="rep" data-toggle="modal" data-target="#exampleModal"> إبلاغ</a>
+    
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">إبلاغ</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
                                     </div>
-                                </div> <!-- popup button-->                  
-
-                            </div> <!-- fav  btn -->
-
-                            <div class="col-5 contact report_btn">
-                                    <!-- report btn -->
-                                <span>
-                                    <a type="button" class="text-secondary" data-toggle="modal" data-target="#report"> إبلاغ</a>
-            
-                                    <div class="modal fade" id="report" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                            <h5 class="modal-title" id="report">إبلاغ</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            </div>
-                                            <div class="modal-body">
-                                            <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
-                                            </div>
-                                            <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary"  data-dismiss="modal">إرسال</button>
-                                            </div>
-                                        </div>
-                                        </div>
+                                    <div class="modal-body">
+                                    <textarea class="report_message form-control" placeholder="عن ماذا تريد الإبلاغ؟"></textarea>
                                     </div>
-                                </span>   <!-- report btn -->
-                            </div>  <!-- contact -->
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">إرسال</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                       </span>   <!-- report btn -->
+                    </div> 
 
-                        </div> <!-- sub row -->
-                    </div> <!-- sub col-12 -->
-                </div> <!-- sub row -->
-            </div> <!-- job card -->
-        </div> <!-- card container-->
+                </div>
+            </div> <!-- job ad-->
         </div> <!-- container -->
 
         <hr>
