@@ -24,6 +24,7 @@
         .dropdown-item{
             border:none !important
         }
+      
     </style>
 </head>
 <body>
@@ -376,6 +377,7 @@
                         <div class="form-group">
                           <label for="name-add" class="add_job_label">تفاصيل الإعلان</label>
                           <textarea class="form-control ad_details_area"></textarea>
+                          <span class="req_em">*</span>
                         </div>
                     </div>
 
@@ -383,6 +385,7 @@
                         <div class="form-group">
                           <label for="name-add">الإسم</label>
                           <input class="form-control" type="text" name="" id="name-add" placeholder="إسم">
+                          <span class="req_nm">*</span>
                         </div>
                     </div>
 
@@ -392,6 +395,7 @@
                           <label for="job">وظيفة</label>
                           <input type="radio" name="job_type" id="work" placeholder="إسم">
                           <label for="work">عمالة</label>
+                          
                         </div>
                     </div>
 
@@ -399,6 +403,7 @@
                         <div class="form-group">
                             <div>
                                 <label>التصنيف</label>
+                                <span class="req_ad_det">*</span>
                             </div>
                             <div class="dropdown btn-group cate_list">
                                 <a class="btn btn-outline-secondary dropdown-toggle cate_drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -416,6 +421,7 @@
                         <div class="form-group">
                             <div>
                                 <label>الدولة</label>
+                                <span class="req_nm">*</span>
                             </div>
                             <div class="dropdown btn-group cate_list">
                                 <a class="btn btn-outline-secondary dropdown-toggle country_drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -434,6 +440,7 @@
                         <div class="form-group">
                             <div>
                                 <label>المدينة</label>
+                                <span class="req_city">*</span>
                             </div>
                             <div class="dropdown btn-group cate_list">
                                 <a class="btn btn-outline-secondary dropdown-toggle city_drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -458,6 +465,7 @@
                     <div class="col-6">
                         <div class="form-group">
                           <label for="name-add">الهاتف</label>
+                          <span class="req_city">*</span>
                           <input class="form-control" type="number" name="" id="name-add" placeholder="0123456789">
                         </div>
                     </div>
@@ -597,10 +605,15 @@
             $(".up_img").append(img);
 
                                     
-                                    
+            $('.rem_icon').on('click',function() {
+                $(this).parent().remove()
+            })               
 
          };
     };
+        $('.rem_icon').on('click',function() {
+            $(this).parent().remove()
+        })
     </script>
 </body>
 </html>

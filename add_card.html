@@ -36,6 +36,19 @@
             color: #008a8f;
             margin-top: -10px;
         }
+        .modal-title{
+            color: #fff;
+            font-weight: 200;
+            font-size: 15px;
+        }
+        .modal-header,.modal-footer{
+            border: none;
+        }
+        .modal-header .close{
+            position: absolute;
+            color: #fff;
+            opacity: 1;
+        }
         
         
 
@@ -418,6 +431,13 @@
                                     <div class="modal-body">
                                       <div class="logo_container row">
                                         <div class="logo_icon">
+                                            <div class="up_btn">
+                                                <input type="file" name="files[]" id="file" onchange="showImageModal(this)" data-multiple-caption="{count} files selected" multiple/>
+                                                <div class="upload text-center"><img src="assets/images/add_btn.svg" /></div>
+                                            </div> 
+                                          </div>
+
+                                        <div class="logo_icon">
                                           <img src="assets/images/car-1.png" class="selected" />
                                         </div>
                                         <div class="logo_icon">
@@ -731,6 +751,12 @@
                                         </div>
                                         <div class="modal-body">
                                           <div class="logo_container row">
+                                            <div class="logo_icon">
+                                                <div class="up_btn">
+                                                    <input type="file" name="files[]" id="file" onchange="showImageModal(this)" data-multiple-caption="{count} files selected" multiple/>
+                                                    <div class="upload text-center"><img src="assets/images/add_btn.svg" /></div>
+                                                </div> 
+                                              </div>
                                             <div class="logo_icon">
                                               <img src="assets/images/car-1.png" class="selected" />
                                             </div>
@@ -1060,7 +1086,7 @@
                 </div>
             </div>
 
-            <div class="footer_social col-lg-6 col-12">
+            <div class="footer_social col-md-6 col-12">
                 <span><a href="#"><i class="fab fa-youtube"></i></a></span>
                 <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
                 <span><a href="#"><i class="fab fa-instagram"></i></a></span>
@@ -1095,133 +1121,6 @@
     <script src="assets/js/lightbox.js"></script>
     <script src="./assets/js/main.js"></script>
 
-  <!-- 
-
-  <script>
-
-                var fixmeTop = $('.fixed_div').offset().top;       // get initial position of the element
-
-                $(window).scroll(function() {                  // assign scroll event listener
-                    if($('body').css('direction')=='rtl'){
-                        if($(window).width() >= 730){
-                    var currentScroll = $(window).scrollTop(); // get current position
-
-                if (currentScroll >= 800) {           // apply position: fixed if you
-                    $('.fixed_div').css({                      // scroll to that element or below it
-                        position: 'fixed',
-                        top: '0',
-                        left: '0',
-                        zIndex: '99999999'
-                    });
-                } else {                                   // apply position: static
-                    $('.fixed_div').css({                      // if you scroll above it
-                        position: 'static'
-                    });
-                }
-                if (currentScroll >= 1600) {           // apply position: static if you
-                    $('.fixed_div').css({                     
-                        position: 'static'
-                    });
-                }
-
-                }
-
-                // medium screens
-                
-                if($(window).width() <= 768){
-                    var currentScroll = $(window).scrollTop(); // get current position
-
-                if (currentScroll >= 1100) {           // apply position: fixed if you
-                    $('.fixed_div').css({                      // scroll to that element or below it
-                        position: 'fixed',
-                        top: '0',
-                        left: '0',
-                        zIndex: '99999999'
-                    });
-                } else {                                   // apply position: static
-                    $('.fixed_div').css({                      // if you scroll above it
-                        position: 'static'
-                    });
-                }
-                if (currentScroll >= 2550) {           // apply position: static if you
-                    $('.fixed_div').css({                     
-                        position: 'static'
-                    });
-                }
-                
-                }
-                
-
-                    }
-                   
-                }) // window scroll
-        
-
-        /* for english language */
-                 console.log($('body').css('direction')=='ltr')
-                var fixmeTop = $('.fixed_div').offset().top;       // get initial position of the element
-
-                $(window).scroll(function() {                  // assign scroll event listener
-                    if($('body').css('direction')=='ltr'){
-                        if($(window).width() >= 730){
-                    var currentScroll = $(window).scrollTop(); // get current position
-
-                if (currentScroll >= 800) {           // apply position: fixed if you
-                    $('.fixed_div').css({                      // scroll to that element or below it
-                        position: 'fixed',
-                        top: '0',
-                        right: '0',
-                        zIndex: '99999999'
-                    });
-                } else {                                   // apply position: static
-                    $('.fixed_div').css({                      // if you scroll above it
-                        position: 'static'
-                    });
-                }
-                if (currentScroll >= 1600) {           // apply position: static if you
-                    $('.fixed_div').css({                     
-                        position: 'static'
-                    });
-                }
-
-                }
-
-                // medium screens
-                
-                if($(window).width() <= 768){
-                    var currentScroll = $(window).scrollTop(); // get current position
-
-                if (currentScroll >= 1100) {           // apply position: fixed if you
-                    $('.fixed_div').css({                      // scroll to that element or below it
-                        position: 'fixed',
-                        top: '0',
-                        right: '0',
-                        zIndex: '99999999'
-                    });
-                } else {                                   // apply position: static
-                    $('.fixed_div').css({                      // if you scroll above it
-                        position: 'static'
-                    });
-                }
-                if (currentScroll >= 2550) {           // apply position: static if you
-                    $('.fixed_div').css({                     
-                        position: 'static'
-                    });
-                }
-                
-                }
-                
-
-                    }
-                   
-                }) // window scroll
-
-        /* for english language */
-            
-        
-    </script>
-
-  -->
 <script>
     /*
          function readURL(input) {
@@ -1241,18 +1140,49 @@ function showImage(file){
 
     for (var i = 0; i < file.files['length']; i++) {
 
-        var img='<div class="upload-image up_img_cont col-sm-3" id="upload-image" style="display:inline-flex">'+
+        var img='<div class="up_img_cont col-sm-3" id="upload-image" style="display:inline-flex">'+
                 "<img id='img_src' class='img-thumbnail' src="+"'" +window.URL.createObjectURL(file.files[i])+"'"+">"+
                 "<i class='rem_icon'> <img src='assets/images/remove.svg' /></i>"+
             '</div>';
 
-    $(".up_img").append(img);
-
-                             
-                             
-
+    $(".up_img").append(img);                      
     };
+
+    $('.rem_icon').on('click',function() {
+        $(this).parent().remove()
+    })
 };
+$('.rem_icon').on('click',function() {
+  $(this).parent().remove()
+})
+
+
+
+
+
+
+
+
+function showImageModal(file){
+
+for (var i = 0; i < file.files['length']; i++) {
+
+    var img='<div class="logo_icon" style="display:inline-flex">'+
+            "<img src="+"'" +window.URL.createObjectURL(file.files[i])+"'"+">"+
+        '</div>';
+
+        $(".modal-body .logo_container").append(img);                      
+        };
+        $('.add_card .cards img,.doctor_cards .all_cards img,.add_card .logo_container .logo_icon img').on('click',function(){
+    $('.selected').removeClass('selected');
+    $(this).addClass('selected');
+
+  })
+};
+
+
+
+
 
 </script>
   

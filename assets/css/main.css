@@ -667,7 +667,11 @@ footer .footer_social span a{
     font-size: 20px;
 }
 footer .footer_logo img{
-  width: 100%;
+  width: 80%;
+  height: 200px;
+}
+footer ul a li{
+  margin-bottom: 1.5%;
 }
 /* end footer */
 
@@ -802,6 +806,18 @@ footer .footer_logo img{
   position: absolute;
   top: 5px;
   right: 80px;
+  color: #FB2828;
+}
+.req_ad_det{
+  position: absolute;
+  top: 5px;
+  right: 77px;
+  color: #FB2828;
+}
+.req_city{
+  position: absolute;
+  top: 5px;
+  right: 68px;
   color: #FB2828;
 }
 
@@ -987,14 +1003,37 @@ footer .footer_logo img{
   height: 200px;
   margin-top: 15px;
 }
+.add_card .logo_container{
+  margin: auto;
+}
 .add_card .logo_container .logo_img img{
   width: 150px;
   height: 150px;
 }
 .add_card .modal-body .logo_container .logo_icon img{
-    width: 150px;
-    height: 150px;
-    margin: 0px 5px 5px 5px;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    display: inline-flex;
+}
+.add_card .modal-body .logo_container .logo_icon .up_btn img{
+  width: 100px;
+  height: 100px;
+  opacity: 1 !important;
+}
+.add_card .modal-body .logo_container .logo_icon  .up_btn{
+  position: relative !important;
+  z-index: 0;
+  cursor: pointer;
+
+}
+.add_card .modal-body .logo_container .logo_icon .up_btn input{
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  z-index: 999;
 }
 .add_card .modal-footer button{
   text-align: center;
@@ -2183,6 +2222,9 @@ color: #243C82;
   .upper_nav .upper_nav_row .login_welcome{
     font-size: 15px;
   }
+    footer .footer_logo img {
+    width: 80%;
+  }
 }
 
 @media (min-width:476px) and (max-width:991.8px){
@@ -2348,12 +2390,6 @@ color: #243C82;
       text-align: center;
     }
    
-    footer .footer_logo img{
-        width: 200px;
-    }
-    footer ul li{
-        font-size: 12px;
-    }
     .upper_nav .nav_login_links{
         text-align: center !important;
     }
@@ -2649,6 +2685,9 @@ color: #243C82;
   .card_details_content .add_contact_btn button{
     font-size: 14px;
   }
+  footer .footer_logo img {
+    width: 70%;
+}
 }
 @media (min-width:484px) and (max-width:521px){
   .pn{
@@ -2769,8 +2808,11 @@ color: #243C82;
   .search input{
     width: 85%;
   }
+  footer .footer_logo img{
+    height: 220px;
+  }
 }
-@media (min-width:1700px) and (max-width:2185px){
+@media (min-width:1700px) and (max-width:2200px){
   .country button, .city button, .sections button{
     padding: 5px 25px 5px 85px
   }
@@ -2783,6 +2825,9 @@ color: #243C82;
   }
   .search input{
     width: 85%;
+  }
+  footer .footer_logo img{
+    height: 230px;
   }
 }
 
