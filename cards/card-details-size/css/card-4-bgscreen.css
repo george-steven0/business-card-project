@@ -3,7 +3,7 @@
 }
 .card_4{
     width: 100%;
-    height: 300px;
+    height: 450px;
     position: relative;
     margin-bottom: 15px;
 }
@@ -48,13 +48,13 @@
     padding-bottom: 5px;
 }
 .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:first-child{
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 800;
     color: #fff;
     letter-spacing: .8px;
 }
 .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -80,8 +80,8 @@
     right: 0px;
 }
 .card_4 .grid .top_grid .sub_grid .sub_right .logo img{
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
 }
 
 .card_4 .grid .bot_grid{
@@ -95,6 +95,10 @@
     justify-content: space-around;
 }
 .card_4 .grid .bot_grid .sub_grid .left_sub .social_icons{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: space-around;
     position: absolute;
     left: 2%;
     top: 0%;
@@ -111,6 +115,7 @@
 }
 .card_4 .grid .bot_grid .sub_grid .left_sub .social_icons ul li a{
     color: #0D1F33;
+    font-size: 25px;
 }
 .card_4 .grid .bot_grid .sub_grid .left_sub::after{
     content: "";
@@ -127,7 +132,7 @@
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 8%;
     width: 97%;
 }
@@ -153,14 +158,15 @@
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a i{
     margin-right: 10px;
     color: #0D1F33;
-    font-size: 20px;
+    font-size: 25px;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a span{
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li:first-child{
     width: 100%;
+    margin-bottom: 30px;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li:nth-child(2){
     width: 55%;
@@ -171,42 +177,50 @@
 
 @media (min-width:290px) and (max-width:440px){
     .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:first-child{
-        font-size: 22px;
+        font-size: 25px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:nth-child(2){
-        font-size: 15px;
+        font-size: 17px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
+    }
+    .card_4 .grid .bot_grid .sub_grid .left_sub .social_icons ul li a{
+        font-size: 20px;
     }
     .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a i{
-        font-size: 15px;
-    }
-    .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a span{
-        font-size: 12px;
-    }
-}
-
-@media (min-width:580px) and (max-width:767.5px){
-    .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:first-child{
-        font-size: 28px;
-    }
-    .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:nth-child(2){
         font-size: 18px;
     }
+    .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a span{
+        font-size: 13px;
+    }
+}
+@media (min-width:440px) and (max-width:580px){
     .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
         width: 100px;
         height: 100px;
     }
+}
+@media (min-width:580px) and (max-width:767.5px){
+    .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:first-child{
+        font-size: 39px;
+    }
+    .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:nth-child(2){
+        font-size: 24px;
+    }
+    .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
+        width: 110px;
+        height: 110px;
+    }
     .card_4 .grid .bot_grid .sub_grid .left_sub .social_icons ul li a{
-        font-size: 17px;
+        font-size: 21px;
     }
     .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a i{
-        font-size: 19px;
+        font-size: 28px;
     }
     .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a span{
-        font-size: 16px;
+        font-size: 19px;
     }
   
     
@@ -214,46 +228,45 @@
 
 @media (min-width:992px) and (max-width:1200px){
     .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:first-child{
-        font-size: 22px;
+        font-size: 45px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:nth-child(2){
-        font-size: 15px;
+        font-size: 28px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
-        width: 70px;
-        height: 70px;
+        width: 150px;
+        height: 150px;
+    }
+    .card_4 .grid .bot_grid .sub_grid .left_sub .social_icons ul li a{
+        font-size: 25px;
     }
     .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a i{
-        font-size: 15px;
+        font-size: 30px;
     }
     .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a span{
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 
-@media (min-width:1700px){
+@media (min-width:1200px){
     .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:first-child{
-        font-size: 33px;
+        font-size: 49px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul li:nth-child(2){
-        font-size: 20px;
+        font-size: 29px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
-        width: 110px;
-        height: 110px;
+        width: 190px;
+        height: 190px;
     }
     .card_4 .grid .bot_grid .sub_grid .left_sub .social_icons ul li a{
-        font-size: 18px;
-    }
-    .card_4 .grid .bot_grid .sub_grid .right_sub .client_data{
-        top: 22%;
+        font-size: 29px;
     }
     .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a i{
-        font-size: 22px;
+        font-size: 33px;
     }
-    .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a span {
-        font-size: 18px;
+    .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a span{
+        font-size: 25px;
     }
-  
-    
 }
+
