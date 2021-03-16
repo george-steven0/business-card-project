@@ -10,12 +10,18 @@
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/slick.css" />
     <link rel="stylesheet" href="./assets/css/slick-theme.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Card Details</title>
     <style>
         .card_details_fav{
             font-family: 'Tajawal', sans-serif;
+        }
+        .fa-check{
+            color: #ffc107 !important;
+        }
+        .modal-footer a{
+            color: #fff;
         }
        
     </style>
@@ -376,7 +382,6 @@
                         </div>
                     </div>
   
-                    <!-- this one appears on medium and big screens only -->
                     <div class="col-9 save_cont_col">
                       <div class="add_contact_btn">
                           <button class="btn btn-info">حفظ إلى جهات الإتصال <i class="fas fa-plus"></i></button>
@@ -398,8 +403,11 @@
   
                 <div class="fav_report_btn card_details_fav col-6">
                                   
+                   
                     <span class="star">
-                        <i class="far fa-star"> &nbsp; <span>أضف إلى المفضلة</span></i>
+                        <a  class="" data-toggle="modal" data-target="#fav">
+                            <i class="far fa-star"> &nbsp; <span>أضف إلى المفضلة</span></i>
+                        </a>
                     </span>
                   
                   <!-- Modal -->
@@ -484,22 +492,22 @@
             <div class="client_imgs">
               <div class="row">
                 <div class="col-3">
-                  <a href="assets/images/card-2.png" style="width: 500px; height: 500px;" data-toggle="lightbox" data-gallery="gallery">
+                  <a href="assets/images/card-2.png" style="width: 500px; height: 500px;" data-fancybox="gallery" >
                     <img src="assets/images/card-2.png" class="img-fluid img-thumbnail rounded">
                   </a>
                 </div>
                 <div class="col-3">
-                  <a href="assets/images/card-1.png" data-toggle="lightbox" data-gallery="gallery">
+                  <a href="assets/images/card-1.png" data-fancybox="gallery">
                     <img src="assets/images/card-1.png" class="img-fluid img-thumbnail rounded">
                   </a>
                 </div>
                 <div class="col-3">
-                  <a href="assets/images/card-3.png" data-toggle="lightbox" data-gallery="gallery">
+                  <a href="assets/images/card-3.png" data-fancybox="gallery" >
                     <img src="assets/images/card-3.png" class="img-fluid img-thumbnail rounded">
                   </a>
                 </div>
                 <div class="col-3">
-                  <a href="assets/images/card-1.png" data-toggle="lightbox" data-gallery="gallery">
+                  <a href="assets/images/card-1.png" data-fancybox="gallery">
                     <img src="assets/images/card-1.png" class="img-fluid img-thumbnail rounded">
                   </a>
                 </div>
@@ -584,7 +592,7 @@
     <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/fgEmojiPicker.js"></script>
     <script src="./assets/js/tail.select-full.min.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>

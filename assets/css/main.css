@@ -1795,7 +1795,6 @@ footer ul a li{
 }
 .payment .up_img_cont img{
   width: 100%;
-  height: 100%;
 }
 /* end payment */
 
@@ -2446,20 +2445,20 @@ color: #243C82;
     position: relative;
   }
   .add_job .job_details_container .up_img .up_img_cont img{
-    width: auto;
+    width: 100%;
   }
   
 }
 @media (min-width:1140px) and (max-width:2060px){
   .add_job .job_details_container .up_img .up_img_cont .rem_icon{
-    right:14%
+    right:8%
   }
  
 }
 @media (min-width:1400px) and (max-width:1460px){
   .add_job .job_details_container .up_img .up_img_cont .rem_icon{
     position: absolute;
-    right:12%
+    right:9%
   }
 }
 
@@ -2836,7 +2835,7 @@ color: #243C82;
 
 @media (min-width:1560px) and (max-width:2185px){
   .add_job .job_details_container .up_img .up_img_cont .rem_icon, .add_card .subscribe_row .up_img .up_img_cont .rem_icon,.payment .up_img .up_img_cont .rem_icon{
-    right: 11%;
+    right: 8%;
   }
  
 }
@@ -2905,6 +2904,14 @@ color: #243C82;
 }
 .modal-body textarea:focus{
   background-color: #fff;
+}
+.modal-header,.modal-footer{
+  border: none;
+}
+
+.modal-title{
+  margin: 0px !important;
+  margin-right: auto !important;
 }
 
 /* End bootstrap modal */
