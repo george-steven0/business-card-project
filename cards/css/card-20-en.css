@@ -63,24 +63,51 @@
     height: 1.7px;
     background-color: rgba(0,0,0,.9);
 }
-.card_20 .grid .details_grid .client_details{
+.card_20 .grid  .client_data{
     position: absolute;
-    top:50%;
-    left: 5%;
+    top: 50%;
+    left: 4%;
+    width: 40%;
+}
+.card_20 .grid  .client_data ul{
+    padding: 0px;
+    margin-bottom: 0px;
     text-align: left;
-    width: 37%;
+}
+.card_20 .grid  .client_data .client_list{
+    display: flex;
+    width: 100%;
+}
+.card_20 .grid  .client_data .icon_list{
+    flex: 0 0 6%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.card_20 .grid  .client_data .icon_list li{
+    margin-bottom: 10px;
+}
+.card_20 .grid  .client_data .icon_list li a{
+    font-size: 16px;
+    color: #E12C37;
+}
+.card_20 .grid  .client_data .data_list{
+    flex: 0 0 88%;
+    max-width: 88%;
+    margin-top: 5px;
     overflow-wrap: break-word;
 }
-.card_20 .grid .details_grid .client_details ul{
-    padding:0px
+.card_20 .grid .client_data .data_list li{
+    margin-bottom: 0px;
+    height: 33px;
+    line-height: 1;
 }
-.card_20 .grid .details_grid .client_details ul li{
-    margin-bottom: 15px;
-    font-size: 12.4px;
-}
-.card_20 .grid .details_grid .client_details i{
-   color: #E12C37;
-   font-size: 16px;
+
+.card_20 .grid  .client_data .data_list a{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
 }
 .card_20 .grid .details_grid .social_icons{
     position: absolute;
