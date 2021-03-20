@@ -49,7 +49,7 @@
 
 .card_30 .list_grid{
     position: absolute;
-    top: 55.7%;
+    top: 56%;
     width: 100%;
     display: flex;
 }
@@ -58,48 +58,71 @@
 }
 .card_30 .list_grid .left_list{
     flex: 0 0 54%;
-    text-align: left;
-    overflow-wrap: break-word;
+    display: flex;
+    position: relative;
 }
 .card_30 .list_grid .left_list .icon_list1{
-    padding-left: 34%;
+    position: absolute;
+    left: 33.7%;
 }
 .card_30 .list_grid .left_list .icon_list1 li{
-    margin-bottom: 9px;
+    margin-bottom: 10px;
 }
 .card_30 .list_grid .left_list .icon_list1 li i{
-    display: inline-flex;
-    font-size: 11px;
-    color: #fff;
-    margin-right: 3%;
-}
-.card_30 .list_grid .left_list .icon_list1 li span{
-    display: inline-flex;
     font-size: 13px;
+    color: #fff;
+}
+.card_30 .list_grid .left_list .data_list1{
+    position: absolute;
+    left: 41.5%;
+    text-align: left;
+    margin-top: 5px;
+    width: 59%;
+    overflow-wrap: break-word;
+}
+.card_30 .list_grid .left_list .data_list1 li{
+    height: 34px;
+    line-height: .9;
+}
+.card_30 .list_grid .left_list .data_list1 li a{
+    font-size: 13px;
+    color: #000;
+    overflow-wrap: break-word;
 }
 
 .card_30 .list_grid .right_list{
     flex: 0 0 46%;
+    display: flex;
     text-align: left;
     overflow-wrap: break-word;
+    position: relative;
 }
-.card_30 .list_grid .right_list .icon_list1{
-    padding-left:2.6%;
+.card_30 .list_grid .right_list .icon_list2{
+    position: absolute;
+    left: 2.3%;
 }
-.card_30 .list_grid .right_list .icon_list1 li{
-    margin-bottom: 9px;
+.card_30 .list_grid .right_list .icon_list2 li{
+    margin-bottom: 10px;
 }
-.card_30 .list_grid .right_list .icon_list1 li i{
-    display: inline-flex;
-    font-size: 11px;
-    color: #fff;
-    margin-right: 2%;
-}
-.card_30 .list_grid .right_list .icon_list1 li span{
-    display: inline-flex;
+.card_30 .list_grid .right_list .icon_list2 li i{
     font-size: 13px;
+    color: #fff;
 }
-.card_30 .bt_grid{
+.card_30 .list_grid .right_list .data_list2{
+    position: absolute;
+    left: 12%;
+    text-align: left;
+    margin-top: 5px;
+    width: 88%;
+}
+.card_30 .list_grid .right_list .data_list2 li{
+    height: 34px;
+    line-height: .9;
+}
+.card_30 .list_grid .right_list .data_list2 li a{
+    font-size: 13px;
+    color: #000;
+}.card_30 .bt_grid{
     display: flex;
     position: absolute;
     bottom: 2%;
@@ -133,10 +156,10 @@
     .card_30 .grid .logo .slogan{
         font-size: 9px;
     }
-    .card_30 .list_grid .left_list .icon_list1 li span{
+    .card_30 .list_grid .left_list .icon_list1 li a{
         font-size: 8px;
     }
-    .card_30 .list_grid .right_list .icon_list1 li span{
+    .card_30 .list_grid .right_list .icon_list1 li a{
         font-size: 8px;
     }
     .card_30 .bt_grid .social_icons ul li a{
@@ -158,10 +181,10 @@
     .card_30 .grid .logo .slogan{
         font-size: 11px;
     }
-    .card_30 .list_grid .left_list .icon_list1 li span{
+    .card_30 .list_grid .left_list .icon_list1 li a{
         font-size: 10px;
     }
-    .card_30 .list_grid .right_list .icon_list1 li span{
+    .card_30 .list_grid .right_list .icon_list1 li a{
         font-size: 10px;
     }
     .card_30 .bt_grid .social_icons ul li a{
@@ -183,10 +206,10 @@
     .card_30 .grid .logo .slogan{
         font-size: 17px;
     }
-    .card_30 .list_grid .left_list .icon_list1 li span{
+    .card_30 .list_grid .left_list .icon_list1 li a{
         font-size: 14px;
     }
-    .card_30 .list_grid .right_list .icon_list1 li span{
+    .card_30 .list_grid .right_list .icon_list1 li a{
         font-size: 14px;
     }
     .card_30 .bt_grid .social_icons ul li a{
@@ -214,10 +237,10 @@
     .card_30 .grid .logo .slogan{
         font-size: 19px;
     }
-    .card_30 .list_grid .left_list .icon_list1 li span{
+    .card_30 .list_grid .left_list .icon_list1 li a{
         font-size: 17px;
     }
-    .card_30 .list_grid .right_list .icon_list1 li span{
+    .card_30 .list_grid .right_list .icon_list1 li a{
         font-size: 17px;
     }
     .card_30 .bt_grid .social_icons ul li a{
@@ -247,10 +270,10 @@
     .card_30 .grid .logo .slogan{
         font-size: 11px;
     }
-    .card_30 .list_grid .left_list .icon_list1 li span{
+    .card_30 .list_grid .left_list .icon_list1 li a{
         font-size: 10px;
     }
-    .card_30 .list_grid .right_list .icon_list1 li span{
+    .card_30 .list_grid .right_list .icon_list1 li a{
         font-size: 10px;
     }
     .card_30 .bt_grid .social_icons ul li a{
@@ -272,10 +295,10 @@
     .card_30 .grid .logo .slogan{
         font-size: 10px;
     }
-    .card_30 .list_grid .left_list .icon_list1 li span{
+    .card_30 .list_grid .left_list .icon_list1 li a{
         font-size: 9px;
     }
-    .card_30 .list_grid .right_list .icon_list1 li span{
+    .card_30 .list_grid .right_list .icon_list1 li a{
         font-size: 9px;
     }
     .card_30 .bt_grid .social_icons ul li a{
@@ -297,10 +320,10 @@
     .card_30 .grid .logo .slogan{
         font-size: 12px;
     }
-    .card_30 .list_grid .left_list .icon_list1 li span{
+    .card_30 .list_grid .left_list .icon_list1 li a{
         font-size: 11px;
     }
-    .card_30 .list_grid .right_list .icon_list1 li span{
+    .card_30 .list_grid .right_list .icon_list1 li a{
         font-size: 11px;
     }
     .card_30 .bt_grid .social_icons ul li a{

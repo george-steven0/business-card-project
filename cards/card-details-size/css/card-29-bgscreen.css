@@ -1,7 +1,7 @@
 
 .card_29{
     width: 100%;
-    height: 300px;
+    height: 450px;
     position: relative;
     margin-bottom: 15px;
     border: 1px solid rgb(199, 196, 196);
@@ -26,7 +26,7 @@
 
 .card_29 .grid .left_part .g_inputs{
     position: absolute;
-    top: 16.5%;
+    top: 18.5%;
     left: 10%;
 }
 .card_29 .grid .left_part .g_inputs ul{
@@ -34,14 +34,14 @@
     text-align: left;
 }
 .card_29 .grid .left_part .g_inputs ul li:first-child{
-    font-size: 22px;
+    font-size: 35px;
     font-weight: bold;
     color: #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1.5px;
 }
 .card_29 .grid .left_part .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 22px;
     color: #02a6e4;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
@@ -54,21 +54,21 @@
     top: 53%;
 }
 .card_29 .client_details .client_list .icon_list{
-    flex: 0 0 14%;
+    flex: 0 0 10%;
     padding: 0px;
-    text-align: left;
+    text-align: center;
 }
 .card_29 .client_details .client_list .icon_list img{
     width: 35px;
     height: 35px;
 }
 .card_29 .client_details .client_list .icon_list li{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
    
 }
 
 .card_29 .client_details .client_list .icon_list i{
-    font-size: 20px;
+    font-size: 24px;
     color: #02a6e4;
     padding-left: 7px;
 }
@@ -76,41 +76,43 @@
     flex: 0 0 86%;
     padding: 0px;
     text-align: left;
-    margin-top: -2px;
+    margin-top: -3px;
 }
 .card_29 .client_details .client_list .data_list a{
-    font-size: 16px;
+    font-size: 18px;
     overflow-wrap: break-word;
     color: #02a6e4;;
 }
 .card_29 .client_details .client_list .data_list li{
     margin-bottom: 0px;
-    height: 39px;
+    height: 52px;
 }
 .card_29 .grid .right_part{
     flex: 0 0 40%;
     max-width: 40%;
+    position: relative;
 }
 .card_29 .grid .right_part .logo{
     position: absolute;
     top: 5%;
     right: 0%;
-    width: 40%;
+    width: 100%;
     text-align: center;
 }
 .card_29 .grid .right_part .logo img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 .card_29 .grid .right_part .slogan{
     position: absolute;
-    top: 40%;
-    right: 2%;
-    padding-bottom: 15px;
-    width: 40%;
+    top: 45%;
+    right: 15%;
+    padding-bottom: 0px;
+    height: 55px;
+    width: 70%;
     text-align: center;
     color: #fff;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: bold;
     border-bottom: 1px solid #fff;
 }
@@ -118,7 +120,7 @@
     position: absolute;
     bottom: 22%;
     right: 0%;
-    width: 35%;
+    width: 94%;
     text-align: center;
 }
 .card_29 .grid .right_part .social_icons ul{
@@ -127,17 +129,20 @@
 }
 .card_29 .grid .right_part .social_icons ul li{
     display: inline-flex;
-    margin-right: 10px;
 }
 .card_29 .grid .right_part .social_icons ul li a {
     color: #fff;
-    font-size: 22px;
+    font-size: 29px;
+    margin-right: 20px;
 }
 @media (min-width:250px) and (max-width:445px){
     .card_29 .grid .right_part .logo img{
         width: 80px;
         height: 80px;
     }
+    .card_29 .grid .left_part .g_inputs{
+        top: 28%;
+     }
     .card_29 .grid .left_part .g_inputs ul li:first-child{
         font-size: 14px;
     }
@@ -160,88 +165,53 @@
     }
     .card_29 .client_details .client_list .data_list li{
         margin-bottom: 0px;
-        height: 38px;
+        height: 49px;
     }
     .card_29 .grid .right_part .slogan{
         font-size: 11px;
     }
-    .card_29 .grid .right_part .social_icons ul li {
+    .card_29 .grid .right_part .social_icons ul li a{
+        font-size: 14px;
         margin-right: 5px;
     }
-    .card_29 .grid .right_part .social_icons ul li a{
-        font-size: 14px;
-    }
 }
 
-@media (min-width:767px) and (max-width:890px){
-   
+@media (min-width:445px) and (max-width:767px){
+    .card_29 .grid .right_part .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .card_29 .grid .left_part .g_inputs{
+        top: 25%;
+     }
     .card_29 .grid .left_part .g_inputs ul li:first-child{
-        font-size: 18px;
+        font-size: 22px;
     }
     .card_29 .grid .left_part .g_inputs ul li:nth-child(2){
         font-size: 15px;
     }
-    .card_29 .client_details .client_list .icon_list i{
-        font-size: 15px;
+    .card_29 .client_details .client_list .icon_list img {
+        width: 30px;
+        height: 30px;
     }
-    .card_29 .client_details .client_list .data_list a{
-        font-size: 12px;
-        margin-top: 8px;
-
-    }
-    .card_29 .client_details .client_list .data_list li{
-        margin-bottom: 0px;
-    }
-    .card_29 .grid .right_part .slogan{
-        font-size: 11px;
-    }
-    .card_29 .grid .right_part .social_icons ul li a{
-        font-size: 16px;
-    }
-}
-
-@media (min-width:992px) and (max-width:1250px){
-    .card_29 .grid .left_part .g_inputs ul li:first-child{
-        font-size: 16px;
-    }
-    .card_29 .grid .left_part .g_inputs ul li:nth-child(2){
-        font-size: 12px;
+    .card_29 .client_details .client_list .icon_list{
+        margin-right: 5px;
     }
     .card_29 .client_details .client_list .icon_list i{
-        font-size: 15px;
-    }
-    .card_29 .client_details .client_list .icon_list img{
-        width: 25px;
-        height: 25px;
+        font-size: 20px;
     }
     .card_29 .client_details .client_list .data_list a{
-        font-size: 12px;
-    }
-    .card_29 .client_details .client_list .data_list li{
-        margin-bottom: 0px;
-    }
-    .card_29 .grid .right_part .slogan{
-        font-size: 11px;
-    }
-    .card_29 .grid .right_part .social_icons ul li a{
         font-size: 14px;
     }
-}
-@media (min-width:1705px) and (max-width:2100px){
-    .card_29 .grid .right_part .logo img{
-        width: 37%;
-        height: 37%;
+    .card_29 .client_details .client_list .data_list li{
+        margin-bottom: 0px;
+        height: 49px;
     }
     .card_29 .grid .right_part .slogan{
-        top: 40%;
+        font-size: 14px;
     }
-}
-@media (min-width:2100px) and (max-width:2700px){
-    .card_29 .grid .right_part .logo img{
-        width: 34%;
-        height: 34%;
-    }
-    .card_29 .grid .right_part .slogan{
-        top: 40%;
+    .card_29 .grid .right_part .social_icons ul li a{
+        font-size: 19px;
+        margin-right: 8px;
     }
 }

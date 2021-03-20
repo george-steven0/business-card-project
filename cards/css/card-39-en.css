@@ -100,7 +100,8 @@
     overflow-wrap: break-word;
 }
 .card_39 .grid .card_details .client_data .data_list li{
-    margin-bottom: 2px;
+    margin-bottom: 0px;
+    height: 26px;
 }
 .card_39 .grid .card_details .client_data .data_list a{
     font-size: 14px;
@@ -158,9 +159,6 @@
     .card_39 .grid .card_details .client_data .data_list{
         margin-top: 1px;
     }
-    .card_39 .grid .card_details .client_data .data_list li {
-        margin-bottom: 2px;
-    }
     .card_39 .grid .card_details .client_data .data_list a {
         font-size: 11px;
     }
@@ -171,7 +169,7 @@
     
 }
 
-@media (min-width:767.9px) and (max-width:962px){
+@media (min-width:767.9px) and (max-width:992px){
     .card_39 .grid .card_details .g_inputs ul li:first-child{
         font-size: 23px;
     }
@@ -201,7 +199,8 @@
         margin-top: 1px;
     }
     .card_39 .grid .card_details .client_data .data_list li {
-        margin-bottom: 4px;
+        margin-bottom: 0px;
+        height: 28px;
     }
     .card_39 .grid .card_details .client_data .data_list a {
         font-size: 13.5px;
@@ -245,7 +244,8 @@
         margin-top: 1px;
     }
     .card_39 .grid .card_details .client_data .data_list li {
-        margin-bottom: 4px;
+        margin-bottom: 0px;
+        height: 28px;
     }
     .card_39 .grid .card_details .client_data .data_list a {
         font-size: 13px;
@@ -287,7 +287,8 @@
         margin-top: 1px;
     }
     .card_39 .grid .card_details .client_data .data_list li {
-        margin-bottom: 2.5px;
+        margin-bottom: 0px;
+        height: 27px;
     }
     .card_39 .grid .card_details .client_data .data_list a {
         font-size: 14.5px;
