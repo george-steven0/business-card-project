@@ -4,6 +4,7 @@
     position: relative;
     margin-bottom: 15px;
     border: 1px solid rgb(199, 196, 196);
+    font-family: 'Tajawal', sans-serif;
 }
 .card_6 img{
     width: 100%;
@@ -29,6 +30,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    flex-direction: row-reverse;
 }
 .card_6 .grid .top_grid .top_hold .top_left{
     flex: 0 0 60%;
@@ -37,9 +39,9 @@
 .card_6 .grid .top_grid .top_hold .top_left .social_icons{
     position: absolute;
     top: 15%;
-    right: 2%;
+    left: 5%;
     bottom: 0%;
-    text-align: right;
+    text-align: left;
     width: 70%;
 }
 .card_6 .grid .top_grid .top_hold .top_left .social_icons ul{
@@ -81,6 +83,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    flex-direction: row-reverse;
 }
 .card_6 .grid .bot_grid .bot_hold .bot_left{
     flex: 0 0 40%;
@@ -130,13 +133,14 @@
 .card_6 .grid .bot_grid .bot_hold .bot_right .client_data{
     position: absolute;
     top: 14%;
-    left: 5%;
+    left: 0%;
     width: 99%;
+    direction: rtl;
 }
 .card_6 .grid .bot_grid .bot_hold .bot_right .client_data ul{
     padding: 0px;
     margin-bottom: 0px;
-    text-align: left;
+    text-align: right;
 }
 .card_6 .grid .bot_grid .bot_hold .bot_right .client_data .client_list{
     display: flex;
@@ -158,7 +162,7 @@
 .card_6 .grid .bot_grid .bot_hold .bot_right .client_data .data_list{
     flex: 0 0 88%;
     max-width: 88%;
-    margin-top: 6px;
+    margin-top: 7px;
     overflow-wrap: break-word;
 }
 .card_6 .grid .bot_grid .bot_hold .bot_right .client_data .data_list li{

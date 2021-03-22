@@ -1,5 +1,5 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Tajawal', sans-serif;
 }
 .card_4{
     width: 100%;
@@ -29,7 +29,7 @@
     display: flex;
     width: 100%;
     height: 100%;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 .card_4 .grid .top_grid .sub_grid .sub_left{
     flex: 0 0 50%;
@@ -39,8 +39,8 @@
 .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs{
     position: absolute;
     top: 10%;
-    left: 10%;
-    text-align: left;
+    right: 10%;
+    text-align: right;
 }
 .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul{
     padding: 0px;
@@ -57,13 +57,12 @@
     font-size: 18px;
     color: #fff;
     letter-spacing: 2px;
-    font-family: 'Open Sans', sans-serif;
 }
 .card_4 .grid .top_grid .sub_grid .sub_left .g_inputs ul::after{
     content: "";
     position: absolute;
     top: 100%;
-    left: 0%;
+    right: 0%;
     width: 100%;
     height: 1px;
     background-color: #fff;
@@ -77,7 +76,7 @@
 .card_4 .grid .top_grid .sub_grid .sub_right .logo{
     position: absolute;
     top: 10%;
-    right: 0px;
+    left: 0px;
 }
 .card_4 .grid .top_grid .sub_grid .sub_right .logo img{
     width: 90px;
@@ -116,6 +115,7 @@
     content: "";
     position: absolute;
     top: 10%;
+    left: 5px;
     height: 65%;
     width: 1px;
     background-color: #0D1F33;
@@ -124,17 +124,18 @@
 .card_4 .grid .bot_grid .sub_grid .right_sub{
     flex: 0 0 90%;
     position: relative;
+    direction: rtl;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data{
     position: absolute;
     top: 30%;
-    left: 8%;
+    right: 5%;
     width: 94%;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data ul{
     padding: 0px;
     margin-bottom: 0px;
-    text-align: left;
+    text-align: right;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .client_list{
     display: flex;
@@ -142,8 +143,8 @@
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list{
     flex: 0 0 100%;
-    text-align: left;
-    margin-right: 5px;
+    text-align: right;
+    margin-left: 5px;
 }
 
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li{
@@ -151,12 +152,12 @@
     display: inline-flex;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a i{
-    margin-right: 10px;
+    margin-left: 10px;
     color: #0D1F33;
     font-size: 20px;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a span{
-    font-size: 16px;
+    font-size: 14px;
     color: #000000;
 }
 .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li:first-child{
