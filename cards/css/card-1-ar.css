@@ -1,4 +1,9 @@
 
+
+@font-face {
+    font-family: Tajawal;
+    src: url("../../assets/fonts/ArbFONTS-Tajawal-Medium.ttf");
+  }
 .cards .card_1{
     height: 300px;
     margin-bottom: 35px;
