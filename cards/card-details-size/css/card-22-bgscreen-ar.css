@@ -8,7 +8,6 @@
     height: 450px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_22 img{
@@ -83,7 +82,7 @@
     font-size: 14px;
   }
   .card_22 .grid  .client_data .icon_list li{
-    margin-bottom: 12px;
+    margin-bottom: 5px;
   }
   .card_22 .grid  .client_data .data_list{
     flex: 0 0 84%;

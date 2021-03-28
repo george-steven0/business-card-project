@@ -6,7 +6,6 @@
     height: 450px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_21 img{
     width: 100%;
@@ -18,6 +17,7 @@
     height: 99%;
     position: absolute;
     top: 0%;
+    flex-direction: row-reverse;
 }
 .card_21 .left_column{
     width: 50%;
