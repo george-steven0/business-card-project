@@ -109,6 +109,7 @@
 .card_49 .grid .right_grid .logo img{
     width: 120px;
     height: 120px;
+    margin: auto;
 }
 .card_49 .grid .right_grid .slogan{
     position: absolute;

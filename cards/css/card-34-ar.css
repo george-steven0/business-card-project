@@ -71,7 +71,7 @@
     height: 35px;
 }
 .card_34 .client_details .client_list .icon_list li{
-    margin-bottom: 15px;
+    margin-bottom: 22px;
 }
 
 .card_34 .client_details .client_list .icon_list img{
@@ -107,6 +107,7 @@
 .card_34 .grid .right_part .logo img{
     width: 90px;
     height: 90px;
+    margin: auto;
 }
 .card_34 .grid .right_part .slogan{
     position: absolute;

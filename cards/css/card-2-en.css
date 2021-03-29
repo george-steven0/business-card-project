@@ -35,14 +35,14 @@
   margin-bottom: 0px;
 }
 .card_2 .grid .left_grid .g_inputs ul li:first-child{
-  font-size: 28px;
+  font-size: 18px;
   letter-spacing: .8px;
   font-weight: 500;
   color: #E0BB52;
   font-family: 'Oswald', sans-serif;
 }
 .card_2 .grid .left_grid .g_inputs ul li:nth-child(2){
-  font-size: 18px;
+  font-size: 13px;
   color: #E0BB52;
   letter-spacing: 2px;
   font-weight: 500;
@@ -129,6 +129,7 @@
 .card_2 .grid .right_grid .logo img{
   width: 110px;
   height: 110px;
+  margin: auto;
 }
 
 .card_2 .grid .right_grid .social_icons{
@@ -147,8 +148,8 @@
   display: inline-flex;
 }
 .card_2 .grid .right_grid .social_icons ul li a{
-  font-size: 22px;
-  margin-right: 20px;
+  font-size: 19px;
+  margin-right: 13px;
   color:#E0BB52;
 }
 

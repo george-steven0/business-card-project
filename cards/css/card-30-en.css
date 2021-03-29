@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100%;
+    height: 30%;
 }
 .card_30 .grid .g_inputs{
     flex: 0 0 45%;
@@ -36,6 +36,11 @@
 }
 .card_30 .grid .logo{
     flex: 0 0 55%;
+    direction: ltr;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: flex-end;
+    align-items: center;
 }
 .card_30 .grid .logo img{
     width: 70px;
@@ -69,7 +74,7 @@
     margin-bottom: 10px;
 }
 .card_30 .list_grid .left_list .icon_list1 li i{
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
 }
 .card_30 .list_grid .left_list .data_list1{
@@ -101,11 +106,15 @@
     position: absolute;
     left: 2.3%;
 }
+.card_30 .fa-map-marker-alt {
+    margin: 1px;
+    font-size: 11px !important;
+}
 .card_30 .list_grid .right_list .icon_list2 li{
     margin-bottom: 10px;
 }
 .card_30 .list_grid .right_list .icon_list2 li i{
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
 }
 .card_30 .list_grid .right_list .data_list2{

@@ -42,13 +42,13 @@
     margin-bottom: 0px;
 }
 .card_47 .grid .left_grid .g_inputs ul li:first-child{
-    font-size: 28px;
+    font-size: 22px;
     letter-spacing: .8px;
     font-weight: bold;
     color: #624B78;
 }
 .card_47 .grid .left_grid .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 15px;
     color: #624B78;
     letter-spacing: 2px;
     font-weight: 500;
@@ -118,6 +118,7 @@
 .card_47 .grid .right_grid .logo img{
     width: 85px;
     height: 85px;
+    margin: auto;
 }
 
 .card_47 .grid .right_grid .client_data{

@@ -4,7 +4,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_22 img{
     width: 100%;
@@ -30,7 +29,7 @@
     text-align: left;
 }
 .card_22 .grid .g_inputs ul li:first-child{
-    font-size: 23px;
+    font-size: 19px;
     font-weight: bold;
     font-family: 'Playfair Display', serif !important;
 }

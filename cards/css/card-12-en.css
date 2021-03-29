@@ -22,6 +22,7 @@
 .card_12 .logo img{
     width: 85px;
     height: 85px;
+    margin: auto;
 }
 .card_12 .slogan{
     position: absolute;
@@ -69,7 +70,7 @@
 .card_12 .client_data{
     position: absolute;
     top: 33%;
-    left: 6%;
+    left: 8%;
     width: 88%;
 }
 .card_12 .client_data ul{
@@ -91,7 +92,7 @@
     height: 22px;
 }
 .card_12 .client_data .icon_list li{
-    margin-bottom: 22px;
+    margin-bottom: 27px;
 }
 .card_12 .client_data .icon_list li a{
     font-size: 16px;

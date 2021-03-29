@@ -4,7 +4,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_31 img{
     width: 100%;
@@ -82,6 +81,7 @@
     flex: 0 0 90%;
     padding: 0px;
     text-align: left;
+    margin-top: 5px;
 }
 .card_31 .client_details .client_list .data_list a{
     font-size: 16px;
@@ -91,7 +91,7 @@
 }
 .card_31 .client_details .client_list .data_list li{
     margin-bottom: 0px;
-    height: 47px;
+    height: 45px;
     overflow-wrap: break-word;
 }
 .card_31 .grid .right_part{
@@ -108,6 +108,7 @@
 .card_31 .grid .right_part .logo img{
     width: 90px;
     height: 90px;
+    margin: auto;
 }
 .card_31 .grid .right_part .slogan{
     position: absolute;

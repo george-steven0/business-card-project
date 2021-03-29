@@ -42,13 +42,13 @@
     margin-bottom: 0px;
 }
 .card_49 .grid .left_grid .g_inputs ul li:first-child{
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: .8px;
     font-weight: bold;
     color: #fff;
 }
 .card_49 .grid .left_grid .g_inputs ul li:nth-child(2){
-    font-size: 15px;
+    font-size: 13px;
     color: #F5BB18;
     letter-spacing: 2px;
     font-weight: 500;
@@ -113,6 +113,7 @@
 .card_49 .grid .right_grid .logo img{
     width: 120px;
     height: 120px;
+    margin: auto;
 }
 .card_49 .grid .right_grid .slogan{
     position: absolute;

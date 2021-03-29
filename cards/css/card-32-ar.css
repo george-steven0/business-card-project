@@ -75,31 +75,31 @@
 }
 .card_32 .grid .mid_grid .icon_list{
     position: absolute;
-    top: 16.8%;
-    left: 0%;
+    top: 17.8%;
+    left: 25%;
     width: 100%;
 }
 .card_32 .grid .mid_grid .icon_list ul{
     padding:0px;
 }
 .card_32 .grid .mid_grid .icon_list ul li{
-    margin-bottom: 17.5px;
+    margin-bottom: 26.5px;
     display: block;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(1){
-    margin-right: 20.8%;
+    margin-left: 29.8%;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(2){
-    margin-right: 49%;
+    margin-left: 4%;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(3){
-    margin-right: 53%;
+    margin-left: 0%;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(4){
-    margin-right: 48%;
+    margin-left: 3%;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(5){
-    margin-right: 21.5%;
+    margin-left: 29.5%;
 }
 .card_32 .grid .mid_grid .icon_list ul li img{
     width: 16px;
@@ -121,23 +121,25 @@
     margin-bottom: 15px;
 }
 .card_32 .grid .right_grid .logo img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
 }
 .card_32 .grid .right_grid .client_name{
     color: #fff;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
     width: 85%;
     text-align: center;
     padding-bottom: 5px;
     border-bottom: 1px solid #fff;
+    margin-top: 25%;
     margin-bottom: 10px;
     margin-left: 10px;
 }
 .card_32 .grid .right_grid .slogan{
     color:#fff;
-    font-size: 15px;
+    font-size: 14px;
     width: 80%;
     text-align: center;
     margin-left: 10px;
@@ -158,6 +160,9 @@
         margin-bottom: 0px;
         font-size: 12px;
         height: 42px;
+    }
+    .card_32 .grid .mid_grid .icon_list ul li {
+        margin-bottom: 29.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 11px;
@@ -184,6 +189,9 @@
         margin-bottom: 0px;
         font-size: 13px;
     }
+    .card_32 .grid .mid_grid .icon_list ul li {
+        margin-bottom: 29.5px;
+    }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 13px;
         height: 13px;
@@ -209,6 +217,9 @@
     .card_32 .grid .left_grid .job_data ul li{
         margin-bottom: 0px;
         font-size: 14px;
+    }
+    .card_32 .grid .mid_grid .icon_list ul li {
+        margin-bottom: 29.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 13px;
@@ -238,6 +249,9 @@
         margin-bottom: 0px;
         font-size: 15px;
     }
+    .card_32 .grid .mid_grid .icon_list ul li {
+        margin-bottom: 29.5px;
+    }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 13px;
         height: 13px;
@@ -262,6 +276,9 @@
     .card_32 .grid .left_grid .job_data ul li{
         margin-bottom: 0px;
         font-size: 12px;
+    }
+    .card_32 .grid .mid_grid .icon_list ul li {
+        margin-bottom: 30.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 11px;
@@ -289,6 +306,9 @@
         margin-bottom: 0px;
         font-size: 13px;
     }
+    .card_32 .grid .mid_grid .icon_list ul li {
+        margin-bottom: 30.5px;
+    }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 11px;
         height: 11px;
@@ -311,10 +331,14 @@
     .card_32 .grid .right_grid .slogan{
         font-size: 12px;
     }
+    
     .card_32 .grid .left_grid .job_data ul li{
         margin-bottom: 0px;
         font-size: 12px;
         height: 42px;
+    }
+    .card_32 .grid .mid_grid .icon_list ul li {
+        margin-bottom: 30.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 11px;

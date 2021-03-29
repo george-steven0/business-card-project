@@ -32,6 +32,7 @@
 .card_17 .grid .logo img{
     width: 100px;
     height: 100px;
+    margin: auto;
 }
 .card_17 .grid .g_inputs{
     width: 45%;

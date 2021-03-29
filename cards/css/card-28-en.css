@@ -101,6 +101,7 @@
 .card_28 .grid .right_part .logo img{
     width: 50%;
     height: 50%;
+    margin: auto;
 }
 .card_28 .grid .right_part .slogan{
     position: absolute;

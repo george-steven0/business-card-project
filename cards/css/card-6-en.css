@@ -51,9 +51,9 @@
     display: inline-flex;
 }
 .card_6 .grid .top_grid .top_hold .top_left .social_icons ul li a{
-    font-size: 22px;
+    font-size: 20px;
     color:#fff;
-    margin-right: 18px;
+    margin-right: 14px;
 }
 
 .card_6 .grid .top_grid .top_hold .top_right{
@@ -98,11 +98,11 @@
     padding: 0px;
 }
 .card_6 .grid .bot_grid .bot_hold .bot_left .g_inputs ul li:first-child{
-    font-size: 25px;
+    font-size: 22px;
     color: #19A69B;
 }
 .card_6 .grid .bot_grid .bot_hold .bot_left .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 16px;
     color: #19A69B;
 }
 .card_6 .grid .bot_grid .bot_hold .bot_left .g_inputs::after{

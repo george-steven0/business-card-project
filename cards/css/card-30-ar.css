@@ -12,14 +12,15 @@
 }
 .card_30 .grid{
     position: absolute;
-    top: 25px;
+    top: 0px;
     left: 0px;
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    height: 100%;
+    height: 40%;
 }
 .card_30 .grid .g_inputs{
+    margin-top: 2%;
     flex: 0 0 45%;
     color: #fff;
 }
@@ -28,28 +29,37 @@
     text-align: right;
 }
 .card_30 .grid .g_inputs ul li:first-child{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1.5px;
 }
 .card_30 .grid .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 2px;
 }
 .card_30 .grid .logo{
+    margin-top: 4%;
     flex: 0 0 55%;
     direction: rtl;
-    position: absolute;
-    left: 2%;
+    text-align: left;
+    left: 0%;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: flex-end;
+    align-items: center;
 }
 .card_30 .grid .logo img{
     width: 70px;
     height: 70px;
+    vertical-align: middle;
+
 }
 .card_30 .grid .logo .slogan{
     font-size: 14px;
     color: #26707a;
     font-weight: 500;
+    vertical-align: middle;
+
 }
 
 .card_30 .list_grid{
@@ -74,7 +84,7 @@
     margin-bottom: 10px;
 }
 .card_30 .list_grid .left_list .icon_list1 li i{
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
 }
 .card_30 .list_grid .left_list .data_list1{
@@ -110,7 +120,7 @@
     margin-bottom: 10px;
 }
 .card_30 .list_grid .right_list .icon_list2 li i{
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
 }
 .card_30 .list_grid .right_list .data_list2{
@@ -123,6 +133,10 @@
 .card_30 .list_grid .right_list .data_list2 li{
     height: 34px;
     line-height: .9;
+}
+.card_30 .fa-map-marker-alt {
+    margin: 1px;
+    font-size: 11px !important;
 }
 .card_30 .list_grid .right_list .data_list2 li a{
     font-size: 13px;

@@ -19,8 +19,8 @@
     text-align: center;
 }
 .card_12_cont .logo img{
-    width: 120px;
-    height: 120px;
+    width: 120px !important;
+    height: 120px !important;
 }
 .card_12_cont .slogan{
     position: absolute;

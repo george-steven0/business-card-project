@@ -35,14 +35,14 @@
   margin-bottom: 0px;
 }
 .card_3 .grid .left_grid .g_inputs ul li:first-child{
-  font-size: 28px;
+  font-size: 18px;
   letter-spacing: .8px;
   font-weight: 500;
   color: #000000;
   font-family: 'Oswald', sans-serif;
 }
 .card_3 .grid .left_grid .g_inputs ul li:nth-child(2){
-  font-size: 18px;
+  font-size: 13px;
   color: #F6A85A;
   letter-spacing: 2px;
   font-weight: 500;
@@ -60,7 +60,7 @@
 }
 .card_3 .grid .left_grid .slogan{
   position: absolute;
-  top: 42%;
+  top: 35%;
   left: 7%;
   font-size: 14px;
   font-weight: 500;
@@ -105,10 +105,11 @@
 }
 .card_3 .grid .left_grid .client_data .data_list li{
   margin-bottom: 0px;
+  line-height: 1;
   height: 38px;
 }
 .card_3 .grid .left_grid .client_data .data_list a{
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 1.2px;
   color: #000000;
   font-family: 'Roboto', sans-serif;
@@ -127,8 +128,9 @@
   text-align: center;
 }
 .card_3 .grid .right_grid .logo img{
-  width: 110px;
-  height: 110px;
+  width: 95px;
+  height: 95px;
+  margin: auto;
 }
 
 .card_3 .grid .right_grid .social_icons{
@@ -147,8 +149,8 @@
   display: inline-flex;
 }
 .card_3 .grid .right_grid .social_icons ul li a{
-  font-size: 22px;
-  margin-right: 20px;
+  font-size: 17px;
+  margin-right: 13px;
   color:#F6A85A;
 }
 

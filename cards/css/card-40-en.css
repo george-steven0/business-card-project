@@ -55,6 +55,7 @@
 .card_40 .grid .left_grid .logo img{
     width: 120px;
     height: 120px;
+    margin: auto;
 }
 
 .card_40 .grid .right_grid{

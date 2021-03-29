@@ -71,7 +71,7 @@
 }
 .card_36 .grid .left_grid .client_details .client_data .client_list .data_list a{
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
 }
 .card_36 .grid .left_grid .social_icons{
     width: 68%;
@@ -111,6 +111,7 @@
 .card_36 .grid .right_grid .card_data .logo img{
     width: 100px;
     height: 100px;
+    margin: auto;
 }
 .card_36 .grid .right_grid .card_data .g_inputs{
     margin-left: 54px;
@@ -119,12 +120,12 @@
     padding: 0px;
 }
 .card_36 .grid .right_grid .card_data .g_inputs ul li:first-child{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     color: #31384c;
 }
 .card_36 .grid .right_grid .card_data .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 16px;
     color: #31384c;
     letter-spacing: 2px;
 }

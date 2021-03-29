@@ -111,6 +111,7 @@
 .card_48 .grid .right_grid .logo img{
     width: 130px;
     height: 130px;
+    margin: auto;
 }
 .card_48 .grid .right_grid .slogan{
     position: relative;

@@ -123,7 +123,8 @@
 }
 .card_21 .right_column .logo img{
     width: 90px;
-    height:90px
+    height:90px;
+    margin: auto;
 }
 .card_21 .right_column .social_icons{
     position: absolute;

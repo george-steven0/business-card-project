@@ -101,6 +101,7 @@
 .card_29 .grid .right_part .logo img{
     width: 100px;
     height: 100px;
+    margin: auto;
 }
 .card_29 .grid .right_part .slogan{
     position: absolute;

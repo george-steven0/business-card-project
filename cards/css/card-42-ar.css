@@ -43,14 +43,14 @@
     padding-left: 0px;
 }
 .card_42 .grid .left_grid .g_inputs ul li:first-child{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
     color: #fff;
     letter-spacing: 1px;
 
 }
 .card_42 .grid .left_grid .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     letter-spacing: 2px;
 }
@@ -149,6 +149,7 @@
 .card_42 .grid .right_grid .logo img{
     width: 90px;
     height: 90px;
+    margin: auto;
 }
 
 

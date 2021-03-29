@@ -35,7 +35,7 @@
     padding-left: 0px;
 }
 .card_41 .grid .left_grid .g_inputs ul li:first-child{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -43,7 +43,7 @@
 
 }
 .card_41 .grid .left_grid .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
@@ -177,6 +177,7 @@
     .card_41 .grid .right_grid .logo img {
         width: 70px;
         height: 70px;
+        margin: auto;
     }
 }
 

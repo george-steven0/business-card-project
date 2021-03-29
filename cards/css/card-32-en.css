@@ -73,7 +73,7 @@
 }
 .card_32 .grid .mid_grid .icon_list{
     position: absolute;
-    top: 16.8%;
+    top: 18.5%;
     right: 0%;
     width: 100%;
 }
@@ -81,23 +81,23 @@
     padding:0px;
 }
 .card_32 .grid .mid_grid .icon_list ul li{
-    margin-bottom: 17px;
+    margin-bottom: 28px;
     display: block;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(1){
-    margin-right: 55.8%;
+    margin-left: 20.8%;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(2){
-    margin-right: 30%;
+    margin-left: 48%;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(3){
-    margin-right: 23%;
+    margin-left: 52%;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(4){
-    margin-right: 30%;
+    margin-left: 49%;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(5){
-    margin-right: 55%;
+    margin-left: 20.8%;
 }
 .card_32 .grid .mid_grid .icon_list ul li img{
     width: 16px;
@@ -119,8 +119,9 @@
     margin-bottom: 15px;
 }
 .card_32 .grid .right_grid .logo img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
 }
 .card_32 .grid .right_grid .client_name{
     color: #fff;
@@ -261,6 +262,9 @@
         margin-bottom: 0px;
         font-size: 12px;
     }
+    .card_32 .grid .mid_grid .icon_list ul li{
+        margin-bottom: 30px;
+    }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 11px;
         height: 11px;
@@ -286,6 +290,9 @@
     .card_32 .grid .left_grid .job_data ul li{
         margin-bottom: 0px;
         font-size: 13px;
+    }
+    .card_32 .grid .mid_grid .icon_list ul li{
+        margin-bottom: 30px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
         width: 11px;
@@ -314,9 +321,12 @@
         font-size: 12px;
         height: 42px;
     }
+    .card_32 .grid .mid_grid .icon_list ul li{
+        margin-bottom: 28px;
+    }
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
     }
     .card_32 .grid .left_grid .social_icons ul li a {
         font-size: 18px;
