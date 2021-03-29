@@ -1635,7 +1635,7 @@ footer ul a li{
   border-radius: 5px;
 }
 .card_details_content .profile_name {
-  margin-top: 34%;
+  margin-top: 0%;
   font-weight: bold;
   text-align: right;
   }
@@ -1644,8 +1644,12 @@ footer ul a li{
   font-weight: bolder;
   color: rgb(71, 70, 70);
 }
+.card_details_content .save_cont_col{
+  align-items: center;
+  vertical-align: middle;
+  margin: auto 0px  ;
+}
 .card_details_content .add_contact_btn{
-  margin-top: 3%;
   text-align: left;
 }
 .card_details_content .card_img{
@@ -1682,6 +1686,17 @@ footer ul a li{
   resize: none;
   background-color: rgba(241, 241, 241, 0.69);
   color: rgb(30, 151, 151) !important;
+}
+.card_details_content .pn{
+  align-items: center;
+  vertical-align: middle;
+  text-align: right;
+}
+.card_details_content .profile_img, .card_details_content .profile_name{
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  text-align: right !important;
 }
 
 /* End card details Page */
@@ -2359,7 +2374,7 @@ color: #243C82;
   
   
 }
-
+/*
 @media (min-width:1200px) and (max-width:2180px){
   .pn{
     margin-right: -18px;
@@ -2372,7 +2387,7 @@ color: #243C82;
     margin-left: -7px;
   }
 }
-
+*/
 
 @media (min-width:200px) and (max-width:992px){
   .top_header .header_links .dropdown a{
@@ -2658,22 +2673,14 @@ color: #243C82;
   }
 }
 @media (min-width:767.8px) and (max-width:992px){
-  .pn{
-    margin-right: 15px;
-    margin-left: -51px;
-  }
+
   .card_details_content .add_contact_btn{
-    margin-top: 6%;
+    margin-top: 0%;
   }
 }
 @media (min-width:521px) and (max-width:767px){
-  .pn{
-    margin-right: 45px;
-    margin-left: -51px;
-  }
-  .card_details_content .profile_name{
-    margin-top: 44%;
-  }
+
+
   .card_details_content .profile_name p{
     font-size: 18px;
   }
@@ -2681,7 +2688,7 @@ color: #243C82;
     flex: 0 0 70%;
   }
   .card_details_content .add_contact_btn{
-    margin-top: 9%;
+    margin-top: 0%;
   }
   .card_details_content .add_contact_btn button{
     font-size: 14px;
@@ -2691,13 +2698,8 @@ color: #243C82;
 }
 }
 @media (min-width:484px) and (max-width:521px){
-  .pn{
-    margin-right: 45px;
-    margin-left: -51px;
-  }
-  .card_details_content .profile_name{
-    margin-top: 44%;
-  }
+
+
   .card_details_content .profile_name p{
     font-size: 18px;
   }
@@ -2716,13 +2718,8 @@ color: #243C82;
     width: 80px;
     height: 80px;
   }
-  .pn{
-    margin-right: 45px;
-    margin-left: -41px;
-  }
-  .card_details_content .profile_name{
-    margin-top: 44%;
-  }
+
+
   .card_details_content .profile_name p{
     font-size: 15px;
   }
@@ -2730,7 +2727,7 @@ color: #243C82;
     flex: 0 0 67%;
   }
   .card_details_content .add_contact_btn{
-    margin-top: 10%;
+    margin-top: 0%;
   }
   .card_details_content .add_contact_btn button{
     font-size: 12px;
@@ -2741,13 +2738,8 @@ color: #243C82;
     width: 80px;
     height: 80px;
   }
-  .pn{
-    margin-right: 45px;
-    margin-left: -55px;
-  }
-  .card_details_content .profile_name{
-    margin-top: 44%;
-  }
+
+
   .card_details_content .profile_name p{
     font-size: 15px;
   }
@@ -2755,7 +2747,7 @@ color: #243C82;
     flex: 0 0 67%;
   }
   .card_details_content .add_contact_btn{
-    margin-top: 10%;
+    margin-top: 0%;
   }
   .card_details_content .add_contact_btn button{
     font-size: 12px;
