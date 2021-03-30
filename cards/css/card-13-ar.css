@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_13 img{
     width: 100%;
@@ -29,8 +28,8 @@
     right: 5%;
 }
 .card_13 .grid .left_grid .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
 }
 .card_13 .grid .left_grid .g_inputs{
     position: relative;
@@ -43,12 +42,12 @@
     padding: 0px;
 }
 .card_13 .grid .left_grid .g_inputs ul li:first-child{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #3db448;
 }
 .card_13 .grid .left_grid .g_inputs ul li:nth-child(2){
-    font-size: 18px;
+    font-size: 15px;
     color: #3db448;
 }
 
@@ -141,8 +140,8 @@
 
 @media (min-width:290px) and (max-width:440px){
     .card_13 .grid .left_grid .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
     .card_13 .grid .left_grid .g_inputs {
         top: 34%;
@@ -175,8 +174,8 @@
 
 @media (min-width:440px) and (max-width:600px){
     .card_13 .grid .left_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_13 .grid .left_grid .g_inputs {
         top: 34%;
@@ -209,8 +208,8 @@
 
 @media (min-width:767.8px) and (max-width:800px){
     .card_13 .grid .left_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_13 .grid .left_grid .g_inputs {
         top: 34%;
@@ -243,8 +242,8 @@
 
 @media (min-width:992px) and (max-width:1200px){
     .card_13 .grid .left_grid .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
     .card_13 .grid .left_grid .g_inputs {
         top: 34%;
@@ -277,8 +276,8 @@
 
 @media (min-width:1200px) and (max-width:1400px){
     .card_13 .grid .left_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_13 .grid .left_grid .g_inputs {
         top: 34%;

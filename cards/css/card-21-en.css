@@ -119,8 +119,8 @@
     text-align: center;
 }
 .card_21 .right_column .logo img{
-    width: 90px;
-    height:90px;
+    width: 90px !important;
+    height:90px !important;
     margin: auto;
 }
 .card_21 .right_column .social_icons{
@@ -163,8 +163,8 @@
         font-size: 11px;
     }
     .card_21 .right_column .logo img{
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
     .card_21 .right_column .social_icons ul li {
         margin-right: 5px;
@@ -196,8 +196,8 @@
         font-size: 12px;
     }
     .card_21 .right_column .logo img{
-        width: 85px;
-        height: 85px;
+        width: 85px !important;
+        height: 85px !important;
     }
     .card_21 .right_column .social_icons ul li a{
         font-size: 19px;
@@ -226,8 +226,8 @@
         font-size: 11px;
     }
     .card_21 .right_column .logo img{
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
     .card_21 .right_column .social_icons ul li {
         margin-right: 5px;

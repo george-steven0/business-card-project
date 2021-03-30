@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_32 img{
@@ -102,12 +101,12 @@
     margin-left: 29.5%;
 }
 .card_32 .grid .mid_grid .icon_list ul li img{
-    width: 16px;
-    height: 16px;
+    width: 16px !important;
+    height: 16px !important;
 }
 .card_32 .grid .mid_grid .icon_list ul li:nth-child(2) img{
-    width: 15px;
-    height: 15px;
+    width: 15px !important;
+    height: 15px !important;
 }
 
 .card_32 .grid .right_grid{
@@ -121,8 +120,8 @@
     margin-bottom: 15px;
 }
 .card_32 .grid .right_grid .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
     margin: auto;
 }
 .card_32 .grid .right_grid .client_name{
@@ -146,8 +145,8 @@
 }
 @media (min-width:280px) and (max-width:390px){
     .card_32 .grid .right_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_32 .grid .right_grid .client_name{
         width: 95%;
@@ -165,8 +164,8 @@
         margin-bottom: 29.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 11px;
-        height: 11px;
+        width: 11px !important;
+        height: 11px !important;
     }
     .card_32 .grid .left_grid .social_icons ul li a {
         font-size: 18px;
@@ -175,8 +174,8 @@
 }
 @media (min-width:390px) and (max-width:490px){
     .card_32 .grid .right_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_32 .grid .right_grid .client_name{
         width: 88%;
@@ -193,8 +192,8 @@
         margin-bottom: 29.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 13px;
-        height: 13px;
+        width: 13px !important;
+        height: 13px !important;
     }
     .card_32 .grid .left_grid .social_icons ul li a {
         font-size: 22px;
@@ -204,8 +203,8 @@
 
 @media (min-width:569px) and (max-width:620px){
     .card_32 .grid .right_grid .logo img {
-        width: 120px;
-        height: 120px;
+        width: 120px !important;
+        height: 120px !important;
     }
     .card_32 .grid .right_grid .client_name{
         width: 88%;
@@ -222,8 +221,8 @@
         margin-bottom: 29.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 13px;
-        height: 13px;
+        width: 13px !important;
+        height: 13px !important;
     }
     .card_32 .grid .left_grid .social_icons ul li a {
         font-size: 22px;
@@ -233,8 +232,8 @@
 
 @media (min-width:620px) and (max-width:767.5px){
     .card_32 .grid .right_grid .logo img {
-        width: 130px;
-        height: 130px;
+        width: 130px !important;
+        height: 130px !important;
     }
     .card_32 .grid .right_grid .client_name{
         width: 88%;
@@ -253,8 +252,8 @@
         margin-bottom: 29.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 13px;
-        height: 13px;
+        width: 13px !important;
+        height: 13px !important;
     }
     .card_32 .grid .left_grid .social_icons ul li a {
         font-size: 24px;
@@ -263,8 +262,8 @@
 }
 @media (min-width:768px) and (max-width:850px){
     .card_32 .grid .right_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_32 .grid .right_grid .client_name{
         width: 95%;
@@ -281,8 +280,8 @@
         margin-bottom: 30.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 11px;
-        height: 11px;
+        width: 11px !important;
+        height: 11px !important;
     }
     .card_32 .grid .left_grid .social_icons ul li a {
         font-size: 18px;
@@ -292,8 +291,8 @@
 
 @media (min-width:850px) and (max-width:992px){
     .card_32 .grid .right_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_32 .grid .right_grid .client_name{
         width: 75%;
@@ -310,8 +309,8 @@
         margin-bottom: 30.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 11px;
-        height: 11px;
+        width: 11px !important;
+        height: 11px !important;
     }
     .card_32 .grid .left_grid .social_icons ul li a {
         font-size: 20px;
@@ -321,8 +320,8 @@
 
 @media (min-width:992px) and (max-width:1275px){
     .card_32 .grid .right_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_32 .grid .right_grid .client_name{
         width: 95%;
@@ -341,8 +340,8 @@
         margin-bottom: 30.5px;
     }
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 11px;
-        height: 11px;
+        width: 11px !important;
+        height: 11px !important;
     }
     .card_32 .grid .left_grid .social_icons ul li a {
         font-size: 18px;
@@ -351,7 +350,7 @@
 }
 @media (min-width:1650px) and (max-width:1850px){
     .card_32 .grid .mid_grid .icon_list ul li img{
-        width: 19px;
-        height: 19px;
+        width: 19px !important;
+        height: 19px !important;
     }
 }

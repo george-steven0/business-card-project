@@ -8,7 +8,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 
 }
@@ -147,8 +146,8 @@
     text-align: center;
 }
 .card_42 .grid .right_grid .logo img{
-    width: 90px;
-    height: 90px;
+    width: 90px !important;
+    height: 90px !important;
     margin: auto;
 }
 
@@ -182,8 +181,8 @@
         margin-right: 10px;
     }
     .card_42 .grid .right_grid .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
 }
 
@@ -216,8 +215,8 @@
         margin-right: 10px;
     }
     .card_42 .grid .right_grid .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
 }
 
@@ -250,7 +249,7 @@
         margin-right: 10px;
     }
     .card_42 .grid .right_grid .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
 }

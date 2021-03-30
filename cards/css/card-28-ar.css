@@ -4,7 +4,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_28 img{
@@ -60,8 +59,8 @@
     text-align: right;
 }
 .card_28 .client_details .client_list .icon_list img{
-    width: 35px;
-    height: 35px;
+    width: 35px !important;
+    height: 35px !important;
 }
 .card_28 .client_details .client_list .icon_list li{
     margin-bottom: 11px;
@@ -100,8 +99,8 @@
     text-align: center;
 }
 .card_28 .grid .right_part .logo img{
-    width: 50%;
-    height: 50%;
+    width: 50% !important;
+    height: 50% !important;
     margin: auto;
 }
 .card_28 .grid .right_part .slogan{
@@ -139,8 +138,8 @@
         font-size: 10px;
     }
     .card_28 .client_details .client_list .icon_list img {
-        width: 26px;
-        height: 30px;
+        width: 26px !important;
+        height: 30px !important;
     }
     .card_28 .client_details .client_list .icon_list i{
         font-size: 15px;
@@ -165,8 +164,8 @@
 }
 @media (min-width:560px) and (max-width:640px){
     .card_28 .grid .right_part .logo img{
-        width: 36%;
-        height: 36%;
+        width: 36% !important;
+        height: 36% !important;
     }
     .card_28 .grid .right_part .slogan{
         top: 30%;
@@ -174,8 +173,8 @@
 }
 @media (min-width:640px) and (max-width:767px){
     .card_28 .grid .right_part .logo img{
-        width: 33%;
-        height: 33%;
+        width: 33% !important;
+        height: 33% !important;
     }
     .card_28 .grid .right_part .slogan{
         top: 32%;
@@ -219,8 +218,8 @@
         font-size: 15px;
     }
     .card_28 .client_details .client_list .icon_list img{
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_28 .client_details .client_list .data_list{
         margin-top: 0px;
@@ -241,8 +240,8 @@
 }
 @media (min-width:1705px) and (max-width:2100px){
     .card_28 .grid .right_part .logo img{
-        width: 37%;
-        height: 37%;
+        width: 37% !important;
+        height: 37% !important;
     }
     .card_28 .grid .right_part .slogan{
         top: 32%;
@@ -250,8 +249,8 @@
 }
 @media (min-width:2100px) and (max-width:2700px){
     .card_28 .grid .right_part .logo img{
-        width: 34%;
-        height: 34%;
+        width: 34% !important;
+        height: 34% !important;
     }
     .card_28 .grid .right_part .slogan{
         top: 32%;

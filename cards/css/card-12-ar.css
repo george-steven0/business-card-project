@@ -1,13 +1,9 @@
-*{
-    font-family: 'Tajawal', sans-serif;
 
-}
 .card_12{
     width: 100%;
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_12 img{
     width: 100%;
@@ -21,8 +17,8 @@
     text-align: center;
 }
 .card_12 .logo img{
-    width: 85px;
-    height: 85px;
+    width: 85px !important;
+    height: 85px !important;
     margin: auto;
 }
 .card_12 .slogan{
@@ -60,11 +56,11 @@
     padding: 0px;
 }
 .card_12 .g_inputs ul li:first-child{
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 700;
 }
 .card_12 .g_inputs ul li:nth-child(2){
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -90,8 +86,8 @@
     margin-left: 8px;
 }
 .card_12 .client_data .icon_list li img{
-    width: 22px;
-    height: 22px;
+    width: 22px !important;
+    height: 22px !important;
 }
 .card_12 .client_data .icon_list li{
     margin-bottom: 27px;
@@ -118,8 +114,8 @@
 
 @media (min-width:300px) and (max-width:400px){
     .card_12 .client_data .icon_list li img {
-        width: 15px;
-        height: 15px;
+        width: 15px !important;
+        height: 15px !important;
     }
     .card_12 .client_data .data_list a {
         font-size: 9px;
@@ -134,8 +130,8 @@
         font-size: 14px;
     }
     .card_12 .logo img {
-        width: 65px;
-        height: 65px;
+        width: 65px !important;
+        height: 65px !important;
     }
     .card_12 .slogan {
         top: 35%;
@@ -145,8 +141,8 @@
 }
 @media (min-width:401px) and (max-width:480px){
     .card_12 .client_data .icon_list li img {
-        width: 18px;
-        height: 18px;
+        width: 18px !important;
+        height: 18px !important;
     }
     .card_12 .client_data .data_list a {
         font-size: 10.5px;
@@ -154,8 +150,8 @@
 }
 @media (min-width:615px) and (max-width:767.5px){
     .card_12 .client_data .icon_list li img {
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_12 .client_data .data_list a {
         font-size: 13px;
@@ -166,8 +162,8 @@
 }
 @media (min-width:768px) and (max-width:1392px){
     .card_12 .client_data .icon_list li img {
-        width: 18px;
-        height: 18px;
+        width: 18px !important;
+        height: 18px !important;
     }
     .card_12 .client_data .data_list a {
         font-size: 10px;
@@ -182,8 +178,8 @@
         font-size: 14px;
     }
     .card_12 .logo img {
-        width: 65px;
-        height: 65px;
+        width: 65px !important;
+        height: 65px !important;
     }
     .card_12 .slogan {
         top: 35%;

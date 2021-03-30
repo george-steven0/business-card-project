@@ -8,7 +8,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_44 img{
@@ -57,8 +56,8 @@
     text-align: center;
 }
 .card_44 .grid .left_grid .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
 }
 
 .card_44 .grid .right_grid{
@@ -143,8 +142,8 @@
         font-size: 13px;
     }
     .card_44 .grid .left_grid .logo img {
-        width: 60px;
-        height: 60px;
+        width: 60px !important;
+        height: 60px !important;
     }
     .card_44 .grid .right_grid .slogan{
         font-size: 13px;
@@ -170,8 +169,8 @@
         font-size: 14px;
     }
     .card_44 .grid .left_grid .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_44 .grid .right_grid .slogan{
         font-size: 14px;
@@ -195,8 +194,8 @@
         font-size: 13px;
     }
     .card_44 .grid .left_grid .logo img {
-        width: 60px;
-        height: 60px;
+        width: 60px !important;
+        height: 60px !important;
     }
     .card_44 .grid .right_grid .slogan{
         font-size: 13px;
@@ -222,8 +221,8 @@
         font-size: 14px;
     }
     .card_44 .grid .left_grid .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_44 .grid .right_grid .slogan{
         font-size: 14px;

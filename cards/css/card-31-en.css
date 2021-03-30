@@ -59,12 +59,12 @@
     margin-right: 5px;
 }
 .card_31 .client_details .client_list .icon_list img{
-    width: 35px;
-    height: 35px;
+    width: 35px !important;
+    height: 35px !important;
 }
 .card_31 .client_details .client_list .icon_list li:last-child img{
-    width: 20px;
-    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
     margin-right: 1px;
     text-align: center;
 }
@@ -106,8 +106,8 @@
     text-align: center;
 }
 .card_31 .grid .right_part .logo img{
-    width: 90px;
-    height: 90px;
+    width: 90px !important;
+    height: 90px !important;
     margin: auto;
 }
 .card_31 .grid .right_part .slogan{
@@ -149,8 +149,8 @@
         font-size: 11px;
     }
     .card_31 .client_details .client_list .icon_list img {
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_31 .client_details .client_list .icon_list i{
         font-size: 15px;
@@ -164,8 +164,8 @@
         height: 38px;
     }
     .card_31 .grid .right_part .logo img {
-        width: 75px;
-        height: 75px;
+        width: 75px !important;
+        height: 75px !important;
     }
     .card_31 .grid .right_part .slogan{
         font-size: .8rem;
@@ -184,8 +184,8 @@
         font-size: 13px;
     }
     .card_31 .client_details .client_list .icon_list img {
-        width: 28px;
-        height: 28px;
+        width: 28px !important;
+        height: 28px !important;
     }
     .card_31 .client_details .client_list .icon_list i{
         font-size: 15px;
@@ -208,8 +208,8 @@
 }
 @media (min-width:560px) and (max-width:640px){
     .card_31 .grid .right_part .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
     .card_31 .grid .right_part .slogan{
         top: 50%;
@@ -217,8 +217,8 @@
 }
 @media (min-width:640px) and (max-width:690px){
     .card_31 .grid .right_part .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_31 .grid .right_part .slogan{
         top: 59%;
@@ -226,8 +226,8 @@
 }
 @media (min-width:690px) and (max-width:767.5px){
     .card_31 .grid .right_part .logo img {
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
     .card_31 .grid .right_part .slogan{
         top: 59%;
@@ -274,8 +274,8 @@
         font-size: 15px;
     }
     .card_31 .client_details .client_list .icon_list img{
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_31 .client_details .client_list .data_list a{
         font-size: 12px;

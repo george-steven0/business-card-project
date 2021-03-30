@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_39 img{
     width: 100%;
@@ -58,8 +57,8 @@
     vertical-align: middle;
 }
 .card_39 .grid .card_details .card_logo .logo img{
-    width: 80px;
-    height: 80px;
+    width: 80px !important;
+    height: 80px !important;
 }
 .card_39 .grid .card_details .card_logo .slogan{
     font-size: 14.5px;
@@ -89,8 +88,8 @@
     margin-bottom: 11px;
 }
 .card_39 .grid .card_details .client_data .icon_list li img{
-    width: 17px;
-    height: 17px;
+    width: 17px !important;
+    height: 17px !important;
 }
 
 .card_39 .grid .card_details .client_data .data_list{
@@ -143,8 +142,8 @@
         letter-spacing: 0px;
     }
     .card_39 .grid .card_details .card_logo .logo img {
-        width: 63px;
-        height: 63px;
+        width: 63px !important;
+        height: 63px !important;
     }
     .card_39 .grid .card_details .client_data{
         left: 20px;
@@ -153,8 +152,8 @@
         margin-bottom: 2px;
     }
     .card_39 .grid .card_details .client_data .icon_list li img {
-        width: 14px;
-        height: 14px;
+        width: 14px !important;
+        height: 14px !important;
     }
     .card_39 .grid .card_details .client_data .data_list{
         margin-top: 1px;
@@ -181,8 +180,8 @@
         letter-spacing: .5px;
     }
     .card_39 .grid .card_details .card_logo .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_39 .grid .card_details .client_data{
         left: 21px;
@@ -192,8 +191,8 @@
         margin-bottom: 4px;
     }
     .card_39 .grid .card_details .client_data .icon_list li img {
-        width: 17px;
-        height: 17px;
+        width: 17px !important;
+        height: 17px !important;
     }
     .card_39 .grid .card_details .client_data .data_list{
         margin-top: 1px;
@@ -227,8 +226,8 @@
         letter-spacing: .5px;
     }
     .card_39 .grid .card_details .card_logo .logo img {
-        width: 66px;
-        height: 66px;
+        width: 66px !important;
+        height: 66px !important;
     }
     .card_39 .grid .card_details .client_data{
         left: 22px;
@@ -237,8 +236,8 @@
         margin-bottom: 4px;
     }
     .card_39 .grid .card_details .client_data .icon_list li img {
-        width: 18px;
-        height: 18px;
+        width: 18px !important;
+        height: 18px !important;
     }
     .card_39 .grid .card_details .client_data .data_list{
         margin-top: 1px;
@@ -269,8 +268,8 @@
         letter-spacing: 1px;
     }
     .card_39 .grid .card_details .card_logo .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_39 .grid .card_details .client_data{
         left: 35px;
@@ -280,8 +279,8 @@
         margin-bottom: 3px;
     }
     .card_39 .grid .card_details .client_data .icon_list li img {
-        width: 18px;
-        height: 18px;
+        width: 18px !important;
+        height: 18px !important;
     }
     .card_39 .grid .card_details .client_data .data_list{
         margin-top: 1px;
@@ -315,8 +314,8 @@
         letter-spacing: 1.2px;
     }
     .card_39 .grid .card_details .card_logo .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_39 .grid .card_details .client_data{
         left: 35px;
@@ -326,8 +325,8 @@
         margin-bottom: 5px;
     }
     .card_39 .grid .card_details .client_data .icon_list li img {
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
     }
     .card_39 .grid .card_details .client_data .data_list{
         margin-top: 1px;

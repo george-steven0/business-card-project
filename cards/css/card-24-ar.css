@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_24 img{
@@ -77,8 +76,8 @@
     max-width: 40%;
 }
 .card_24 .grid .logo img{
-    width: 130px;
-    height: 130px;
+    width: 130px !important;
+    height: 130px !important;
     position: absolute;
     left: 2%;
 }
@@ -129,8 +128,8 @@
         font-size: 11px;
     }
     .card_24 .grid .logo img{
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_24 .bot_grid .slogan{
         font-size: 13px;
@@ -151,8 +150,8 @@
         font-size: 14px;
     }
     .card_24 .grid .logo img{
-        width: 120px;
-        height: 120px;
+        width: 120px !important;
+        height: 120px !important;
     }
     .card_24 .bot_grid .slogan{
         font-size: 16px;
@@ -172,8 +171,8 @@
         font-size: 13px;
     }
     .card_24 .grid .logo img{
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
     .card_24 .bot_grid .slogan{
         font-size: 15px;

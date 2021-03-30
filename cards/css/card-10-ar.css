@@ -1,12 +1,9 @@
-*{
-    font-family: sans-serif;
-}
+
 .card_10{
     width: 100%;
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_10 img{
@@ -21,8 +18,8 @@
     width: 37%;
 }
 .card_10 .logo img{
-    width: 180px;
-    height: 120px;
+    width: 180px !important;
+    height: 120px !important;
 }
 .card_10 .grid_1{
     text-align: center;
@@ -137,8 +134,8 @@
 
 @media (min-width:300px) and (max-width:465px){
     .card_10 .logo img {
-        width: 120px;
-        height: 90px;
+        width: 120px !important;
+        height: 90px !important;
     }
     .card_10 .grid_1{
         text-align: center;
@@ -180,8 +177,8 @@
 }
 @media (min-width:767.5px) and (max-width:924px){
     .card_10 .logo img {
-        width: 150px;
-        height: 90px;
+        width: 150px !important;
+        height: 90px !important;
     }
     .card_10 .grid_1{
         text-align: center;
@@ -223,8 +220,8 @@
 }
 @media (min-width:992px) and (max-width:1200px){
     .card_10 .logo img {
-        width: 120px;
-        height: 90px;
+        width: 120px !important;
+        height: 90px !important;
     }
     .card_10 .grid_1{
         text-align: center;
@@ -267,8 +264,8 @@
 
 @media (min-width:1200px) and (max-width:1400px){
     .card_10 .logo img {
-        width: 150px;
-        height: 90px;
+        width: 150px !important;
+        height: 90px !important;
     }
     .card_10 .grid_1{
         text-align: center;

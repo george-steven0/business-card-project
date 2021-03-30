@@ -6,7 +6,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_20 img{
     width: 100%;
@@ -140,8 +139,8 @@
     text-align: center;
 }
 .card_20 .grid .logo_grid .logo img{
-    width: 90px;
-    height: 90px;
+    width: 90px !important;
+    height: 90px !important;
     margin: auto;
 }
 .fa-map-marker-alt{
@@ -178,8 +177,8 @@
         font-size: 12px;
     }
     .card_20 .grid .logo_grid .logo img {
-        width: 60px;
-        height: 60px;
+        width: 60px !important;
+        height: 60px !important;
     }
 }
 @media (min-width:415px) and (max-width:525px){
@@ -213,8 +212,8 @@
         font-size: 17px;
     }
     .card_20 .grid .logo_grid .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
 }
 
@@ -249,8 +248,8 @@
         font-size: 21px;
     }
     .card_20 .grid .logo_grid .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
 }
 @media (min-width:635px) and (max-width:735px){
@@ -287,8 +286,8 @@
         font-size: 25px;
     }
     .card_20 .grid .logo_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
 }
 @media (min-width:735px) and (max-width:767.5px){
@@ -325,8 +324,8 @@
         font-size: 28px;
     }
     .card_20 .grid .logo_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
 }
 
@@ -359,8 +358,8 @@
         font-size: 16px;
     }
     .card_20 .grid .logo_grid .logo img {
-        width: 60px;
-        height: 60px;
+        width: 60px !important;
+        height: 60px !important;
     }
 }
 
@@ -395,7 +394,7 @@
         font-size: 12px;
     }
     .card_20 .grid .logo_grid .logo img {
-        width: 60px;
-        height: 60px;
+        width: 60px !important;
+        height: 60px !important;
     }
 }

@@ -4,7 +4,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_27 img{
@@ -97,13 +96,13 @@
     text-align: center;
 }
 .card_27 .grid .right_part .logo img{
-    width: 40%;
-    height: 40%;
+    width: 30% !important;
+    height: 30% !important;
     margin: auto;
 }
 .card_27 .grid .right_part .slogan{
     position: absolute;
-    top: 27%;
+    top: 34%;
     left: 5px;
     width: 36%;
     text-align: center;
@@ -144,6 +143,7 @@
         font-size: 12px;
     }
     .card_27 .grid .right_part .slogan{
+        top: 22%;
         font-size: 11px;
     }
     .card_27 .grid .right_part .social_icons ul li a{
@@ -152,8 +152,8 @@
 }
 @media (min-width:560px) and (max-width:640px){
     .card_27 .grid .right_part .logo img{
-        width: 36%;
-        height: 36%;
+        width: 36% !important;
+        height: 36% !important;
     }
     .card_27 .grid .right_part .slogan{
         top: 30%;
@@ -161,8 +161,8 @@
 }
 @media (min-width:640px) and (max-width:767px){
     .card_27 .grid .right_part .logo img{
-        width: 33%;
-        height: 33%;
+        width: 33% !important;
+        height: 33% !important;
     }
     .card_27 .grid .right_part .slogan{
         top: 32%;
@@ -192,8 +192,8 @@
 
 @media (min-width:992px) and (max-width:1250px){
     .card_27 .grid .left_part .user img {
-        width: 15px;
-        height: 15px;
+        width: 15px !important;
+        height: 15px !important;
     }
     .card_27 .grid .left_part .g_inputs ul li:first-child{
         font-size: 18px;
@@ -216,8 +216,8 @@
 }
 @media (min-width:1705px) and (max-width:2100px){
     .card_27 .grid .right_part .logo img{
-        width: 37%;
-        height: 37%;
+        width: 37% !important;
+        height: 37% !important;
     }
     .card_27 .grid .right_part .slogan{
         top: 32%;
@@ -225,8 +225,8 @@
 }
 @media (min-width:2100px) and (max-width:2400px){
     .card_27 .grid .right_part .logo img{
-        width: 34%;
-        height: 34%;
+        width: 34% !important;
+        height: 34% !important;
     }
     .card_27 .grid .right_part .slogan{
         top: 32%;

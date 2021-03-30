@@ -3,7 +3,6 @@
   height: 300px;
   position: relative;
   margin-bottom: 15px;
-  border: 1px solid rgb(199, 196, 196);
 }
 .card_2 img{
   width: 100%;
@@ -127,8 +126,8 @@
   text-align: center;
 }
 .card_2 .grid .right_grid .logo img{
-  width: 110px;
-  height: 110px;
+  width: 110px !important;
+  height: 110px !important;
   margin: auto;
 }
 
@@ -176,8 +175,8 @@
     font-size: 9px;
   }
   .card_2 .grid .right_grid .logo img {
-    width: 90px;
-    height: 90px;
+    width: 90px !important;
+    height: 90px !important;
   }
   .card_2 .grid .right_grid .social_icons ul li a {
     font-size: 18px;
@@ -210,8 +209,8 @@
     font-size: 10px;
   }
   .card_2 .grid .right_grid .logo img {
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
   }
   .card_2 .grid .right_grid .social_icons ul li a {
     font-size: 19px;
@@ -247,8 +246,8 @@
     font-size: 9px;
   }
   .card_2 .grid .right_grid .logo img {
-    width: 90px;
-    height: 90px;
+    width: 90px !important;
+    height: 90px !important;
   }
   .card_2 .grid .right_grid .social_icons ul li a {
     font-size: 18px;
@@ -276,8 +275,8 @@
     font-size: 10px;
   }
   .card_2 .grid .right_grid .logo img {
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
   }
   .card_2 .grid .right_grid .social_icons ul li a {
     font-size: 19px;

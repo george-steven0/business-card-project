@@ -6,7 +6,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_16 img{
     width: 100%;
@@ -37,8 +36,8 @@
     vertical-align: middle;
 }
 .card_16 .grid .left_grid .card_data .logo img{
-    width: 70px;
-    height: 80px;
+    width: 70px !important;
+    height: 80px !important;
 }
 .card_16 .grid .left_grid .card_data .g_inputs{
     vertical-align: middle;
@@ -118,8 +117,8 @@
 
 @media (min-width:290px) and (max-width:440px){
     .card_16 .grid .left_grid .card_data .logo img {
-        width: 65px;
-        height: 70px;
+        width: 65px !important;
+        height: 70px !important;
     }
     .card_16 .grid .left_grid .g_inputs ul li:first-child {
         font-size: 15px;
@@ -141,8 +140,8 @@
 
 @media (min-width:992px) and (max-width:1200px){
     .card_16 .grid .left_grid .card_data .logo img {
-        width: 65px;
-        height: 70px;
+        width: 65px !important;
+        height: 70px !important;
     }
     .card_16 .grid .left_grid .g_inputs ul li:first-child {
         font-size: 15px;

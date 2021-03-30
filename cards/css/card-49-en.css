@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_49 img{
     width: 100%;
@@ -74,8 +73,8 @@
     margin-bottom: 10px;
 }
 .card_49 .grid .left_grid .client_data .icon_list li img{
-    width: 25px;
-    height: 25px;
+    width: 25px !important;
+    height: 25px !important;
 }
 .card_49 .grid .left_grid .client_data .data_list{
     flex: 0 0 80%;
@@ -107,8 +106,8 @@
     text-align: center;
 }
 .card_49 .grid .right_grid .logo img{
-    width: 120px;
-    height: 120px;
+    width: 120px !important;
+    height: 120px !important;
     margin: auto;
 }
 .card_49 .grid .right_grid .slogan{
@@ -159,8 +158,8 @@
         font-size: 12px;
     }
     .card_49 .grid .left_grid .client_data .icon_list li img {
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
     }
     .card_49 .grid .left_grid .client_data .data_list{
         margin-top: 4px;
@@ -173,8 +172,8 @@
         font-size: 8px;
     }
     .card_49 .grid .right_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_49 .grid .right_grid .slogan{
         top: 47%;
@@ -194,8 +193,8 @@
         font-size: 15px;
     }
     .card_49 .grid .left_grid .client_data .icon_list li img {
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_49 .grid .left_grid .client_data .data_list{
         margin-top: 4px;
@@ -208,8 +207,8 @@
         font-size: 10px;
     }
     .card_49 .grid .right_grid .logo img {
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
     .card_49 .grid .right_grid .slogan{
         top: 50%;
@@ -230,8 +229,8 @@
         font-size: 15px;
     }
     .card_49 .grid .left_grid .client_data .icon_list li img {
-        width: 23px;
-        height: 23px;
+        width: 23px !important;
+        height: 23px !important;
     }
     .card_49 .grid .left_grid .client_data .data_list{
         margin-top: 0px;
@@ -243,8 +242,8 @@
         font-size: 9px;
     }
     .card_49 .grid .right_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_49 .grid .right_grid .slogan{
         top: 47%;
@@ -264,8 +263,8 @@
         font-size: 15px;
     }
     .card_49 .grid .left_grid .client_data .icon_list li img {
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_49 .grid .left_grid .client_data .data_list{
         margin-top: 4px;
@@ -278,8 +277,8 @@
         font-size: 10px;
     }
     .card_49 .grid .right_grid .logo img {
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
     .card_49 .grid .right_grid .slogan{
         top: 50%;
@@ -299,8 +298,8 @@
         font-size: 13px;
     }
     .card_49 .grid .left_grid .client_data .icon_list li img {
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
     }
     .card_49 .grid .left_grid .client_data .data_list{
         margin-top: -2px;
@@ -312,8 +311,8 @@
         font-size: 8px;
     }
     .card_49 .grid .right_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_49 .grid .right_grid .slogan{
         top: 48%;
@@ -333,8 +332,8 @@
         font-size: 15px;
     }
     .card_49 .grid .left_grid .client_data .icon_list li img {
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_49 .grid .left_grid .client_data .data_list{
         margin-top: 0px;
@@ -346,8 +345,8 @@
         font-size: 11px;
     }
     .card_49 .grid .right_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_49 .grid .right_grid .slogan{
         top: 47%;
@@ -367,8 +366,8 @@
         font-size: 18px;
     }
     .card_49 .grid .left_grid .client_data .icon_list li img {
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_49 .grid .left_grid .client_data .data_list{
         margin-top: 4px;
@@ -381,8 +380,8 @@
         font-size: 11.5px;
     }
     .card_49 .grid .right_grid .logo img {
-        width: 120px;
-        height: 120px;
+        width: 120px !important;
+        height: 120px !important;
     }
     .card_49 .grid .right_grid .slogan{
         top: 54%;

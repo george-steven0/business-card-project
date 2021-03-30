@@ -35,8 +35,8 @@
     text-align: center;
 }
  .card_1 .left_part .g_logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
     margin: 0 auto;
 }
 
@@ -168,8 +168,8 @@
 
 @media (min-width:300px) and (max-width:440px){
      .card_1 .left_part .g_logo img {
-        width: 80px;
-        height: 100px;
+        width: 80px !important;
+        height: 100px !important;
     }
      .card_1 .left_part .g_inputs ul li:first-child{
         font-size: 18px;
@@ -206,8 +206,8 @@
 @media (min-width:580px) and (max-width:768px){
 
      .card_1 .left_part .g_logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
      .card_1 .left_part .g_inputs ul li:first-child{
         font-size: 22px;
@@ -246,8 +246,8 @@
 }
 @media (min-width:992px) and (max-width:1200px){
      .card_1 .left_part .g_logo img {
-        width: 80px;
-        height: 100px;
+        width: 80px !important;
+        height: 100px !important;
     }
      .card_1 .left_part .g_inputs ul li:first-child{
         font-size: 18px;
@@ -284,8 +284,8 @@
 @media (min-width:1700px) and (max-width:2400px){
 
      .card_1 .left_part .g_logo img {
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
      .card_1 .left_part .g_inputs ul li:first-child{
         font-size: 25px;

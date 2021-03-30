@@ -7,7 +7,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_48 img{
@@ -75,8 +74,8 @@
     margin-left: 10px;
 }
 .card_48 .grid .left_grid .client_data .icon_list li img{
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
 }
 .card_48 .grid .left_grid .client_data .icon_list li{
     margin-bottom: 15px;
@@ -113,8 +112,8 @@
     text-align: center;
 }
 .card_48 .grid .right_grid .logo img{
-    width: 130px;
-    height: 130px;
+    width: 130px !important;
+    height: 130px !important;
     margin: auto;
 }
 .card_48 .grid .right_grid .slogan{
@@ -167,8 +166,8 @@
         font-size: 12px;
     }
     .card_48 .grid .left_grid .client_data .icon_list li img {
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
     }
     .card_48 .grid .left_grid .client_data .data_list li {
         height: 40px;
@@ -177,8 +176,8 @@
         font-size: 9px;
     }
     .card_48 .grid .right_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_48 .grid .right_grid .slogan{
         top: 42%;
@@ -204,8 +203,8 @@
         font-size: 14px;
     }
     .card_48 .grid .left_grid .client_data .icon_list li img {
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_48 .grid .left_grid .client_data .data_list li {
         height: 42px;
@@ -214,8 +213,8 @@
         font-size: 11px;
     }
     .card_48 .grid .right_grid .logo img {
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
     .card_48 .grid .right_grid .slogan{
         top: 42%;
@@ -241,8 +240,8 @@
         font-size: 12px;
     }
     .card_48 .grid .left_grid .client_data .icon_list li img {
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
     }
     .card_48 .grid .left_grid .client_data .data_list li {
         height: 40px;
@@ -251,8 +250,8 @@
         font-size: 9px;
     }
     .card_48 .grid .right_grid .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_48 .grid .right_grid .slogan{
         top: 42%;
@@ -278,8 +277,8 @@
         font-size: 14px;
     }
     .card_48 .grid .left_grid .client_data .icon_list li img {
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_48 .grid .left_grid .client_data .data_list li {
         height: 42px;
@@ -288,8 +287,8 @@
         font-size: 11px;
     }
     .card_48 .grid .right_grid .logo img {
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
     .card_48 .grid .right_grid .slogan{
         top: 42%;

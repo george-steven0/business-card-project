@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_45 img{
     width: 100%;
@@ -36,8 +35,8 @@
     padding-top: 2%;
 }
 .card_45 .grid .top_grid .card_data .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
 }
 
 .card_45 .grid .top_grid .card_data .g_inputs{
@@ -153,8 +152,8 @@
 
 @media (min-width:290px) and (max-width:440px){
     .card_45 .grid .top_grid .card_data .logo img {
-        width: 75px;
-        height: 100px;
+        width: 75px !important;
+        height: 100px !important;
     }
     .card_45 .grid .top_grid .card_data .g_inputs ul li:first-child{
         font-size: 23px;
@@ -184,8 +183,8 @@
 
 @media (min-width:580px) and (max-width:670px){
     .card_45 .grid .top_grid .card_data .logo img {
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
     .card_45 .grid .top_grid .card_data .g_inputs ul li:first-child{
         font-size: 27px;
@@ -219,8 +218,8 @@
 
 @media (min-width:768px) and (max-width:900px){
     .card_45 .grid .top_grid .card_data .logo img {
-        width: 80px;
-        height: 100px;
+        width: 80px !important;
+        height: 100px !important;
     }
     .card_45 .grid .top_grid .card_data .g_inputs ul li:first-child{
         font-size: 23px;
@@ -250,8 +249,8 @@
 
 @media (min-width:992px) and (max-width:1110px){
     .card_45 .grid .top_grid .card_data .logo img {
-        width: 75px;
-        height: 100px;
+        width: 75px !important;
+        height: 100px !important;
     }
     .card_45 .grid .top_grid .card_data .g_inputs ul li:first-child{
         font-size: 23px;
@@ -281,8 +280,8 @@
 
 @media (min-width:1110px) and (max-width:1360px){
     .card_45 .grid .top_grid .card_data .logo img {
-        width: 80px;
-        height: 100px;
+        width: 80px !important;
+        height: 100px !important;
     }
     .card_45 .grid .top_grid .card_data .g_inputs ul li:first-child{
         font-size: 23px;

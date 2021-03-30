@@ -8,7 +8,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_43 img{
@@ -36,8 +35,8 @@
     text-align: center;
 }
 .card_43 .grid .left_grid .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
 }
 
 .card_43 .grid .right_grid{
@@ -162,8 +161,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 65px;
-        height: 65px;
+        width: 65px !important;
+        height: 65px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -203,8 +202,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 85px;
-        height: 85px;
+        width: 85px !important;
+        height: 85px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -244,8 +243,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -289,8 +288,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -333,8 +332,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 85px;
-        height: 85px;
+        width: 85px !important;
+        height: 85px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -374,8 +373,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 75px;
-        height: 75px;
+        width: 75px !important;
+        height: 75px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -415,8 +414,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 85px;
-        height: 85px;
+        width: 85px !important;
+        height: 85px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -456,8 +455,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -500,8 +499,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
 
     .card_43 .grid .right_grid .client_data{
@@ -541,8 +540,8 @@
     }
 
     .card_43 .grid .left_grid .logo img{
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
 
     .card_43 .grid .right_grid .client_data{

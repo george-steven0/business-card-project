@@ -67,16 +67,16 @@
     text-align: right;
 }
 .card_34 .client_details .client_list .icon_list img{
-    width: 35px;
-    height: 35px;
+    width: 35px !important;
+    height: 35px !important;
 }
 .card_34 .client_details .client_list .icon_list li{
     margin-bottom: 22px;
 }
 
 .card_34 .client_details .client_list .icon_list img{
-    width: 20px;
-    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
 }
 .card_34 .client_details .client_list .data_list{
     flex: 0 0 80%;
@@ -105,8 +105,8 @@
     text-align: center;
 }
 .card_34 .grid .right_part .logo img{
-    width: 90px;
-    height: 90px;
+    width: 90px !important;
+    height: 90px !important;
     margin: auto;
 }
 .card_34 .grid .right_part .slogan{
@@ -139,8 +139,8 @@
 }
 @media (min-width:250px) and (max-width:405px){
     .card_34 .grid .right_part .logo img{
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_34 .grid .left_part .g_inputs ul li:first-child{
         font-size: 14px;
@@ -149,8 +149,8 @@
         font-size: 10px;
     }
     .card_34 .client_details .client_list .icon_list img{
-        width: 14px;
-        height: 14px;
+        width: 14px !important;
+        height: 14px !important;
     }
     .card_34 .client_details .client_list .data_list a{
         font-size: 9px;
@@ -168,15 +168,15 @@
 }
 @media (min-width:550px) and (max-width:640px){
     .card_34 .grid .right_part .logo img{
-        width: 100px;
-        height: 100px
+        width: 100px !important;
+        height: 100px !important;
     }
     
 }
 @media (min-width:640px) and (max-width:767px){
     .card_34 .grid .right_part .logo img{
-        width: 100px;
-        height: 100px
+        width: 100px !important;
+        height: 100px !important;
     }
 
 }
@@ -213,8 +213,8 @@
     }
     .card_34 .client_details .client_list .icon_list img{
         margin-right: 10px;
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .card_34 .client_details .client_list .data_list a{
         font-size: 12px;

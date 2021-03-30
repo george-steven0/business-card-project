@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
     font-family: 'Tajawal', sans-serif;
 }
 .card_25 img{
@@ -31,8 +30,8 @@
     right: 1%;
 }
 .card_25 .grid .left_part .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
 }
 .card_25 .grid .left_part .g_inputs{
     position: absolute;
@@ -138,8 +137,8 @@
 }
 @media (min-width:300px) and (max-width:500px){
     .card_25 .grid .left_part .logo img {
-        width: 55px;
-        height: 55px;
+        width: 55px !important;
+        height: 55px !important;
     }
 
     .card_25 .grid .left_part .g_inputs ul li:first-child{
@@ -174,8 +173,8 @@
 
 @media (min-width:767.5px) and (max-width:992px){
     .card_25 .grid .left_part .logo img {
-        width: 85px;
-        height: 85px;
+        width: 85px !important;
+        height: 85px !important;
     }
     .card_25 .grid .left_part .g_inputs{
         top: 8%;
@@ -214,8 +213,8 @@
 
 @media (min-width:992px) and (max-width:1150px){
     .card_25 .grid .left_part .logo img {
-        width: 85px;
-        height: 85px;
+        width: 85px !important;
+        height: 85px !important;
     }
     .card_25 .grid .left_part .g_inputs{
         top: 8%;
@@ -253,8 +252,8 @@
 }
 @media (min-width:1150px) and (max-width:1460px){
     .card_25 .grid .left_part .logo img {
-        width: 75px;
-        height: 75px;
+        width: 75px !important;
+        height: 75px !important;
     }
     .card_25 .grid .left_part .g_inputs{
         top: 8%;

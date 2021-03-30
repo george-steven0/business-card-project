@@ -30,8 +30,8 @@
     right: 5%;
 }
 .card_15 .grid .left_grid .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
 }
 .card_15 .grid .left_grid .g_inputs{
     position: relative;
@@ -142,8 +142,8 @@
 
 @media (min-width:290px) and (max-width:440px){
     .card_15 .grid .left_grid .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
     .card_15 .grid .left_grid .g_inputs {
         top: 34%;
@@ -176,8 +176,8 @@
 
 @media (min-width:440px) and (max-width:600px){
     .card_15 .grid .left_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_15 .grid .left_grid .g_inputs {
         top: 34%;
@@ -210,8 +210,8 @@
 
 @media (min-width:767.8px) and (max-width:800px){
     .card_15 .grid .left_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_15 .grid .left_grid .g_inputs {
         top: 34%;
@@ -244,8 +244,8 @@
 
 @media (min-width:992px) and (max-width:1200px){
     .card_15 .grid .left_grid .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
     .card_15 .grid .left_grid .g_inputs {
         top: 34%;
@@ -278,8 +278,8 @@
 
 @media (min-width:1200px) and (max-width:1400px){
     .card_15 .grid .left_grid .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
     .card_15 .grid .left_grid .g_inputs {
         top: 34%;

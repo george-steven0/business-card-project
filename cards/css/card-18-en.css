@@ -6,7 +6,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_18 img{
     width: 100%;
@@ -37,8 +36,8 @@
     vertical-align: middle;
 }
 .card_18 .grid .left_grid .card_data .logo img{
-    width: 70px;
-    height: 80px;
+    width: 70px !important;
+    height: 80px !important;
 }
 .card_18 .grid .left_grid .card_data .g_inputs{
     vertical-align: middle;
@@ -88,8 +87,8 @@
     margin-bottom: 23px;
 }
 .card_18 .grid  .left_grid .client_data .icon_list li img{
-    width: 15px;
-    height: 15px;
+    width: 15px !important;
+    height: 15px !important;
 }
 .card_18 .grid  .left_grid .client_data .data_list{
     flex: 0 0 88%;
@@ -137,8 +136,8 @@
 
 @media (min-width:290px) and (max-width:440px){
     .card_18 .grid .left_grid .card_data .logo img {
-        width: 65px;
-        height: 70px;
+        width: 65px !important;
+        height: 70px !important;
     }
     .card_18 .grid .left_grid .g_inputs ul li:first-child {
         font-size: 15px;
@@ -160,8 +159,8 @@
 
 @media (min-width:992px) and (max-width:1200px){
     .card_18 .grid .left_grid .card_data .logo img {
-        width: 65px;
-        height: 70px;
+        width: 65px !important;
+        height: 70px !important;
     }
     .card_18 .grid .left_grid .g_inputs ul li:first-child {
         font-size: 15px;

@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_26 img{
     width: 100%;
@@ -38,8 +37,8 @@
     left: 8.5%;
 }
 .card_26 .grid .left_part .user img{
-    width: 20px;
-    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
 }
 .card_26 .grid .left_part .g_inputs{
     position: absolute;
@@ -108,8 +107,8 @@
     text-align: center;
 }
 .card_26 .grid .right_part .logo img{
-    width: 60%;
-    height: 60%;
+    width: 60% !important;
+    height: 60% !important;
 }
 .card_26 .grid .right_part .slogan{
     position: absolute;
@@ -168,8 +167,8 @@
 
 @media (min-width:767px) and (max-width:890px){
     .card_26 .grid .left_part .user img {
-        width: 15px;
-        height: 15px;
+        width: 15px !important;
+        height: 15px !important;
     }
     .card_26 .grid .left_part .g_inputs ul li:first-child{
         font-size: 18px;
@@ -193,8 +192,8 @@
 
 @media (min-width:992px) and (max-width:1250px){
     .card_26 .grid .left_part .user img {
-        width: 15px;
-        height: 15px;
+        width: 15px !important;
+        height: 15px !important;
     }
     .card_26 .grid .left_part .g_inputs ul li:first-child{
         font-size: 18px;

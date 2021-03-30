@@ -80,8 +80,8 @@
     right: 0px;
 }
 .card_4 .grid .top_grid .sub_grid .sub_right .logo img{
-    width: 90px;
-    height: 90px;
+    width: 90px !important;
+    height: 90px !important;
 }
 
 .card_4 .grid .bot_grid{
@@ -177,8 +177,8 @@
         font-size: 15px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a i{
         font-size: 15px;
@@ -196,8 +196,8 @@
         font-size: 18px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
     .card_4 .grid .bot_grid .sub_grid .left_sub .social_icons ul li a{
         font-size: 17px;
@@ -220,8 +220,8 @@
         font-size: 15px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_4 .grid .bot_grid .sub_grid .right_sub .client_data .icon_list li a i{
         font-size: 15px;
@@ -239,8 +239,8 @@
         font-size: 20px;
     }
     .card_4 .grid .top_grid .sub_grid .sub_right .logo img {
-        width: 110px;
-        height: 110px;
+        width: 110px !important;
+        height: 110px !important;
     }
     .card_4 .grid .bot_grid .sub_grid .left_sub .social_icons ul li a{
         font-size: 18px;

@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_36 img{
     width: 100%;
@@ -109,8 +108,8 @@
     margin-left: 20px;
 }
 .card_36 .grid .right_grid .card_data .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
     margin: auto;
 }
 .card_36 .grid .right_grid .card_data .g_inputs{
@@ -164,8 +163,8 @@
         font-size: 13px;
     }
     .card_36 .grid .right_grid .card_data .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
 }
 
@@ -202,8 +201,8 @@
         font-size: 13px;
     }
     .card_36 .grid .right_grid .card_data .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
 }
 
@@ -241,8 +240,8 @@
         font-size: 13px;
     }
     .card_36 .grid .right_grid .card_data .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
 }
 @media (min-width:1260px) and (max-width:1400px){
@@ -276,7 +275,7 @@
         font-size: 15px;
     }
     .card_36 .grid .right_grid .card_data .logo img {
-        width: 90px;
-        height: 90px;
+        width: 90px !important;
+        height: 90px !important;
     }
 }

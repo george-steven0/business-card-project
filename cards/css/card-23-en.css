@@ -104,8 +104,8 @@
     top: 20%;
 }
 .card_23 .grid .card_data .logo img{
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
     margin: auto;
 }
 .card_23 .grid .card_data .social_icons{
@@ -142,8 +142,8 @@
         font-size: 11px;
     }
     .card_23 .grid .card_data .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_23 .grid .card_data .social_icons ul li a{
         font-size: 13px;
@@ -161,8 +161,8 @@
         font-size: 13px;
     }
     .card_23 .grid .card_data .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_23 .grid .card_data .social_icons ul li a{
         font-size: 13px;
@@ -185,8 +185,8 @@
         font-size: 11px;
     }
     .card_23 .grid .card_data .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_23 .grid .card_data .social_icons ul li a{
         font-size: 13px;

@@ -68,8 +68,8 @@
     text-align: center;
 }
 .card_6 .grid .top_grid .top_hold .top_right .logo img{
-    width: 145px;
-    height: 100px;
+    width: 145px !important;
+    height: 100px !important;
 }
 .card_6 .grid .bot_grid{
     flex: 0 0 41%;
@@ -204,8 +204,8 @@
         margin-right: 17px;
     }
     .card_6 .grid .top_grid .top_hold .top_right .logo img {
-        width: 185px;
-        height: 110px;
+        width: 185px !important;
+        height: 110px !important;
     }
     .card_6 .grid .bot_grid .bot_hold .bot_left .g_inputs ul li:first-child {
         font-size: 24px;
@@ -283,8 +283,8 @@
         margin-right: 14px;
     }
     .card_6 .grid .top_grid .top_hold .top_right .logo img {
-        width: 185px;
-        height: 110px;
+        width: 185px !important;
+        height: 110px !important;
     }
     .card_6 .grid .bot_grid .bot_hold .bot_left .g_inputs ul li:first-child {
         font-size: 24px;

@@ -3,7 +3,6 @@
     height: 300px;
     position: relative;
     margin-bottom: 15px;
-    border: 1px solid rgb(199, 196, 196);
 }
 .card_9 img{
     width: 100%;
@@ -50,8 +49,8 @@
     text-align: center;
 }
 .card_9 .grid .left_grid .logo img{
-    width: 95px;
-    height: 95px;
+    width: 95px !important;
+    height: 95px !important;
     margin: auto;
 }
 
@@ -116,8 +115,8 @@
     margin-bottom: 16.5px;
 }
 .card_9 .grid .right_grid .client_data .icon_list li img{
-    width: 15px;
-    height: 15px;
+    width: 15px !important;
+    height: 15px !important;
 }
 .card_9 .grid .right_grid .client_data .data_list{
     flex: 0 0 88%;
@@ -143,8 +142,8 @@
         font-size: 17px;
     }
     .card_9 .grid .left_grid .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_9 .grid .left_grid .social_icons ul li a {
         font-size: 15px;
@@ -154,8 +153,8 @@
         letter-spacing: 1.5px;
     }
     .card_9 .grid .right_grid .client_data .icon_list li img {
-        width: 12px;
-        height: 12px;
+        width: 12px !important;
+        height: 12px !important;
     }
     .card_9 .grid .right_grid .client_data .data_list li a{
         font-size: 11px;
@@ -168,8 +167,8 @@
         font-size: 19px;
     }
     .card_9 .grid .left_grid .logo img {
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
     }
     .card_9 .grid .left_grid .social_icons ul li a {
         font-size: 17px;
@@ -179,8 +178,8 @@
         letter-spacing: 1.7px;
     }
     .card_9 .grid .right_grid .client_data .icon_list li img {
-        width: 15px;
-        height: 15px;
+        width: 15px !important;
+        height: 15px !important;
     }
     .card_9 .grid .right_grid .client_data .data_list li a{
         font-size: 12px;
@@ -193,8 +192,8 @@
         font-size: 17px;
     }
     .card_9 .grid .left_grid .logo img {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
     .card_9 .grid .left_grid .social_icons ul li a {
         font-size: 15px;
@@ -204,8 +203,8 @@
         letter-spacing: 1.5px;
     }
     .card_9 .grid .right_grid .client_data .icon_list li img {
-        width: 12px;
-        height: 12px;
+        width: 12px !important;
+        height: 12px !important;
     }
     .card_9 .grid .right_grid .client_data .data_list li a{
         font-size: 11px;
